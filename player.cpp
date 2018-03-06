@@ -63,7 +63,12 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     return doMiniMax();
     
 }
-
+/**
+ * Do Random Move returns a random move to the game that is valid. 
+ * It works by searching the game space for a valid move given the side we are on, then
+ * it returns the first such valid move that we find.
+ * @return a pointer to a move object
+ */
 Move* Player::doRandomMove(){
     if (playerboard->hasMoves(side))
     {
@@ -87,10 +92,16 @@ Move* Player::doRandomMove(){
     return nullptr;
 }
 
+/**
+ * [Player::doSimpleHeuristicMove Do simple HeristivesMove simply returns the piece advantage that we would gain
+ * with a greedy heuristic algorithm. It computes a list of possible moves and gets the most efficient from a set of heuristics
+ * that we define in board. then it iterates through all those Moves to find the one with the most efficient short term gain in
+ * piece advantage]
+ * 
+ * The function first gets a list of moves possible 
+ * @return [a move pointer to the most optimal move]
+ */
 Move* Player::doSimpleHeuristicMove(){
-    /*if (debug) {
-        std::cerr << "###################### Test 1 ##################" << std::endl;
-    }*/
 
     if (playerboard->hasMoves(side)) {
         auto moveList = playerboard->getMoveList(side);
@@ -132,6 +143,14 @@ Move* Player::doSimpleHeuristicMove(){
 
 }
 
+/**
+ * [Player::doMiniMax description]
+ * Do minimax is a simple minimax wrapper that performs minimax recursive search. We first generate a list of possible moves and
+ * then we recursively search the move tree for each of those moves based on a heuristic we define. Each search tree returns the
+ * lowest value of the branch, and we take the branch with the highest lowest value and use the move that corresponds to that branch
+ * as the most optimal move that we use to play our next move, this minimizes our loss and places our side into an optimal position.
+ * @return [a pointer to a move object]
+ */
 Move* Player::doMiniMax(){
     Board *tempBoard = playerboard->copy();
 
@@ -179,6 +198,17 @@ Move* Player::doMiniMax(){
     return nullptr;
 }
 
+/**
+ * doMiniMaxRecurse is the actual working function in minimax
+ * here, we recursively search for the move with the most negative move score based on a heuristic and then search the 
+ * tree of possible moves based on each of those moves and return the lowest possible score. This ensures that we then can minimize our
+ * loss in the wrapper function. we return once we exhaust the search tree or we reach our recursion limit.
+ * @param  _move  [a move object of the current move being considered]
+ * @param  _board [the current board context that the move being considered is in]
+ * @param  side   [the side, which playe we are(white/black)]
+ * @param  depth  [the depth limit, used to keep track of which level we are in.]
+ * @return        [description]
+ */
 int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
     /*
     pseudocode
@@ -195,7 +225,7 @@ int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
             //std::cerr << "testingMinimax"<<std::endl;
             return _board->getSimpleMoveScoreHeuristic(_move,side);
         }else{
-        return _board->getMoveScoreHeuristic(_move, side);
+            return _board->getMoveScoreHeuristic(_move, side);
         }
     }
 
@@ -208,8 +238,9 @@ int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
             //std::cerr << "testingMinimax"<<std::endl;
             return _board->getSimpleMoveScoreHeuristic(_move,side);
         }else{
-        return _board->getMoveScoreHeuristic(_move, side);
-    }
+            delete moveList;
+            return _board->getMoveScoreHeuristic(_move, side);
+        }
     }
 
     Side other = (side == BLACK) ? WHITE : BLACK;
@@ -228,7 +259,7 @@ int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
             bestScore = moveScore;
         }*/
     }
-    
+    delete moveList;
     return bestScore;
 }
 
