@@ -42,6 +42,7 @@ public:
     int getRingMultiplier(){
         int ringx = (x > 3) ? x-3 : 4 - x;
         int ringy = (y > 3) ? y-3 : 4 - y;
+
         if(debug){
             std::cerr << "Location: " << x << ' ' << y << std::endl;
             std::cerr << "Move: " << ringx << ' ' << ringy << std::endl;
@@ -53,10 +54,10 @@ public:
             return 10;
         }
         else if((ringy == 3) && (ringx == 3)){
-            return -5;
+            return -8;
         }
         else if(((ringy == 3) && (ringx == 4)) || ((ringy == 4) && (ringx == 3))){
-            return -2;
+            return -4;
         }
         
         ring = (ringx > ringy) ? ringx: ringy;
@@ -66,9 +67,9 @@ public:
             case 2:
                 return 1;
             case 3:
-                return -3;
+                return -1;
             case 4:
-                return 8;
+                return 5;
 
         }
     
