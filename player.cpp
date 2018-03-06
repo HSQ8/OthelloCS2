@@ -83,27 +83,39 @@ Move* Player::doRandomMove(){
 }
 
 Move* Player::doSimpleHeuristicMove(){
-    //std::cerr << "Test 1" << std::endl;
+    /*if (debug) {
+        std::cerr << "###################### Test 1 ##################" << std::endl;
+    }*/
+
     if (playerboard->hasMoves(side)) {
         auto moveList = playerboard->getMoveList(side);
         //std::cerr << "Test 2" << std::endl;
         int moveScore;
         int bestScore = -1000;
-        Move *bestMove = nullptr;
+        Move *bestMove = new Move(-1, -1);
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
             //std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
             moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
             //std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
-            if (moveScore > bestScore)
-                bestMove = &moveList->at(i);
+            if (moveScore > bestScore) {
+                bestMove->setX(moveList->at(i).getX());
+                bestMove->setY(moveList->at(i).getY());
+
+                /*if (debug) {
+                    std::cerr << "NEW BEST MOVE!!!" << std::endl;
+                }*/
+                bestScore = moveScore;
+            }
         }
         
         delete moveList;
 
         playerboard->doMove(bestMove, side);
 
-        //std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
+        /*if (debug) {
+            std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
+        }*/
 
         return new Move(bestMove->getX(), bestMove->getY());
     }

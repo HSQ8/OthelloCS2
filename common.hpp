@@ -51,13 +51,17 @@ public:
             corner = true;
             if(debug)
                 std::cerr << "Corner************************" << std::endl;
-            return 10;
+            return 80;
         }
         else if((ringy == 3) && (ringx == 3)){
-            return -8;
+            if(debug)
+                std::cerr << "Next to Corner" << std::endl;
+            return -80;
         }
         else if(((ringy == 3) && (ringx == 4)) || ((ringy == 4) && (ringx == 3))){
-            return -4;
+            if(debug)
+                std::cerr << "Edge of Corner" << std::endl;
+            return -80;
         }
         
         ring = (ringx > ringy) ? ringx: ringy;
@@ -70,7 +74,6 @@ public:
                 return -1;
             case 4:
                 return 5;
-
         }
     
     return 0;

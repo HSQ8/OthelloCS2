@@ -229,6 +229,7 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     int myChange = myNewScore - myScore; // The number of new pieces on my side
     int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
     int flipped = myChange - oppChange;
+    int deltaScore = myNewScore - oppNewScore;
 
     // Check mobility and the opponent's mobility
     int mobility = tempBoard->getMoveList(side)->size();
@@ -373,20 +374,21 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
         tempY --;
 
 
-    int finalScore = /*myNewScore +*/ flipped + stability + 
-        potentialMobility + mobility - antimobility + _move->getRingMultiplier();
+    int finalScore = /*myNewScore +*/ deltaScore + flipped + stability + 
+        potentialMobility + mobility - antimobility + 4 * _move->getRingMultiplier();
         
     if (debug)
     {
         std::cerr << "------------------------------" << std::endl;
         std::cerr << "Score Breakdown: " << finalScore << std::endl;
         //std::cerr << "myNewScore: " << myNewScore << std::endl;
+        std::cerr << "deltaScore: " << deltaScore << std::endl;
         std::cerr << "flipped: " << flipped << std::endl;
         std::cerr << "stability: " << stability << std::endl;
         std::cerr << "potentialMobility: " << potentialMobility << std::endl;
         std::cerr << "mobility: " << mobility << std::endl;
         std::cerr << "antimobility: " << -antimobility << std::endl;
-        std::cerr << "Ring Multiplier: " << _move->getRingMultiplier() << std::endl;
+        std::cerr << "Ring Multiplier: " << 4 * _move->getRingMultiplier() << std::endl;
         std::cerr << "------------------------------" << std::endl;
     }
 
