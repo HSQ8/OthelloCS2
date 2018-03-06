@@ -20,6 +20,8 @@ public:
 
     Move* doRandomMove();
     Move* doSimpleHeuristicMove();
+    Move* doMiniMax();
+    Move* doMiniMaxRecurse();
 
     //static std::vector<Move>* getMoveList(Board* _board, Side _side);
 
