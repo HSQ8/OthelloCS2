@@ -115,4 +115,21 @@ Move* Player::doSimpleHeuristicMove(){
 
 }
 
+Move* doMiniMax(){
+    return nullptr
+}
+
+Move* doMiniMaxRecurse(){
+    /*
+    pseudocode
+
+    if node is leaf or if current depth is 0:
+        return numeric value for heuristic score
+        set bestscore as -MAXINT
+
+    for all moves in each state of the board,
+        take maximum score dominmaxrecurse(a, -minimax, -play) 
+    */
+    return nullptr;
+}
 
