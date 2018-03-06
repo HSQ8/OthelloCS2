@@ -1,4 +1,5 @@
 #include "player.hpp"
+#include <vector>
 
 /*
  * Constructor for the player; initialize everything here. The side your AI is
@@ -9,7 +10,14 @@ Player::Player(Side side) {
     // Will be set to true in test_minimax.cpp.
     testingMinimax = false;
 
-    // We should start with this function.
+    // Initialize the board and player side.
+    playerboard = new Board;
+    side = side;
+
+    if (side == WHITE)
+        oppSide = BLACK;
+    else
+        oppSide = WHITE;
 
     // Setting up the board. 
 
@@ -24,6 +32,7 @@ Player::Player(Side side) {
  * Destructor for the player.
  */
 Player::~Player() {
+    delete playerboard;
 }
 
 /*
@@ -44,5 +53,28 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
      * TODO: Implement how moves your AI should play here. You should first
      * process the opponent's opponents move before calculating your own move
      */
+
+    // First we need to update the board.
+    playerboard->doMove(opponentsMove, oppSide);
+
+    // Check that we can do a move
+    if (playerboard->hasMoves(side))
+    {
+        // We have a possible move and can continue.
+        std::vector<Move> possibleMoves;
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                Move move(i, j);
+                if (playerboard->checkMove(&move, side)) {
+                    possibleMoves.push_back(move);
+                }
+            }
+        }
+    }
+    else
+    {
+        // We need to pass.
+    }
+
     return nullptr;
 }
