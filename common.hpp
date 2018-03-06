@@ -40,7 +40,7 @@ public:
             return 7;
         }
         
-        int ring = (x > y) ? x: y;
+        int ring = (ringx > ringy) ? ringx: ringy;
         switch (ring){
             case 1:
                 return 2;        
@@ -52,6 +52,7 @@ public:
                 return 5;
 
         }
+    
     return 0;
 
     }

@@ -196,10 +196,15 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     int oppNewScore = tempBoard->count(other);
 
     int myChange = myNewScore - myScore; // The number of new pieces on my side
-    int oppChange = oppScore - oppNewScore; // The number of opponent lost pieces
+    int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
     int flipped = myChange - oppChange;
+
+    std::cerr << "flipped: " << flipped << std::endl;
 
     // Update move score.
     _move->setScore(flipped * _move->getRingWeight());
+
+    std::cerr << "Setting Score: " << flipped * _move->getRingWeight() << std::endl;
+
     return flipped * _move->getRingWeight();
 }

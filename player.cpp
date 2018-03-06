@@ -89,26 +89,34 @@ Move* Player::doRandomMove(){
 
 Move* Player::doSimpleHeuristicMove(){
     std::cerr << "Test 1" << std::endl;
-    auto moveList = getMoveList(playerboard, side);
-    std::cerr << "Test 2" << std::endl;
-    int moveScore;
-    int bestScore = 0;
-    Move *bestMove = nullptr;
+    if (playerboard->hasMoves(side)) {
+        auto moveList = getMoveList(playerboard, side);
+        std::cerr << "Test 2" << std::endl;
+        int moveScore;
+        int bestScore = 0;
+        Move *bestMove = nullptr;
 
-    for(int i = 0, j = moveList->size(); i < j; ++i){
-        std::cerr << "Test 3" << std::endl;
-        moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
-        if (moveScore > bestScore)
-            bestMove = &moveList->at(i);
+        for(int i = 0, j = moveList->size(); i < j; ++i){
+            std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
+            moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
+            std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
+            if (moveScore > bestScore)
+                bestMove = &moveList->at(i);
+        }
+        
+        delete moveList;
+
+        playerboard->doMove(bestMove, side);
+
+        std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
+
+        return new Move(bestMove->getX(), bestMove->getY());
     }
-    
-    delete moveList;
-
-    playerboard->doMove(bestMove, side);
-
-    std::cerr << "Sending the next move... " << std::endl;
-
-    return bestMove;
+    else
+    {
+        // We need to pass.
+    }
+    return nullptr;
 
 }
 

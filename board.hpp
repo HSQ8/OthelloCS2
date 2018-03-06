@@ -3,6 +3,7 @@
 
 #include <bitset>
 #include "common.hpp"
+#include <iostream>
 using namespace std;
 
 class Board {
