@@ -195,6 +195,19 @@ std::vector<Move>* Board::getMoveList(Side _side){
     return possibleMoves;
 }
 
+bool Board::hasBlankNeighbor(int i, int j, Side side, Side other){
+    for (int dx = -1; dx <= 1; dx++) {
+        for (int dy = -1; dy <= 1; dy++) {
+            if (dy == 0 && dx == 0) 
+                continue;
+            if (!get(other, i + dx, j + dy) && !get(side, i + dx, j + dy)){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 int Board::getMoveScoreHeuristic(Move* _move, Side side){
     // First calculate the score of the current board.
     Side other = (side == BLACK) ? WHITE : BLACK;
@@ -220,34 +233,24 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     int antimobility = tempBoard->getMoveList(other)->size();
 
     // Check potential mobility
-    /*int potentialMobility = 0;
-    for(int i = 1; i < 7; i++)
-    {
-        for (int j = 1; j < 7; j++)
-        {
-            if(true )//get(other, i, j))
-            {
-                for (int dx = -1; dx <= 1; dx++) {
-                    for (int dy = -1; dy <= 1; dy++) {
-                        if (dy == 0 && dx == 0) continue;
-
-                        if (!get(other, i + dx, j + dy) && !get(side, i + dx, j + dy))
-                        {
-                            potentialMobility ++;
-                        }
-                    }
-                }
+    int potentialMobility = 0;
+    for(int i = 1; i < 7; i++){
+        for (int j = 1; j < 7; j++){
+            if(hasBlankNeighbor(i, j, side, other)){
+                potentialMobility++;                
             }
         }
     }
-    std::cerr << "potentialMobility: " << potentialMobility << std::endl;*/
+    std::cerr << "potentialMobility: " << potentialMobility << std::endl;
 
     // Check stability
 
-    int finalScore = myNewScore + flipped + mobility - antimobility + _move->getRingMultiplier();
+    int finalScore = myNewScore + flipped + potentialMobility + mobility - antimobility + _move->getRingMultiplier();
 
     // Update move score.
     _move->setScore(finalScore);
 
     return finalScore;
 }
+
+
