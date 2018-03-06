@@ -1,5 +1,5 @@
 #include "player.hpp"
-#include <vector>
+
 
 /*
  * Constructor for the player; initialize everything here. The side your AI is
@@ -56,17 +56,18 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
 
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
+    return doRandomMove();
+    
+}
 
-    // Check that we can do a move
+Move* Player::doRandomMove(){
     if (playerboard->hasMoves(side))
     {
         // We have a possible move and can continue.
-        std::vector<Move> possibleMoves;
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 Move move(i, j);
                 if (playerboard->checkMove(&move, side)) {
-                    possibleMoves.push_back(move);
                     auto tempmove = new Move(move.getX(), move.getY());
                     playerboard->doMove(tempmove, side);
                     return tempmove;
@@ -80,4 +81,34 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     }
 
     return nullptr;
+}
+
+Move* Player::doSimpleHeuristicMove(){
+    auto moveList = getMoveList(playerboard, side);
+
+    for(int i = 0, j = moveList->size(); i < j; ++i){
+        Board * tempboard = playerboard->copy();
+
+        tempboard->doMove(&moveList->at(i), side);
+
+
+    }
+
+    
+    delete moveList;
+    return nullptr;
+
+}
+
+std::vector<Move>* getMoveList(Board* _board,Side _side){
+    std::vector<Move>* possibleMoves = new std::vector<Move>;
+    for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                Move move(i, j);
+                if (_board->checkMove(&move, _side)) {
+                    possibleMoves->push_back(move);
+                }
+            }
+        }
+    return possibleMoves;
 }

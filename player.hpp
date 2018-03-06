@@ -2,6 +2,7 @@
 #define __PLAYER_H__
 
 #include <iostream>
+#include <vector>
 #include "common.hpp"
 #include "board.hpp"
 using namespace std;
@@ -17,10 +18,13 @@ public:
     // Flag to tell if the player is running within the test_minimax context
     bool testingMinimax;
 
+    Move* doRandomMove();
+    Move* doSimpleHeuristicMove();
 private:
     Board *playerboard;
     Side side;
     Side oppSide;
 };
+std::vector<Move>* getMoveList(Board* _board, Side _side);
 
 #endif

@@ -178,3 +178,8 @@ void Board::setBoard(char data[]) {
         }
     }
 }
+
+double Board::getMoveScoreHeuristic(const Board& _board, const Move& _move){
+
+return 0.0;
+}
