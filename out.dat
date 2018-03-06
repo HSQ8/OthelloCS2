@@ -1,6 +1,10 @@
 Starting game
 done
-BLACK_V
+WHITE_V
+#-#-#
+Starting game
+done
+WHITE_V
 #-#-#
 Starting game
 done
@@ -9,14 +13,11 @@ WHITE_V
 Starting game
 PASS
 PASS
-PASS
 done
 BLACK_V
-#-#-#
-Starting game
-done
-WHITE_V
 #-#-#
  
-Black Victories: 
-2
+ 
+ 
+BlackVictory: 1
+Total Trials: 4

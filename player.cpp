@@ -116,7 +116,7 @@ Move* Player::doSimpleHeuristicMove(){
 }
 
 Move* doMiniMax(){
-    return nullptr
+    return nullptr;
 }
 
 Move* doMiniMaxRecurse(){
