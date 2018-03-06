@@ -243,12 +243,9 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
             }
         }
     }
-<<<<<<< HEAD
-    //std::cerr << "potentialMobility: " << potentialMobility << std::endl;
-=======
+
     if(debug)
         std::cerr << "potentialMobility: " << potentialMobility << std::endl;
->>>>>>> c63b5b3457dd485d9d843776f8d97686bac85ddf
 
     // Check stability
     int stability = 0;
