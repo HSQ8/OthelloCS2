@@ -47,7 +47,7 @@ public:
         if((ringy == 4) && (ringx == 4)){
             corner = true;
             std::cerr << "Corner************************" << std::endl;
-            return 5;
+            return 8;
         }
         else if((ringy == 3) && (ringx == 3)){
             return -5;

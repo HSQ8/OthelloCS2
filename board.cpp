@@ -243,8 +243,59 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     std::cerr << "potentialMobility: " << potentialMobility << std::endl;*/
 
     // Check stability
+    int stability = 0;
+    int MX = _move->getX();
+    int MY = _move->getY();
 
-    int finalScore = myNewScore + flipped + mobility - antimobility + _move->getRingMultiplier();
+    if (_move->corner)
+        stability += 2;
+    if (_move->x < 7) {
+        // Left edge
+        if (get(side, MX + 1, MY))
+            stability += 1;
+
+        if (_move->y < 7) {
+            // Top edge
+            if (get(side, MX, MY + 1))
+                stability += 1;
+            if (get(side, MX + 1, MY + 1))
+                stability += 1;
+        }
+
+        if (_move->y > 0) {
+            // Bottom edge
+            if (get(side, MX, MY - 1))
+                stability += 1;
+            if (get(side, MX + 1, MY - 1))
+                stability += 1;
+        }
+            
+    }
+    if (_move->x > 0) {
+        // Right edge
+        if (get(side, MX - 1, MY))
+            stability += 1;
+        if (_move->y < 7) {
+            // Top edge
+            if (get(side, MX, MY + 1))
+                stability += 1;
+            if (get(side, MX - 1, MY + 1))
+                stability += 1;
+        }
+            
+        if (_move->y > 0) {
+            // Bottom edge
+            if (get(side, MX, MY - 1))
+                stability += 1;
+            if (get(side, MX - 1, MY - 1))
+                stability += 1;
+        }
+    }
+
+    
+
+
+    int finalScore = myNewScore + stability + flipped + mobility - antimobility + _move->getRingMultiplier();
 
     // Update move score.
     _move->setScore(finalScore);
