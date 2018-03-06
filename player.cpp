@@ -35,6 +35,10 @@ Player::~Player() {
     delete playerboard;
 }
 
+void Player::setPlayerBoard(char data[]){
+    playerboard->setBoard(data);
+}
+
 /*
  * Compute the next move given the opponent's last move. Your AI is
  * expected to keep track of the board on its own. If this is the first move,
@@ -55,7 +59,8 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     playerboard->doMove(opponentsMove, oppSide);
 
     //return doRandomMove();
-    return doSimpleHeuristicMove();
+    //return doSimpleHeuristicMove();
+    return doMiniMax();
     
 }
 
@@ -127,11 +132,54 @@ Move* Player::doSimpleHeuristicMove(){
 
 }
 
-Move* doMiniMax(){
+Move* Player::doMiniMax(){
+    Board *tempBoard = playerboard->copy();
+
+    if (playerboard->hasMoves(side)) {
+        auto moveList = playerboard->getMoveList(side);
+
+        int moveScore;
+        int bestScore = -1000;
+        Move *bestMove = new Move(-1, -1);
+
+        for(int i = 0, j = moveList->size(); i < j; ++i){
+            //std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
+            moveScore = doMiniMaxRecurse(&moveList->at(i), tempBoard, oppSide, 4);
+            //std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
+            std::cerr<< "location: " << moveList->at(i).getX() << ", " << moveList->at(i).getY() << std::endl;
+            std::cerr << "score: " << moveScore << std::endl;
+            if (moveScore > bestScore) {
+                bestMove->setX(moveList->at(i).getX());
+                bestMove->setY(moveList->at(i).getY());
+
+                /*if (debug) {
+                    std::cerr << "NEW BEST MOVE!!!" << std::endl;
+                }*/
+                bestScore = moveScore;
+            }
+        }
+        
+        delete moveList;
+
+        playerboard->doMove(bestMove, side);
+
+        /*if (debug) {
+            std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
+        }*/
+
+        return new Move(bestMove->getX(), bestMove->getY());
+    }
+    else
+    {
+        // We need to pass.
+    }
+
+    delete tempBoard;
+
     return nullptr;
 }
 
-Move* doMiniMaxRecurse(){
+int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
     /*
     pseudocode
 
@@ -142,6 +190,45 @@ Move* doMiniMaxRecurse(){
     for all moves in each state of the board,
         take maximum score dominmaxrecurse(a, -minimax, -play) 
     */
-    return nullptr;
+    if(depth == 0 || _board->isDone()){
+        if(testingMinimax){
+            //std::cerr << "testingMinimax"<<std::endl;
+            return _board->getSimpleMoveScoreHeuristic(_move,side);
+        }else{
+        return _board->getMoveScoreHeuristic(_move, side);
+        }
+    }
+
+    int bestScore = -10000;
+    auto moveList = _board->getMoveList(side);
+
+    if(moveList->size() < 1)
+    {
+        if(testingMinimax){
+            //std::cerr << "testingMinimax"<<std::endl;
+            return _board->getSimpleMoveScoreHeuristic(_move,side);
+        }else{
+        return _board->getMoveScoreHeuristic(_move, side);
+    }
+    }
+
+    Side other = (side == BLACK) ? WHITE : BLACK;
+
+    for(int i = 0, j = moveList->size(); i < j; ++i){
+        Board *tempBoard = _board->copy();
+        bestScore = max(bestScore, - doMiniMaxRecurse(&moveList->at(i), tempBoard, other, depth - 1));
+
+        delete tempBoard;
+
+        /*moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
+
+        tempBoard->doMove(&moveList->at(i), side);
+
+        if (moveScore > bestScore) {
+            bestScore = moveScore;
+        }*/
+    }
+    
+    return bestScore;
 }
 

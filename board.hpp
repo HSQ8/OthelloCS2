@@ -5,6 +5,7 @@
 #include "common.hpp"
 #include <iostream>
 #include <vector>
+#include <limits>
 using namespace std;
 
 class Board {
@@ -35,6 +36,7 @@ public:
     void setBoard(char data[]);
     std::vector<Move>* getMoveList(Side _side);
     int getMoveScoreHeuristic(Move* _move, Side side);
+    int getSimpleMoveScoreHeuristic(Move* _move, Side side);
     bool hasBlankNeighbor(int i, int j,Side side, Side other);
 };
 
