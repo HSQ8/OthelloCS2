@@ -241,62 +241,147 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
             }
         }
     }
-    std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+    //std::cerr << "potentialMobility: " << potentialMobility << std::endl;
 
     // Check stability
     int stability = 0;
     int MX = _move->getX();
     int MY = _move->getY();
 
-    if (_move->corner)
-        stability += 2;
-    if (_move->x < 7) {
-        // Left edge
-        if (get(side, MX + 1, MY))
-            stability += 1;
-
-        if (_move->y < 7) {
-            // Top edge
-            if (get(side, MX, MY + 1))
-                stability += 1;
-            if (get(side, MX + 1, MY + 1))
-                stability += 1;
+    // Check row to right
+    for(int j = MY; j < 8; j++)
+        if (tempBoard->get(side, MX, j))
+        {
+            if (j == 7) // You have a piece on the edge at that row. 
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
         }
 
-        if (_move->y > 0) {
-            // Bottom edge
-            if (get(side, MX, MY - 1))
-                stability += 1;
-            if (get(side, MX + 1, MY - 1))
-                stability += 1;
+    // Check row to left
+    for(int j = MY; j >= 0; j--)
+        if (tempBoard->get(side, MX, j))
+        {
+            if (j == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
         }
-            
-    }
-    if (_move->x > 0) {
-        // Right edge
-        if (get(side, MX - 1, MY))
-            stability += 1;
-        if (_move->y < 7) {
-            // Top edge
-            if (get(side, MX, MY + 1))
-                stability += 1;
-            if (get(side, MX - 1, MY + 1))
-                stability += 1;
+        else // You are not connected to the edge. 
+        {
+            break;
         }
-            
-        if (_move->y > 0) {
-            // Bottom edge
-            if (get(side, MX, MY - 1))
-                stability += 1;
-            if (get(side, MX - 1, MY - 1))
-                stability += 1;
-        }
-    }
-
     
+    // Check column below
+    for(int i = MX; i < 8; i++)
+        if (tempBoard->get(side, i, MY))
+        {
+            if (i == 7) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
 
-    int finalScore = myNewScore + flipped + stability + potentialMobility + mobility - antimobility + _move->getRingMultiplier();
+    // Check column above
+    for(int i = MX; i >= 0; i--)
+        if (tempBoard->get(side, i, MY))
+        {
+            if (i == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
 
+    // Check diagonal (up right)
+    int tempY = MY;
+    for(int i = MX; i < 8; i++)
+        if (tempBoard->get(side, i, tempY))
+        {
+            if (i == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
+        tempY --;
+
+    // Check diagonal (down left)
+    tempY = MY;
+    for(int i = MX; i >= 0; i--)
+        if (tempBoard->get(side, i, tempY))
+        {
+            if (i == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
+        tempY ++;
+
+    // Check diagonal (up left)
+    tempY = MY;
+    for(int i = MX; i < 8; i++)
+        if (tempBoard->get(side, i, tempY))
+        {
+            if (i == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
+        tempY ++;
+
+    // Check diagonal (down right)
+    tempY = MY;
+    for(int i = MX; i >= 0; i--)
+        if (tempBoard->get(side, i, tempY))
+        {
+            if (i == 0) // You have a piece on the edge at that row.
+            {
+                stability ++;
+            }
+        }
+        else // You are not connected to the edge. 
+        {
+            break;
+        }
+        tempY --;
+
+
+    int finalScore = /*myNewScore +*/ flipped + stability + 
+        potentialMobility + mobility - antimobility + _move->getRingMultiplier();
+
+    std::cerr << "------------------------------" << std::endl;
+    std::cerr << "Score Breakdown: " << finalScore << std::endl;
+    //std::cerr << "myNewScore: " << myNewScore << std::endl;
+    std::cerr << "flipped: " << flipped << std::endl;
+    std::cerr << "stability: " << stability << std::endl;
+    std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+    std::cerr << "mobility: " << mobility << std::endl;
+    std::cerr << "antimobility: " << -antimobility << std::endl;
+    std::cerr << "Ring Multiplier: " << _move->getRingMultiplier() << std::endl;
+    std::cerr << "------------------------------" << std::endl;
 
     // Update move score.
     _move->setScore(finalScore);

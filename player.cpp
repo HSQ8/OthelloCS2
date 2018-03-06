@@ -50,16 +50,11 @@ Player::~Player() {
  */
 Move *Player::doMove(Move *opponentsMove, int msLeft) {
     //std::cerr << "Starting the next move... " << std::endl;
-    /*
-     * TODO: Implement how moves your AI should play here. You should first
-     * process the opponent's opponents move before calculating your own move
-     */
 
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
     //return doRandomMove();
-
     return doSimpleHeuristicMove();
     
 }
@@ -93,7 +88,7 @@ Move* Player::doSimpleHeuristicMove(){
         auto moveList = playerboard->getMoveList(side);
         //std::cerr << "Test 2" << std::endl;
         int moveScore;
-        int bestScore = 0;
+        int bestScore = -1000;
         Move *bestMove = nullptr;
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
