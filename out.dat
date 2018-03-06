@@ -3,9 +3,10 @@ PASS
 PASS
 PASS
 done
-WHITE_V
+BLACK_V
 #-#-#
 Starting game
+PASS
 PASS
 done
 BLACK_V
@@ -18,10 +19,6 @@ WHITE_V
 Starting game
 PASS
 PASS
-done
-WHITE_V
-#-#-#
-Starting game
 PASS
 PASS
 PASS
@@ -30,14 +27,7 @@ BLACK_V
 #-#-#
 Starting game
 PASS
-done
-WHITE_V
-#-#-#
-Starting game
-done
-WHITE_V
-#-#-#
-Starting game
+PASS
 done
 WHITE_V
 #-#-#
@@ -47,8 +37,24 @@ done
 BLACK_V
 #-#-#
 Starting game
+done
+WHITE_V
+#-#-#
+Starting game
 PASS
 done
-BLACK_V
+WHITE_V
+#-#-#
+Starting game
+PASS
+PASS
+PASS
+done
+WHITE_V
+#-#-#
+Starting game
+PASS
+done
+WHITE_V
 #-#-#
 4

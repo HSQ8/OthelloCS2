@@ -57,17 +57,7 @@ public class OthelloBoard
     * @return true if there are no legal moves.
     **/
    public boolean isDone() {
-      boolean _done = !(hasMoves(OthelloSide.BLACK) || hasMoves(OthelloSide.WHITE));
-      if(_done){
-        System.out.println("done");
-        if(this.countBlack() > this.countWhite())
-          System.out.println("BLACK_V");
-        else
-          System.out.println("WHITE_V");
-        System.out.println("#-#-#");
-        System.exit(0);
-      }
-      return _done;
+      return !(hasMoves(OthelloSide.BLACK) || hasMoves(OthelloSide.WHITE));
    }
 
    /**
