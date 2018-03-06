@@ -11,6 +11,8 @@ Player::Player(Side side) {
 
     // We should start with this function.
 
+    // Setting up the board. 
+
     /*
      * TODO: Do any initialization you need to do here (setting up the board,
      * precalculating things, etc.) However, remember that you will only have
