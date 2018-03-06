@@ -49,7 +49,7 @@ Player::~Player() {
  * return nullptr.
  */
 Move *Player::doMove(Move *opponentsMove, int msLeft) {
-    std::cerr << "Starting the next move... " << std::endl;
+    //std::cerr << "Starting the next move... " << std::endl;
     /*
      * TODO: Implement how moves your AI should play here. You should first
      * process the opponent's opponents move before calculating your own move
@@ -88,18 +88,18 @@ Move* Player::doRandomMove(){
 }
 
 Move* Player::doSimpleHeuristicMove(){
-    std::cerr << "Test 1" << std::endl;
+    //std::cerr << "Test 1" << std::endl;
     if (playerboard->hasMoves(side)) {
-        auto moveList = getMoveList(playerboard, side);
-        std::cerr << "Test 2" << std::endl;
+        auto moveList = playerboard->getMoveList(side);
+        //std::cerr << "Test 2" << std::endl;
         int moveScore;
         int bestScore = 0;
         Move *bestMove = nullptr;
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
-            std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
+            //std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
             moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
-            std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
+            //std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
             if (moveScore > bestScore)
                 bestMove = &moveList->at(i);
         }
@@ -108,7 +108,7 @@ Move* Player::doSimpleHeuristicMove(){
 
         playerboard->doMove(bestMove, side);
 
-        std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
+        //std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
 
         return new Move(bestMove->getX(), bestMove->getY());
     }
@@ -120,15 +120,4 @@ Move* Player::doSimpleHeuristicMove(){
 
 }
 
-std::vector<Move>* getMoveList(Board* _board,Side _side){
-    std::vector<Move>* possibleMoves = new std::vector<Move>;
-    for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
-                Move move(i, j);
-                if (_board->checkMove(&move, _side)) {
-                    possibleMoves->push_back(move);
-                }
-            }
-        }
-    return possibleMoves;
-}
+

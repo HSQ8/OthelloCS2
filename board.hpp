@@ -4,6 +4,7 @@
 #include <bitset>
 #include "common.hpp"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Board {
@@ -31,6 +32,7 @@ public:
     int countWhite();
 
     void setBoard(char data[]);
+    std::vector<Move>* getMoveList(Side _side);
     int getMoveScoreHeuristic(Move* _move, Side side);
 };
 

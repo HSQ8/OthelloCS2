@@ -57,6 +57,8 @@ public class OthelloBoard
     * @return true if there are no legal moves.
     **/
    public boolean isDone() {
+      if (!(hasMoves(OthelloSide.BLACK) || hasMoves(OthelloSide.WHITE)))
+        System.out.println("End of game");
       return !(hasMoves(OthelloSide.BLACK) || hasMoves(OthelloSide.WHITE));
    }
 

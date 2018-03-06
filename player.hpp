@@ -20,11 +20,14 @@ public:
 
     Move* doRandomMove();
     Move* doSimpleHeuristicMove();
+
+    //static std::vector<Move>* getMoveList(Board* _board, Side _side);
+
 private:
     Board *playerboard;
     Side side;
     Side oppSide;
 };
-std::vector<Move>* getMoveList(Board* _board, Side _side);
+
 
 #endif

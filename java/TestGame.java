@@ -48,5 +48,6 @@ public class TestGame {
         }
         System.out.println("Starting game");
         g.run();
+
     }
 }

@@ -51,6 +51,9 @@ bool Board::onBoard(int x, int y) {
  * if neither side has a legal move.
  */
 bool Board::isDone() {
+    std::cerr << "Check" << std::endl;
+    if (!(hasMoves(BLACK) || hasMoves(WHITE)))
+        std::cerr << "End of Game" << std::endl;
     return !(hasMoves(BLACK) || hasMoves(WHITE));
 }
 
@@ -179,6 +182,19 @@ void Board::setBoard(char data[]) {
     }
 }
 
+std::vector<Move>* Board::getMoveList(Side _side){
+    std::vector<Move>* possibleMoves = new std::vector<Move>;
+    for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                Move move(i, j);
+                if (this->checkMove(&move, _side)) {
+                    possibleMoves->push_back(move);
+                }
+            }
+        }
+    return possibleMoves;
+}
+
 int Board::getMoveScoreHeuristic(Move* _move, Side side){
     // First calculate the score of the current board.
     Side other = (side == BLACK) ? WHITE : BLACK;
@@ -199,12 +215,39 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
     int flipped = myChange - oppChange;
 
-    std::cerr << "flipped: " << flipped << std::endl;
+    // Check mobility and the opponent's mobility
+    int mobility = tempBoard->getMoveList(side)->size();
+    int antimobility = tempBoard->getMoveList(other)->size();
+
+    // Check potential mobility
+    /*int potentialMobility = 0;
+    for(int i = 1; i < 7; i++)
+    {
+        for (int j = 1; j < 7; j++)
+        {
+            if(true )//get(other, i, j))
+            {
+                for (int dx = -1; dx <= 1; dx++) {
+                    for (int dy = -1; dy <= 1; dy++) {
+                        if (dy == 0 && dx == 0) continue;
+
+                        if (!get(other, i + dx, j + dy) && !get(side, i + dx, j + dy))
+                        {
+                            potentialMobility ++;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    std::cerr << "potentialMobility: " << potentialMobility << std::endl;*/
+
+    // Check stability
+
+    int finalScore = myNewScore + flipped + mobility - antimobility + _move->getRingMultiplier();
 
     // Update move score.
-    _move->setScore(flipped * _move->getRingWeight());
+    _move->setScore(finalScore);
 
-    std::cerr << "Setting Score: " << flipped * _move->getRingWeight() << std::endl;
-
-    return flipped * _move->getRingWeight();
+    return finalScore;
 }
