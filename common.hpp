@@ -14,7 +14,14 @@ public:
         this->y = y;        
     }
     ~Move() {}
-
+/*
+    Move* copy(Move& _move){
+        Move* newmove = new Move();
+        newmove->setX(_move.getX());
+        newmove->setY(_move.getY());
+        return newmove;
+    }
+*/
     int getX() { return x; }
     int getY() { return y; }
 

@@ -67,6 +67,9 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
                 Move move(i, j);
                 if (playerboard->checkMove(&move, side)) {
                     possibleMoves.push_back(move);
+                    auto tempmove = new Move(move.getX(), move.getY());
+                    playerboard->doMove(tempmove, side);
+                    return tempmove;
                 }
             }
         }
