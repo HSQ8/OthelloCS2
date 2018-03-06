@@ -264,7 +264,7 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     std::vector<Move>* antimobilityList = tempBoard->getMoveList(side);
 
     int mobility = mobilityList->size();
-    int antimobility = antimobility->size();
+    int antimobility = antimobilityList->size();
 
     // Check potential mobility
     int potentialMobility = 0;
