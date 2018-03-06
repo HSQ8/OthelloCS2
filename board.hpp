@@ -33,10 +33,20 @@ public:
     int countBlack();
     int countWhite();
 
-    void setBoard(char data[]);
-    std::vector<Move>* getMoveList(Side _side);
+
+    // Added Functions
+    void setBoard(char data[]); // Sets up board 
+
+    // Finds all moves in current state
+    std::vector<Move>* getMoveList(Side _side); 
+
+    // Heuristic to evaluate moves
     int getMoveScoreHeuristic(Move* _move, Side side);
+
+    // Heuristic used for testing Minimax
     int getSimpleMoveScoreHeuristic(Move* _move, Side side);
+
+    // Determines how many blank neighbors are near a cell.
     bool hasBlankNeighbor(int i, int j,Side side, Side other);
 };
 

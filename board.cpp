@@ -184,6 +184,12 @@ void Board::setBoard(char data[]) {
     }
 }
 
+/**
+ * @brief Finds all the possible moves a side can make given the current board
+ *        state.
+ * @param The side to consider, namely you or your opponent.
+ * @return A vector of moves that the player can make.
+ */
 std::vector<Move>* Board::getMoveList(Side _side){
     std::vector<Move>* possibleMoves = new std::vector<Move>;
     for (int i = 0; i < 8; i++) {
@@ -197,6 +203,9 @@ std::vector<Move>* Board::getMoveList(Side _side){
     return possibleMoves;
 }
 
+/**
+ * @brief Determines if a location has a neighbor of either side.
+ */
 bool Board::hasBlankNeighbor(int i, int j, Side side, Side other){
     for (int dx = -1; dx <= 1; dx++) {
         for (int dy = -1; dy <= 1; dy++) {
@@ -210,6 +219,25 @@ bool Board::hasBlankNeighbor(int i, int j, Side side, Side other){
     return false;
 }
 
+
+/**
+ * @brief This function is the Heuristic that the player will use.
+ * @factors deltaScore: The change in score after the move is conducted
+ *          flipped: The number of pieces that were flipped with that move
+ *          stability: Does the piece have adjacent pieces that connect to
+ *                      an edge.
+ *          potential Mobility: The number of spaces that could possibly be
+ *                      gained by performing this move.
+ *          mobility: The number of definite moves that become available
+ *                      by performing this move
+ *          antimobility: The number of definite moves that become available
+ *                     to the opponent by performing this move
+ *          Ring Multiplier: Weights the edges, corners, etc. differently
+ *                     based on the location of the piece on the board. 
+ *                     This is the heaviest weight.
+ *  @return The score the the move. Note that the move's score member variable
+ *          is also modified.
+ */
 int Board::getMoveScoreHeuristic(Move* _move, Side side){
     // First calculate the score of the current board.
     Side other = (side == BLACK) ? WHITE : BLACK;
@@ -232,8 +260,11 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     int deltaScore = myNewScore - oppNewScore;
 
     // Check mobility and the opponent's mobility
-    int mobility = tempBoard->getMoveList(side)->size();
-    int antimobility = tempBoard->getMoveList(other)->size();
+    std::vector<Move>* mobilityList = tempBoard->getMoveList(side);
+    std::vector<Move>* antimobilityList = tempBoard->getMoveList(side);
+
+    int mobility = mobilityList->size();
+    int antimobility = antimobility->size();
 
     // Check potential mobility
     int potentialMobility = 0;
@@ -396,11 +427,18 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     _move->setScore(finalScore);
 
     delete tempBoard;
+    delete mobilityList;
+    delete antimobilityList;
 
     return finalScore;
 }
 
-
+/**
+ * @brief This function is the Heuristic that the testMiniMax will use.
+ * @factors deltaScore: The change in score after the move is conducted
+ * @return The score the the move. Note that the move's score member variable
+ *         is also modified.
+ */
 int Board::getSimpleMoveScoreHeuristic(Move* _move, Side side){
     int deltaScore = std::numeric_limits<int>::min();
     // First calculate the score of the current board.
@@ -414,10 +452,7 @@ int Board::getSimpleMoveScoreHeuristic(Move* _move, Side side){
     int myNewScore = tempBoard->count(side);
     int oppNewScore = tempBoard->count(other);
     deltaScore = myNewScore - oppNewScore;
-    //std::cerr<< (other != side) << std::endl;
-    //std::cerr<< "scores(mynewscore,oppnewscore): " << myNewScore << ", " << oppNewScore << std::endl; 
-    //std::cerr<< "deltaScore: " << deltaScore << std::endl; 
-    //std::cerr<< "location: " << _move->getX() << ", " << _move->getY() << std::endl;
+
     delete tempBoard;
     return deltaScore;
 }
