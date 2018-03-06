@@ -51,9 +51,11 @@ bool Board::onBoard(int x, int y) {
  * if neither side has a legal move.
  */
 bool Board::isDone() {
-    std::cerr << "Check" << std::endl;
+    if(debug)
+        std::cerr << "Check" << std::endl;
     if (!(hasMoves(BLACK) || hasMoves(WHITE)))
-        std::cerr << "End of Game" << std::endl;
+        if(debug)
+            std::cerr << "End of Game" << std::endl;
     return !(hasMoves(BLACK) || hasMoves(WHITE));
 }
 
@@ -241,7 +243,12 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
             }
         }
     }
+<<<<<<< HEAD
     //std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+=======
+    if(debug)
+        std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+>>>>>>> c63b5b3457dd485d9d843776f8d97686bac85ddf
 
     // Check stability
     int stability = 0;
@@ -371,17 +378,20 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
 
     int finalScore = /*myNewScore +*/ flipped + stability + 
         potentialMobility + mobility - antimobility + _move->getRingMultiplier();
-
-    std::cerr << "------------------------------" << std::endl;
-    std::cerr << "Score Breakdown: " << finalScore << std::endl;
-    //std::cerr << "myNewScore: " << myNewScore << std::endl;
-    std::cerr << "flipped: " << flipped << std::endl;
-    std::cerr << "stability: " << stability << std::endl;
-    std::cerr << "potentialMobility: " << potentialMobility << std::endl;
-    std::cerr << "mobility: " << mobility << std::endl;
-    std::cerr << "antimobility: " << -antimobility << std::endl;
-    std::cerr << "Ring Multiplier: " << _move->getRingMultiplier() << std::endl;
-    std::cerr << "------------------------------" << std::endl;
+        
+    if (debug)
+    {
+        std::cerr << "------------------------------" << std::endl;
+        std::cerr << "Score Breakdown: " << finalScore << std::endl;
+        //std::cerr << "myNewScore: " << myNewScore << std::endl;
+        std::cerr << "flipped: " << flipped << std::endl;
+        std::cerr << "stability: " << stability << std::endl;
+        std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+        std::cerr << "mobility: " << mobility << std::endl;
+        std::cerr << "antimobility: " << -antimobility << std::endl;
+        std::cerr << "Ring Multiplier: " << _move->getRingMultiplier() << std::endl;
+        std::cerr << "------------------------------" << std::endl;
+    }
 
     // Update move score.
     _move->setScore(finalScore);

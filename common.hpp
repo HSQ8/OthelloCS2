@@ -15,6 +15,7 @@ public:
     int x, y;
     int ring;
     bool corner;
+    bool debug = false;
 
     Move(int x, int y, double _s) {
         this->x = x;
@@ -41,13 +42,16 @@ public:
     int getRingMultiplier(){
         int ringx = (x > 3) ? x-3 : 4 - x;
         int ringy = (y > 3) ? y-3 : 4 - y;
-        //std::cerr << "Location: " << x << ' ' << y << std::endl;
-        //std::cerr << "Move: " << ringx << ' ' << ringy << std::endl;
 
+        if(debug){
+            std::cerr << "Location: " << x << ' ' << y << std::endl;
+            std::cerr << "Move: " << ringx << ' ' << ringy << std::endl;
+        }
         if((ringy == 4) && (ringx == 4)){
             corner = true;
-            //std::cerr << "Corner************************" << std::endl;
-            return 12;
+            if(debug)
+                std::cerr << "Corner************************" << std::endl;
+            return 10;
         }
         else if((ringy == 3) && (ringx == 3)){
             return -8;
