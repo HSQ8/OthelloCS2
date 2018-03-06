@@ -30,7 +30,7 @@ public:
     int countWhite();
 
     void setBoard(char data[]);
-    double getMoveScoreHeuristic(const Board& _board, const Move& _move);
+    int getMoveScoreHeuristic(Move* _move, Side side);
 };
 
 #endif

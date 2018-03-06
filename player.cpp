@@ -6,13 +6,13 @@
  * on (BLACK or WHITE) is passed in as "side". The constructor must finish
  * within 30 seconds.
  */
-Player::Player(Side side) {
+Player::Player(Side my_side) {
     // Will be set to true in test_minimax.cpp.
     testingMinimax = false;
 
     // Initialize the board and player side.
     playerboard = new Board;
-    side = side;
+    side = my_side;
 
     if (side == WHITE)
         oppSide = BLACK;
@@ -49,6 +49,7 @@ Player::~Player() {
  * return nullptr.
  */
 Move *Player::doMove(Move *opponentsMove, int msLeft) {
+    std::cerr << "Starting the next move... " << std::endl;
     /*
      * TODO: Implement how moves your AI should play here. You should first
      * process the opponent's opponents move before calculating your own move
@@ -56,7 +57,10 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
 
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
-    return doRandomMove();
+
+    //return doRandomMove();
+
+    return doSimpleHeuristicMove();
     
 }
 
@@ -84,19 +88,27 @@ Move* Player::doRandomMove(){
 }
 
 Move* Player::doSimpleHeuristicMove(){
+    std::cerr << "Test 1" << std::endl;
     auto moveList = getMoveList(playerboard, side);
+    std::cerr << "Test 2" << std::endl;
+    int moveScore;
+    int bestScore = 0;
+    Move *bestMove = nullptr;
 
     for(int i = 0, j = moveList->size(); i < j; ++i){
-        Board * tempboard = playerboard->copy();
-
-        tempboard->doMove(&moveList->at(i), side);
-
-
+        std::cerr << "Test 3" << std::endl;
+        moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
+        if (moveScore > bestScore)
+            bestMove = &moveList->at(i);
     }
-
     
     delete moveList;
-    return nullptr;
+
+    playerboard->doMove(bestMove, side);
+
+    std::cerr << "Sending the next move... " << std::endl;
+
+    return bestMove;
 
 }
 

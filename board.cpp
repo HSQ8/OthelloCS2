@@ -179,7 +179,27 @@ void Board::setBoard(char data[]) {
     }
 }
 
-double Board::getMoveScoreHeuristic(const Board& _board, const Move& _move){
+int Board::getMoveScoreHeuristic(Move* _move, Side side){
+    // First calculate the score of the current board.
+    Side other = (side == BLACK) ? WHITE : BLACK;
+    int myScore = this->count(side);
+    int oppScore = this->count(other);
 
-return 0.0;
+    // Copy the board.
+    Board *tempBoard = this->copy();
+
+    // Apply the move on the copied board.
+    tempBoard->doMove(_move, side);
+
+    // Calculate the score.
+    int myNewScore = tempBoard->count(side);
+    int oppNewScore = tempBoard->count(other);
+
+    int myChange = myNewScore - myScore; // The number of new pieces on my side
+    int oppChange = oppScore - oppNewScore; // The number of opponent lost pieces
+    int flipped = myChange - oppChange;
+
+    // Update move score.
+    _move->setScore(flipped * _move->getRingWeight());
+    return flipped * _move->getRingWeight();
 }

@@ -10,7 +10,7 @@ using namespace std;
 class Player {
 
 public:
-    Player(Side side);
+    Player(Side my_side);
     ~Player();
 
     Move *doMove(Move *opponentsMove, int msLeft);
