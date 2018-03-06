@@ -1,9 +1,9 @@
 #!/bin/bash
 # edit the line on the bottom ./testgame ____ ___ to set player configuration, edit the for loop to set how many times we run the experiment
 rm -rf out.dat
-for run in {1..4}
+for run in {1..10}
 do
-	./testgame Cortana SimplePlayer >> out.dat
+	./testgame Cortana BetterPlayer >> out.dat
 done
 echo " " >> out.dat
 

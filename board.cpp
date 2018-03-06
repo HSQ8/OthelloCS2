@@ -395,7 +395,31 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     // Update move score.
     _move->setScore(finalScore);
 
+    delete tempBoard;
+
     return finalScore;
+}
+
+
+int Board::getSimpleMoveScoreHeuristic(Move* _move, Side side){
+    int deltaScore = std::numeric_limits<int>::min();
+    // First calculate the score of the current board.
+    Side other = (side == BLACK) ? WHITE : BLACK;
+    // Copy the board.
+    Board *tempBoard = this->copy();
+
+    // Apply the move on the copied board.
+    tempBoard->doMove(_move, side);
+    // Calculate the score.
+    int myNewScore = tempBoard->count(side);
+    int oppNewScore = tempBoard->count(other);
+    deltaScore = myNewScore - oppNewScore;
+    //std::cerr<< (other != side) << std::endl;
+    //std::cerr<< "scores(mynewscore,oppnewscore): " << myNewScore << ", " << oppNewScore << std::endl; 
+    //std::cerr<< "deltaScore: " << deltaScore << std::endl; 
+    //std::cerr<< "location: " << _move->getX() << ", " << _move->getY() << std::endl;
+    delete tempBoard;
+    return deltaScore;
 }
 
 
