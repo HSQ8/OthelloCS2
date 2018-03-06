@@ -51,9 +51,11 @@ bool Board::onBoard(int x, int y) {
  * if neither side has a legal move.
  */
 bool Board::isDone() {
-    std::cerr << "Check" << std::endl;
+    if(debug)
+        std::cerr << "Check" << std::endl;
     if (!(hasMoves(BLACK) || hasMoves(WHITE)))
-        std::cerr << "End of Game" << std::endl;
+        if(debug)
+            std::cerr << "End of Game" << std::endl;
     return !(hasMoves(BLACK) || hasMoves(WHITE));
 }
 
@@ -241,7 +243,8 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
             }
         }
     }
-    std::cerr << "potentialMobility: " << potentialMobility << std::endl;
+    if(debug)
+        std::cerr << "potentialMobility: " << potentialMobility << std::endl;
 
     // Check stability
     int stability = 0;
@@ -295,7 +298,7 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
 
     
 
-    int finalScore = myNewScore + flipped + stability + potentialMobility + mobility - antimobility + _move->getRingMultiplier();
+    int finalScore = myNewScore + flipped /*- stability*/ + potentialMobility * 2 + 2 *mobility - antimobility + _move->getRingMultiplier();
 
 
     // Update move score.
