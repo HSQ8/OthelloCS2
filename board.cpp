@@ -258,6 +258,10 @@ int Board::getMoveScoreHeuristic(/*Move* _move,*/ Side side){
     //int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
     //int flipped = myChange - oppChange;
     int deltaScore = myNewScore - oppNewScore;
+
+    /**************************
+    WE NEED TO MOVE EVERYTHING THAT IS COMMENTED OUT INTO A NEW FUNCTION!!!
+    */
 /*
     // Check mobility and the opponent's mobility
     std::vector<Move>* mobilityList = tempBoard->getMoveList(side);
