@@ -58,23 +58,23 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
-    if (msLeft > 100000) {
-        return doMiniMax(8);
-    }
-
-    else if (msLeft > 50000) {
-        return doMiniMax(6);
-    }
-
-    else if (msLeft > 25000) {
+    /*if (msLeft > 100000) {
         return doMiniMax(4);
     }
 
-    else if (msLeft > 12500) {
+    else if (msLeft > 50000) {
+        return doMiniMax(3);
+    }
+
+    else if (msLeft > 25000) {
         return doMiniMax(2);
     }
 
-    else if (msLeft > 10000) {
+    else if (msLeft > 12500) {
+        return doMiniMax(1);
+    }
+
+    else */if (msLeft > 10000) {
         return doSimpleHeuristicMove();
     }
 
@@ -180,7 +180,9 @@ Move* Player::doMiniMax(int depth){
         auto moveList = playerboard->getMoveList(plyside);
 
         int moveScore;
+
         int bestScore = std::numeric_limits<int>::min(); // Negative infinity
+
         Move *bestMove = new Move(-1, -1);
 
         for(int i = 0, j = moveList->size(); i < j; i++){
