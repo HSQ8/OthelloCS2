@@ -130,7 +130,7 @@ Move* Player::doSimpleHeuristicMove(){
         auto moveList = playerboard->getMoveList(side);
         //std::cerr << "Test 2" << std::endl;
         int moveScore;
-        int bestScore = -1000;
+        int bestScore = std::numeric_limits<int>::min();;
         Move *bestMove = new Move(-1, -1);
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
@@ -181,7 +181,7 @@ Move* Player::doMiniMax(int depth){
         auto moveList = playerboard->getMoveList(side);
 
         int moveScore;
-        int bestScore = -1000;
+        int bestScore = std::numeric_limits<int>::min();;
         Move *bestMove = new Move(-1, -1);
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
@@ -274,13 +274,6 @@ int Player::doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth){
 
         delete tempBoard;
 
-        /*moveScore = playerboard->getMoveScoreHeuristic(&moveList->at(i), side);
-
-        tempBoard->doMove(&moveList->at(i), side);
-
-        if (moveScore > bestScore) {
-            bestScore = moveScore;
-        }*/
     }
     delete moveList;
     return bestScore;
