@@ -406,7 +406,7 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
 
 
     int finalScore = /*myNewScore +*/ deltaScore + flipped + stability + 
-        potentialMobility + mobility - antimobility + 4 * _move->getRingMultiplier();
+        3 * potentialMobility + 3 * mobility - 4 * antimobility + 4 * _move->getRingMultiplier();
         
     if (debug)
     {

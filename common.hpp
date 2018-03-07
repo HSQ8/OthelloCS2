@@ -51,7 +51,7 @@ public:
             corner = true;
             if(debug)
                 std::cerr << "Corner************************" << std::endl;
-            return 20;
+            return 40;
         }
         else if((ringy == 3) && (ringx == 3)){
             if(debug)
@@ -73,7 +73,7 @@ public:
             case 3:
                 return -1;
             case 4:
-                return 5;
+                return 10;
         }
     
     return 0;
