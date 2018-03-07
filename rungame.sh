@@ -2,7 +2,7 @@
 # edit the line on the bottom ./testgame ____ ___ to set player configuration, edit the for loop to set how many times we run the experiment
 rm -rf out.dat
 
-for run in {1..5}
+for run in {1..20}
 do
 	./testgame SimplePlayer Cortana 300000 >> out.dat
 done

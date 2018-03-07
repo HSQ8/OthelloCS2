@@ -1,35 +1,8785 @@
 Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 3, 1
+score: 33
+location: 3, 5
+score: 33
+location: 4, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 1, 4
+score: 34
+location: 2, 4
+score: 34
+location: 3, 5
+score: 34
+location: 5, 5
+score: 34
+location: 6, 5
+score: 34
+location: 4, 0
+score: 35
+location: 4, 1
+score: 35
+location: 4, 2
+score: 35
+location: 4, 5
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 1, 3
+score: 37
+location: 2, 0
+score: 37
+location: 3, 5
+score: 37
+location: 4, 1
+score: 37
+location: 0, 2
+score: -271
+location: 1, 1
+score: -271
+location: 2, 4
+score: -271
+location: 3, 5
+score: -271
+location: 4, 1
+score: -271
+location: 4, 2
+score: -271
+location: 5, 3
+score: -271
+location: 5, 5
+score: -271
+location: 1, 1
+score: -278
+location: 3, 5
+score: -278
+location: 4, 1
+score: -278
+location: 4, 2
+score: -278
+location: 4, 5
+score: -278
+location: 5, 3
+score: -278
+location: 3, 5
+score: 46
+location: 4, 1
+score: 46
+location: 4, 2
+score: 46
+location: 4, 5
+score: 46
+location: 5, 3
+score: 46
+location: 5, 5
+score: 46
+location: 1, 5
+score: 39
+location: 5, 2
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 6, 4
+score: 39
+location: 6, 5
+score: 39
+location: 5, 3
+score: 40
+location: 5, 5
+score: 40
+location: 5, 6
+score: 40
+location: 6, 5
+score: 40
+location: 1, 6
+score: -282
+location: 2, 4
+score: -282
+location: 2, 6
+score: -282
+location: 3, 6
+score: -282
+location: 4, 6
+score: -282
+location: 5, 5
+score: -282
+location: 5, 6
+score: -282
+location: 6, 4
+score: -282
+location: 6, 5
+score: -282
+location: 0, 1
+score: -269
+location: 0, 4
+score: -269
+location: 2, 4
+score: -269
+location: 2, 6
+score: -269
+location: 3, 6
+score: -269
+location: 4, 6
+score: -269
+location: 5, 5
+score: -269
+location: 5, 6
+score: -269
+location: 6, 4
+score: -269
+location: 6, 5
+score: -269
+location: 0, 4
+score: -287
+location: 2, 0
+score: -287
+location: 2, 4
+score: -287
+location: 2, 6
+score: -287
+location: 3, 6
+score: -287
+location: 4, 6
+score: -287
+location: 5, 6
+score: -287
+location: 6, 4
+score: -287
+location: 6, 5
+score: -287
+location: 6, 6
+score: -287
+location: 2, 0
+score: 38
+location: 2, 6
+score: 38
+location: 3, 6
+score: 38
+location: 4, 6
+score: 38
+location: 5, 6
+score: 38
+location: 6, 4
+score: 38
+location: 6, 5
+score: 38
+location: 0, 7
+score: -279
+location: 2, 6
+score: -279
+location: 3, 6
+score: -279
+location: 4, 6
+score: -279
+location: 5, 6
+score: -279
+location: 6, 0
+score: -279
+location: 6, 4
+score: -279
+location: 6, 5
+score: -279
+location: 6, 6
+score: -279
+location: 2, 6
+score: -279
+location: 3, 6
+score: -279
+location: 3, 7
+score: -279
+location: 4, 6
+score: -279
+location: 5, 6
+score: -279
+location: 6, 0
+score: -279
+location: 6, 4
+score: -279
+location: 6, 5
+score: -279
+location: 6, 6
+score: -279
+location: 3, 6
+score: -277
+location: 3, 7
+score: -277
+location: 4, 6
+score: -277
+location: 5, 6
+score: -277
+location: 6, 0
+score: -277
+location: 6, 3
+score: -277
+location: 6, 4
+score: -277
+location: 6, 5
+score: -277
+location: 6, 6
+score: -277
+location: 0, 6
+score: -279
+location: 3, 7
+score: -279
+location: 4, 6
+score: -279
+location: 5, 6
+score: -279
+location: 6, 0
+score: -279
+location: 6, 3
+score: -279
+location: 6, 5
+score: -279
+location: 6, 6
+score: -279
+location: 7, 1
+score: -279
+location: 3, 7
+score: -283
+location: 4, 1
+score: -283
+location: 5, 1
+score: -283
+location: 5, 2
+score: -283
+location: 5, 6
+score: -283
+location: 6, 0
+score: -283
+location: 6, 3
+score: -283
+location: 6, 4
+score: -283
+location: 6, 5
+score: -283
+location: 7, 1
+score: -283
+location: 5, 1
+score: -286
+location: 5, 2
+score: -286
+location: 5, 6
+score: -286
+location: 6, 0
+score: -286
+location: 6, 3
+score: -286
+location: 6, 4
+score: -286
+location: 6, 5
+score: -286
+location: 7, 1
+score: -286
+location: 4, 6
+score: -294
+location: 5, 2
+score: -294
+location: 5, 6
+score: -294
+location: 5, 7
+score: -294
+location: 6, 0
+score: -294
+location: 6, 3
+score: -294
+location: 6, 4
+score: -294
+location: 6, 5
+score: -294
+location: 6, 6
+score: -294
+location: 7, 1
+score: -294
+location: 7, 3
+score: -294
+location: 5, 6
+score: -295
+location: 6, 0
+score: -295
+location: 6, 3
+score: -295
+location: 6, 4
+score: -295
+location: 6, 5
+score: -295
+location: 6, 6
+score: -295
+location: 6, 7
+score: -295
+location: 7, 1
+score: -295
+location: 7, 3
+score: -295
+location: 5, 2
+score: -293
+location: 6, 3
+score: -293
+location: 6, 4
+score: -293
+location: 6, 5
+score: -293
+location: 6, 6
+score: -293
+location: 6, 7
+score: -293
+location: 7, 0
+score: -293
+location: 7, 1
+score: -293
+location: 6, 3
+score: -294
+location: 6, 5
+score: -294
+location: 6, 7
+score: -294
+location: 7, 0
+score: -294
+location: 7, 1
+score: -294
+location: 7, 2
+score: -294
+location: 7, 3
+score: -294
+location: 7, 5
+score: -294
+location: 6, 1
+score: -291
+location: 6, 6
+score: -291
+location: 6, 7
+score: -291
+location: 7, 0
+score: -291
+location: 7, 1
+score: -291
+location: 7, 2
+score: -291
+location: 7, 3
+score: -291
+location: 7, 5
+score: -291
+location: 6, 6
+score: -289
+location: 6, 7
+score: -289
+location: 7, 0
+score: 351
+location: 7, 1
+score: -289
+location: 7, 3
+score: 51
+location: 7, 5
+score: 51
+location: 6, 6
+score: -306
+location: 6, 7
+score: -306
+location: 7, 3
+score: 34
+location: 7, 4
+score: 34
+location: 7, 5
+score: 34
+location: 7, 6
+score: -306
+location: 6, 6
+score: -313
+location: 6, 7
+score: -313
+location: 7, 5
+score: -313
+location: 7, 6
+score: -313
+location: 6, 7
+score: -311
+location: 7, 6
+score: -311
+location: 7, 7
+score: 328
 done
 WHITE_V
 #-#-#
 Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 1, 2
+score: 35
+location: 3, 2
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 6, 4
+score: 35
+location: 1, 4
+score: 37
+location: 3, 2
+score: 37
+location: 5, 2
+score: 37
+location: 5, 3
+score: 37
+location: 6, 4
+score: 37
+location: 3, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 5, 6
+score: 37
+location: 5, 2
+score: 40
+location: 5, 3
+score: 40
+location: 5, 5
+score: 40
+location: 5, 6
+score: 40
+location: 6, 4
+score: 40
+location: 6, 5
+score: 40
+location: 1, 5
+score: 39
+location: 4, 6
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 5, 6
+score: 39
+location: 6, 4
+score: 39
+location: 6, 5
+score: 39
+location: 2, 5
+score: 39
+location: 4, 2
+score: 39
+location: 4, 6
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 5, 6
+score: 39
+location: 6, 4
+score: 39
+location: 6, 5
+score: 39
+location: 1, 1
+score: -282
+location: 2, 2
+score: -282
+location: 4, 2
+score: -282
+location: 4, 6
+score: -282
+location: 5, 3
+score: -282
+location: 5, 5
+score: -282
+location: 5, 6
+score: -282
+location: 6, 4
+score: -282
+location: 6, 5
+score: -282
+location: 2, 2
+score: 35
+location: 4, 2
+score: 35
+location: 4, 6
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 6, 4
+score: 35
+location: 6, 5
+score: 35
+location: 0, 6
+score: -288
+location: 1, 6
+score: -288
+location: 2, 7
+score: -288
+location: 3, 6
+score: -288
+location: 4, 2
+score: -288
+location: 4, 6
+score: -288
+location: 5, 5
+score: -288
+location: 5, 6
+score: -288
+location: 6, 4
+score: -288
+location: 6, 5
+score: -288
+location: 0, 0
+score: 30
+location: 0, 2
+score: 30
+location: 2, 7
+score: 30
+location: 3, 6
+score: 30
+location: 3, 7
+score: 30
+location: 4, 2
+score: 30
+location: 4, 6
+score: 30
+location: 5, 5
+score: 30
+location: 5, 6
+score: 30
+location: 6, 4
+score: 30
+location: 6, 5
+score: 30
+location: 0, 2
+score: 28
+location: 2, 0
+score: 28
+location: 2, 1
+score: 28
+location: 2, 7
+score: 28
+location: 3, 1
+score: 28
+location: 3, 6
+score: 28
+location: 3, 7
+score: 28
+location: 4, 1
+score: 28
+location: 4, 6
+score: 28
+location: 5, 1
+score: 28
+location: 5, 3
+score: 28
+location: 5, 5
+score: 28
+location: 5, 6
+score: 28
+location: 6, 4
+score: 28
+location: 1, 6
+score: -298
+location: 2, 0
+score: -298
+location: 2, 7
+score: -298
+location: 3, 7
+score: -298
+location: 4, 6
+score: -298
+location: 4, 7
+score: -298
+location: 5, 3
+score: -298
+location: 5, 5
+score: -298
+location: 5, 6
+score: -298
+location: 6, 4
+score: -298
+location: 6, 5
+score: -298
+location: 0, 7
+score: 13
+location: 2, 0
+score: 13
+location: 2, 7
+score: 13
+location: 3, 7
+score: 13
+location: 4, 6
+score: 13
+location: 4, 7
+score: 13
+location: 5, 3
+score: 13
+location: 5, 5
+score: 13
+location: 5, 6
+score: 13
+location: 6, 4
+score: 13
+location: 6, 5
+score: 13
+location: 2, 0
+score: 11
+location: 2, 7
+score: 11
+location: 3, 7
+score: 11
+location: 4, 6
+score: 11
+location: 4, 7
+score: 11
+location: 5, 3
+score: 11
+location: 5, 5
+score: 11
+location: 5, 6
+score: 11
+location: 6, 2
+score: 11
+location: 6, 4
+score: 11
+location: 6, 5
+score: 11
+location: 7, 0
+score: 11
+location: 2, 7
+score: -306
+location: 3, 7
+score: -306
+location: 4, 6
+score: -306
+location: 4, 7
+score: -306
+location: 5, 3
+score: -306
+location: 5, 5
+score: -306
+location: 5, 6
+score: -306
+location: 6, 0
+score: -306
+location: 6, 2
+score: -306
+location: 6, 4
+score: -306
+location: 6, 5
+score: -306
+location: 7, 0
+score: -306
+location: 4, 6
+score: -309
+location: 4, 7
+score: -309
+location: 5, 3
+score: -309
+location: 5, 5
+score: -309
+location: 5, 6
+score: -309
+location: 6, 0
+score: -309
+location: 6, 2
+score: -309
+location: 6, 3
+score: -309
+location: 6, 4
+score: -309
+location: 6, 5
+score: -309
+location: 7, 0
+score: -309
+location: 3, 0
+score: -316
+location: 4, 0
+score: -316
+location: 4, 1
+score: -316
+location: 4, 7
+score: -316
+location: 5, 3
+score: -316
+location: 5, 5
+score: -316
+location: 5, 6
+score: -316
+location: 6, 0
+score: -316
+location: 6, 2
+score: -316
+location: 6, 3
+score: -316
+location: 6, 4
+score: -316
+location: 7, 0
+score: -316
+location: 5, 3
+score: -316
+location: 5, 5
+score: -316
+location: 5, 6
+score: -316
+location: 5, 7
+score: -316
+location: 6, 0
+score: -316
+location: 6, 2
+score: -316
+location: 6, 3
+score: -316
+location: 6, 4
+score: -316
+location: 6, 5
+score: -316
+location: 7, 0
+score: -316
+location: 5, 0
+score: -312
+location: 5, 5
+score: -312
+location: 5, 6
+score: -312
+location: 5, 7
+score: -312
+location: 6, 0
+score: -312
+location: 6, 2
+score: -312
+location: 6, 3
+score: -312
+location: 6, 4
+score: -312
+location: 7, 0
+score: -312
+location: 7, 1
+score: -312
+location: 4, 0
+score: -316
+location: 5, 5
+score: -316
+location: 5, 6
+score: -316
+location: 5, 7
+score: -316
+location: 6, 0
+score: -316
+location: 6, 3
+score: -316
+location: 6, 4
+score: -316
+location: 6, 5
+score: -316
+location: 7, 0
+score: -316
+location: 7, 1
+score: -316
+location: 7, 2
+score: -316
+location: 5, 5
+score: -322
+location: 5, 6
+score: -322
+location: 5, 7
+score: -322
+location: 6, 0
+score: -322
+location: 6, 2
+score: -322
+location: 6, 3
+score: -322
+location: 6, 5
+score: -322
+location: 7, 0
+score: -322
+location: 7, 1
+score: -322
+location: 7, 2
+score: -322
+location: 7, 4
+score: -322
+location: 7, 5
+score: -322
+location: 5, 7
+score: 18
+location: 6, 0
+score: -322
+location: 6, 2
+score: -6
+location: 6, 3
+score: -6
+location: 6, 5
+score: -6
+location: 6, 6
+score: -322
+location: 6, 7
+score: -322
+location: 7, 0
+score: 318
+location: 7, 1
+score: -322
+location: 7, 2
+score: 18
+location: 7, 4
+score: 18
+location: 7, 5
+score: 18
+location: 5, 7
+score: -327
+location: 6, 0
+score: -327
+location: 6, 2
+score: -327
+location: 6, 5
+score: -327
+location: 6, 6
+score: -327
+location: 6, 7
+score: -327
+location: 7, 2
+score: -327
+location: 7, 3
+score: -327
+location: 7, 4
+score: -327
+location: 7, 5
+score: -327
+location: 6, 5
+score: -337
+location: 6, 7
+score: -337
+location: 7, 2
+score: -337
+location: 7, 3
+score: -337
+location: 7, 4
+score: -337
+location: 7, 5
+score: -337
+location: 7, 6
+score: -337
+location: 7, 7
+score: -337
+location: 7, 2
+score: 8
+location: 7, 3
+score: 8
+location: 7, 4
+score: 8
+location: 7, 5
+score: 8
+location: 7, 7
+score: 8
+location: 7, 3
+score: 7
+location: 7, 4
+score: 7
+location: 7, 5
+score: 7
+location: 7, 7
+score: 7
+location: 6, 0
+score: -335
+location: 6, 2
+score: -335
+location: 7, 4
+score: -335
+location: 7, 5
+score: -335
+location: 7, 7
+score: -335
+location: 6, 2
+score: -1
+location: 7, 5
+score: -1
+location: 7, 7
+score: -1
+PASS
+location: 7, 5
+score: 5
+location: 7, 7
+score: 305
+PASS
+location: 7, 5
+score: 1
 done
 WHITE_V
 #-#-#
 Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 2
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 1, 2
+score: 39
+location: 1, 4
+score: 39
+location: 5, 3
+score: 39
+location: 5, 4
+score: 39
+location: 5, 5
+score: 39
+location: 1, 4
+score: 36
+location: 2, 4
+score: 36
+location: 3, 6
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 2, 0
+score: 36
+location: 3, 0
+score: 36
+location: 3, 6
+score: 36
+location: 4, 1
+score: 36
+location: 4, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 0, 2
+score: 36
+location: 0, 3
+score: 36
+location: 2, 4
+score: 36
+location: 3, 6
+score: 36
+location: 4, 1
+score: 36
+location: 4, 2
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 0, 0
+score: 35
+location: 2, 4
+score: 35
+location: 3, 0
+score: 35
+location: 3, 6
+score: 35
+location: 4, 1
+score: 35
+location: 4, 2
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 2, 4
+score: 30
+location: 3, 0
+score: 30
+location: 3, 1
+score: 30
+location: 3, 6
+score: 30
+location: 4, 1
+score: 30
+location: 4, 2
+score: 30
+location: 5, 4
+score: 30
+location: 5, 5
+score: 30
+location: 5, 6
+score: 30
+location: 0, 3
+score: 30
+location: 0, 4
+score: 30
+location: 2, 6
+score: 30
+location: 3, 6
+score: 30
+location: 4, 1
+score: 30
+location: 4, 2
+score: 30
+location: 4, 6
+score: 30
+location: 5, 4
+score: 30
+location: 5, 5
+score: 30
+location: 5, 6
+score: 30
+location: 0, 4
+score: 24
+location: 1, 5
+score: 24
+location: 2, 6
+score: 24
+location: 3, 6
+score: 24
+location: 4, 2
+score: 24
+location: 4, 6
+score: 24
+location: 5, 3
+score: 24
+location: 5, 4
+score: 24
+location: 5, 5
+score: 24
+location: 5, 6
+score: 24
+location: 0, 6
+score: -298
+location: 1, 5
+score: 18
+location: 2, 6
+score: 18
+location: 3, 0
+score: 42
+location: 3, 6
+score: 18
+location: 4, 0
+score: 42
+location: 4, 1
+score: 18
+location: 4, 2
+score: 26
+location: 4, 6
+score: 18
+location: 5, 3
+score: 26
+location: 5, 4
+score: 26
+location: 5, 5
+score: 26
+location: 5, 6
+score: 18
 PASS
+location: 0, 6
+score: -301
+location: 1, 5
+score: 15
+location: 2, 6
+score: 15
+location: 3, 6
+score: 15
+location: 4, 0
+score: 39
+location: 4, 1
+score: 15
+location: 4, 2
+score: 23
+location: 4, 6
+score: 15
+location: 5, 3
+score: 23
+location: 5, 4
+score: 23
+location: 5, 5
+score: 23
+location: 5, 6
+score: 15
+location: 0, 6
+score: -299
+location: 1, 5
+score: 17
+location: 2, 6
+score: 17
+location: 3, 6
+score: 17
+location: 4, 2
+score: 25
+location: 4, 6
+score: 17
+location: 5, 1
+score: 17
+location: 5, 2
+score: 25
+location: 5, 3
+score: 25
+location: 5, 4
+score: 25
+location: 5, 5
+score: 25
+location: 5, 6
+score: 17
+location: 0, 6
+score: -302
+location: 1, 5
+score: -302
+location: 2, 6
+score: -302
+location: 3, 6
+score: -302
+location: 4, 6
+score: -302
+location: 5, 1
+score: -302
+location: 5, 2
+score: -302
+location: 5, 3
+score: -302
+location: 5, 4
+score: -302
+location: 5, 5
+score: -302
+location: 5, 6
+score: -302
+location: 6, 0
+score: -302
+location: 1, 5
+score: 12
+location: 2, 6
+score: 12
+location: 3, 6
+score: 12
+location: 4, 6
+score: 12
+location: 5, 2
+score: 20
+location: 5, 3
+score: 20
+location: 5, 4
+score: 20
+location: 5, 5
+score: 20
+location: 5, 6
+score: 12
+location: 6, 0
+score: -304
+location: 6, 1
+score: -304
+location: 6, 2
+score: 12
+location: 1, 5
+score: 7
+location: 2, 6
+score: 7
+location: 3, 6
+score: 7
+location: 4, 6
+score: 7
+location: 5, 3
+score: 15
+location: 5, 4
+score: 15
+location: 5, 5
+score: 15
+location: 5, 6
+score: 7
+location: 6, 0
+score: -309
+location: 6, 2
+score: 7
+location: 6, 3
+score: 7
+location: 7, 1
+score: -309
+location: 1, 5
+score: -316
+location: 1, 6
+score: -316
+location: 2, 6
+score: -316
+location: 3, 6
+score: -316
+location: 4, 6
+score: -316
+location: 5, 4
+score: -316
+location: 5, 5
+score: -316
+location: 5, 6
+score: -316
+location: 6, 0
+score: -316
+location: 6, 3
+score: -316
+location: 6, 4
+score: -316
+location: 7, 0
+score: -316
+location: 7, 1
+score: -316
+location: 7, 2
+score: -316
+location: 7, 3
+score: -316
+location: 0, 7
+score: -315
+location: 1, 7
+score: -315
+location: 2, 6
+score: -315
+location: 2, 7
+score: -315
+location: 3, 6
+score: -315
+location: 4, 6
+score: -315
+location: 5, 4
+score: -315
+location: 5, 5
+score: -315
+location: 5, 6
+score: -315
+location: 6, 0
+score: -315
+location: 6, 3
+score: -315
+location: 6, 4
+score: -315
+location: 7, 0
+score: -315
+location: 7, 1
+score: -315
+location: 7, 2
+score: -315
+location: 7, 3
+score: -315
+location: 2, 6
+score: -313
+location: 3, 6
+score: -313
+location: 4, 6
+score: -313
+location: 5, 5
+score: -313
+location: 5, 6
+score: -313
+location: 6, 0
+score: -313
+location: 6, 3
+score: -313
+location: 6, 4
+score: -313
+location: 6, 5
+score: -313
+location: 7, 0
+score: -313
+location: 7, 1
+score: -313
+location: 7, 2
+score: -313
+location: 7, 3
+score: -313
+location: 2, 7
+score: -313
+location: 3, 6
+score: -313
+location: 3, 7
+score: -313
+location: 4, 6
+score: -313
+location: 5, 5
+score: -313
+location: 5, 6
+score: -313
+location: 6, 0
+score: -313
+location: 6, 3
+score: -313
+location: 6, 4
+score: -313
+location: 6, 5
+score: -313
+location: 7, 0
+score: -313
+location: 7, 1
+score: -313
+location: 7, 2
+score: -313
+location: 7, 3
+score: -313
+location: 3, 6
+score: -317
+location: 4, 6
+score: -317
+location: 4, 7
+score: -317
+location: 5, 5
+score: -317
+location: 5, 6
+score: -317
+location: 6, 0
+score: -317
+location: 6, 3
+score: -317
+location: 6, 4
+score: -317
+location: 6, 5
+score: -317
+location: 7, 0
+score: -317
+location: 7, 1
+score: -317
+location: 7, 2
+score: -317
+location: 7, 3
+score: -317
+location: 4, 6
+score: -318
+location: 5, 5
+score: -318
+location: 5, 6
+score: -318
+location: 5, 7
+score: -318
+location: 6, 0
+score: -318
+location: 6, 3
+score: -318
+location: 6, 4
+score: -318
+location: 6, 5
+score: -318
+location: 7, 0
+score: -318
+location: 7, 1
+score: -318
+location: 7, 2
+score: -318
+location: 7, 3
+score: -318
+location: 5, 6
+score: -1
+location: 5, 7
+score: 23
+location: 6, 0
+score: -317
+location: 6, 3
+score: -1
+location: 6, 4
+score: -1
+location: 6, 5
+score: -1
+location: 6, 6
+score: -317
+location: 7, 0
+score: 323
+location: 7, 1
+score: -317
+location: 7, 2
+score: 23
+location: 7, 3
+score: 23
+location: 5, 6
+score: -1
+location: 5, 7
+score: 23
+location: 6, 0
+score: -317
+location: 6, 3
+score: -1
+location: 6, 4
+score: -1
+location: 6, 5
+score: -1
+location: 6, 6
+score: -317
+location: 7, 2
+score: 23
+location: 7, 3
+score: 23
 PASS
+location: 5, 6
+score: -9
+location: 6, 0
+score: -325
+location: 6, 3
+score: -9
+location: 6, 4
+score: -9
+location: 6, 5
+score: -9
+location: 6, 6
+score: -325
+location: 7, 2
+score: 15
+location: 7, 3
+score: 15
+location: 5, 6
+score: -10
+location: 6, 0
+score: -326
+location: 6, 3
+score: -10
+location: 6, 4
+score: -10
+location: 6, 5
+score: -10
+location: 6, 6
+score: -326
+location: 7, 4
+score: 14
+PASS
+location: 5, 6
+score: -12
+location: 6, 0
+score: -328
+location: 6, 3
+score: -12
+location: 6, 4
+score: -12
+location: 6, 5
+score: -12
+location: 6, 6
+score: -328
+location: 6, 0
+score: -326
+location: 6, 3
+score: -326
+location: 6, 4
+score: -326
+location: 6, 6
+score: -326
+location: 7, 5
+score: -326
+location: 7, 6
+score: -326
+location: 6, 3
+score: -331
+location: 6, 4
+score: -331
+location: 6, 6
+score: -331
+location: 7, 5
+score: -331
+location: 7, 6
+score: -331
+location: 7, 7
+score: -331
+location: 6, 6
+score: -341
+location: 7, 5
+score: -1
+location: 7, 6
+score: -341
+location: 7, 7
+score: 299
+PASS
+location: 6, 6
+score: -343
+location: 7, 5
+score: -3
+location: 7, 6
+score: -343
+location: 7, 6
+score: -340
+done
+WHITE_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 3, 1
+score: 33
+location: 3, 5
+score: 33
+location: 4, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 4, 0
+score: 47
+location: 4, 2
+score: 47
+location: 5, 5
+score: 47
+location: 3, 5
+score: 47
+location: 4, 2
+score: 47
+location: 5, 5
+score: 47
+location: 3, 6
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 5, 4
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 1, 2
+score: -280
+location: 1, 3
+score: -280
+location: 1, 6
+score: -280
+location: 1, 7
+score: -280
+location: 5, 2
+score: -280
+location: 5, 3
+score: -280
+location: 5, 4
+score: -280
+location: 5, 5
+score: -280
+location: 5, 6
+score: -280
+location: 0, 0
+score: -281
+location: 1, 0
+score: -281
+location: 1, 3
+score: -281
+location: 1, 6
+score: -281
+location: 1, 7
+score: -281
+location: 5, 3
+score: -281
+location: 5, 4
+score: -281
+location: 5, 5
+score: -281
+location: 5, 4
+score: 47
+location: 5, 5
+score: 47
+location: 1, 4
+score: 41
+location: 2, 7
+score: 41
+location: 5, 2
+score: 41
+location: 5, 3
+score: 41
+location: 5, 5
+score: 41
+location: 1, 6
+score: -277
+location: 1, 7
+score: -277
+location: 2, 7
+score: -277
+location: 4, 1
+score: -277
+location: 4, 6
+score: -277
+location: 5, 2
+score: -277
+location: 5, 3
+score: -277
+location: 5, 6
+score: -277
+location: 4, 6
+score: 37
+location: 5, 1
+score: 37
+location: 5, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 6, 5
+score: 37
+location: 7, 4
+score: 37
+location: 5, 1
+score: 37
+location: 5, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 5, 6
+score: 37
+location: 6, 3
+score: 37
+location: 6, 5
+score: 37
+location: 7, 4
+score: 37
+location: 0, 6
+score: -263
+location: 1, 3
+score: -263
+location: 5, 3
+score: -263
+location: 5, 5
+score: -263
+location: 5, 6
+score: -263
+location: 6, 3
+score: -263
+location: 6, 5
+score: -263
+location: 1, 3
+score: 35
+location: 2, 7
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 5, 7
+score: 35
+location: 6, 5
+score: 35
+location: 7, 4
+score: 35
+location: 0, 3
+score: 36
+location: 2, 7
+score: 36
+location: 5, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 5, 7
+score: 36
+location: 6, 5
+score: 36
+location: 7, 4
+score: 36
+location: 2, 7
+score: -287
+location: 5, 2
+score: -287
+location: 5, 3
+score: -287
+location: 5, 5
+score: -287
+location: 5, 6
+score: -287
+location: 5, 7
+score: -287
+location: 6, 0
+score: -287
+location: 6, 5
+score: -287
+location: 7, 4
+score: -287
+location: 0, 1
+score: -289
+location: 2, 3
+score: -289
+location: 5, 2
+score: -289
+location: 5, 3
+score: -289
+location: 5, 5
+score: -289
+location: 5, 6
+score: -289
+location: 5, 7
+score: -289
+location: 6, 0
+score: -289
+location: 6, 3
+score: -289
+location: 6, 5
+score: -289
+location: 7, 4
+score: -289
+location: 0, 7
+score: -289
+location: 2, 3
+score: -289
+location: 5, 2
+score: -289
+location: 5, 3
+score: -289
+location: 5, 5
+score: -289
+location: 5, 6
+score: -289
+location: 5, 7
+score: -289
+location: 6, 0
+score: -289
+location: 6, 5
+score: -289
+location: 7, 4
+score: -289
+location: 5, 2
+score: -294
+location: 5, 3
+score: -294
+location: 5, 5
+score: -294
+location: 5, 6
+score: -294
+location: 5, 7
+score: -294
+location: 6, 0
+score: -294
+location: 6, 5
+score: -294
+location: 7, 4
+score: -294
+location: 5, 5
+score: -297
+location: 5, 6
+score: -297
+location: 5, 7
+score: -297
+location: 6, 0
+score: -297
+location: 6, 1
+score: -297
+location: 6, 3
+score: -297
+location: 6, 5
+score: -297
+location: 7, 2
+score: -297
+location: 7, 4
+score: -297
+location: 7, 5
+score: -297
+location: 5, 6
+score: -299
+location: 5, 7
+score: -299
+location: 6, 0
+score: -299
+location: 6, 1
+score: -299
+location: 6, 3
+score: -299
+location: 6, 6
+score: -299
+location: 7, 1
+score: -299
+location: 7, 2
+score: -299
+location: 7, 4
+score: -299
+location: 7, 5
+score: -299
+location: 7, 6
+score: -299
+location: 5, 7
+score: -301
+location: 6, 0
+score: -301
+location: 6, 1
+score: -301
+location: 6, 3
+score: -301
+location: 6, 6
+score: -301
+location: 7, 1
+score: -301
+location: 7, 2
+score: -301
+location: 7, 3
+score: -301
+location: 7, 4
+score: -301
+location: 7, 5
+score: -301
+location: 7, 6
+score: -301
+location: 4, 1
+score: -309
+location: 6, 0
+score: -309
+location: 6, 1
+score: -309
+location: 6, 3
+score: -309
+location: 6, 6
+score: -309
+location: 7, 1
+score: -309
+location: 7, 2
+score: -309
+location: 7, 3
+score: -309
+location: 7, 4
+score: -309
+location: 7, 5
+score: -309
+location: 7, 6
+score: -309
+location: 7, 7
+score: -309
+location: 2, 1
+score: -313
+location: 6, 0
+score: -313
+location: 6, 1
+score: -313
+location: 6, 3
+score: -313
+location: 6, 6
+score: -313
+location: 7, 1
+score: -313
+location: 7, 2
+score: -313
+location: 7, 3
+score: -313
+location: 7, 4
+score: -313
+location: 7, 5
+score: -313
+location: 7, 6
+score: -313
+location: 7, 7
+score: -313
+PASS
+location: 6, 0
+score: -325
+location: 6, 1
+score: -325
+location: 6, 3
+score: -9
+location: 6, 6
+score: -325
+location: 7, 1
+score: -325
+location: 7, 2
+score: 15
+location: 7, 3
+score: 15
+location: 7, 4
+score: 15
+location: 7, 5
+score: 15
+location: 7, 6
+score: -325
+location: 7, 7
+score: 315
+PASS
+location: 6, 0
+score: -327
+location: 6, 1
+score: -327
+location: 6, 3
+score: -11
+location: 6, 6
+score: -327
+location: 7, 1
+score: -327
+location: 7, 2
+score: 13
+location: 7, 3
+score: 13
+location: 7, 4
+score: 13
+location: 7, 5
+score: 13
+location: 7, 6
+score: -327
+location: 6, 0
+score: -323
+location: 6, 3
+score: -323
+location: 6, 6
+score: -323
+location: 7, 0
+score: -323
+location: 7, 1
+score: -323
+location: 7, 3
+score: -323
+location: 7, 4
+score: -323
+location: 7, 5
+score: -323
+location: 7, 6
+score: -323
+location: 6, 3
+score: -335
+location: 6, 6
+score: -335
+location: 7, 0
+score: -335
+location: 7, 3
+score: -335
+location: 7, 4
+score: -335
+location: 7, 5
+score: -335
+location: 7, 6
+score: -335
+location: 6, 6
+score: -339
+location: 7, 4
+score: -339
+location: 7, 5
+score: -339
+location: 7, 6
+score: -339
+location: 7, 5
+score: 12
+done
+WHITE_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 2
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 1, 1
+score: -280
+location: 1, 2
+score: -280
+location: 1, 3
+score: -280
+location: 1, 5
+score: -280
+location: 5, 3
+score: -280
+location: 5, 4
+score: -280
+location: 5, 5
+score: -280
+location: 1, 5
+score: 35
+location: 3, 6
+score: 35
+location: 5, 3
+score: 35
+location: 5, 4
+score: 35
+location: 5, 5
+score: 35
+location: 2, 6
+score: 38
+location: 4, 0
+score: 38
+location: 4, 2
+score: 38
+location: 4, 6
+score: 38
+location: 5, 4
+score: 38
+location: 5, 5
+score: 38
+location: 1, 3
+score: 38
+location: 4, 2
+score: 38
+location: 4, 6
+score: 38
+location: 5, 2
+score: 38
+location: 5, 3
+score: 38
+location: 5, 4
+score: 38
+location: 5, 5
+score: 38
+location: 0, 4
+score: 37
+location: 0, 5
+score: 37
+location: 2, 3
+score: 37
+location: 4, 0
+score: 37
+location: 4, 2
+score: 37
+location: 4, 6
+score: 37
+location: 5, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 1, 4
+score: 41
+location: 2, 3
+score: 41
+location: 4, 0
+score: 41
+location: 4, 2
+score: 41
+location: 5, 2
+score: 41
+location: 5, 3
+score: 41
+location: 5, 5
+score: 41
+location: 1, 0
+score: -283
+location: 2, 3
+score: -283
+location: 4, 0
+score: -283
+location: 4, 2
+score: -283
+location: 4, 6
+score: -283
+location: 5, 2
+score: -283
+location: 5, 3
+score: -283
+location: 5, 4
+score: -283
+location: 5, 5
+score: -283
+location: 1, 7
+score: -276
+location: 2, 3
+score: -276
+location: 3, 0
+score: -276
+location: 3, 6
+score: -276
+location: 4, 0
+score: -276
+location: 4, 2
+score: -276
+location: 4, 6
+score: -276
+location: 5, 3
+score: -276
+location: 5, 4
+score: -276
+location: 5, 5
+score: -276
+location: 0, 7
+score: 33
+location: 2, 3
+score: 33
+location: 3, 0
+score: 33
+location: 3, 6
+score: 33
+location: 4, 0
+score: 33
+location: 4, 2
+score: 33
+location: 4, 6
+score: 33
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 4
+score: 33
+location: 5, 5
+score: 33
+location: 2, 3
+score: 31
+location: 3, 6
+score: 31
+location: 4, 0
+score: 31
+location: 4, 2
+score: 31
+location: 4, 6
+score: 31
+location: 5, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 4
+score: 31
+location: 5, 5
+score: 31
+location: 2, 1
+score: 23
+location: 2, 7
+score: 23
+location: 3, 6
+score: 23
+location: 4, 0
+score: 23
+location: 4, 1
+score: 23
+location: 4, 2
+score: 23
+location: 4, 6
+score: 23
+location: 5, 2
+score: 23
+location: 5, 3
+score: 23
+location: 5, 4
+score: 23
+location: 5, 5
+score: 23
+location: 5, 6
+score: 23
+location: 0, 3
+score: 24
+location: 2, 7
+score: 24
+location: 3, 6
+score: 24
+location: 4, 0
+score: 24
+location: 4, 1
+score: 24
+location: 4, 2
+score: 24
+location: 4, 6
+score: 24
+location: 5, 2
+score: 24
+location: 5, 3
+score: 24
+location: 5, 4
+score: 24
+location: 5, 5
+score: 24
+PASS
+location: 2, 7
+score: 40
+location: 3, 6
+score: 16
+location: 4, 0
+score: 40
+location: 4, 1
+score: 16
+location: 4, 2
+score: 24
+location: 4, 6
+score: 16
+location: 5, 2
+score: 24
+location: 5, 3
+score: 24
+location: 5, 4
+score: 24
+location: 5, 5
+score: 24
+location: 5, 6
+score: 16
+PASS
+location: 4, 0
+score: 37
+location: 4, 1
+score: 13
+location: 4, 2
+score: 21
+location: 4, 6
+score: 13
+location: 4, 7
+score: 37
+location: 5, 2
+score: 21
+location: 5, 3
+score: 21
+location: 5, 4
+score: 21
+location: 5, 5
+score: 21
+location: 5, 6
+score: 13
+location: 4, 1
+score: 13
+location: 4, 6
+score: 13
+location: 4, 7
+score: 37
+location: 5, 1
+score: 13
+location: 5, 2
+score: 21
+location: 5, 3
+score: 21
+location: 5, 4
+score: 21
+location: 5, 5
+score: 21
+location: 5, 6
+score: 13
+PASS
+location: 4, 1
+score: 11
+location: 4, 6
+score: 11
+location: 5, 1
+score: 11
+location: 5, 2
+score: 19
+location: 5, 3
+score: 19
+location: 5, 4
+score: 19
+location: 5, 5
+score: 19
+location: 5, 6
+score: 11
+location: 3, 0
+score: 10
+location: 3, 6
+score: 10
+location: 4, 6
+score: 10
+location: 5, 0
+score: 10
+location: 5, 1
+score: 10
+location: 5, 3
+score: 10
+location: 5, 4
+score: 10
+location: 5, 5
+score: 10
+location: 5, 6
+score: 10
+location: 3, 6
+score: -316
+location: 4, 6
+score: -316
+location: 5, 1
+score: -316
+location: 5, 3
+score: -316
+location: 5, 4
+score: -316
+location: 5, 5
+score: -316
+location: 5, 6
+score: -316
+location: 6, 1
+score: -316
+location: 6, 3
+score: -316
+location: 7, 2
+score: -316
+location: 5, 1
+score: -310
+location: 5, 3
+score: -310
+location: 5, 4
+score: -310
+location: 5, 5
+score: -310
+location: 5, 6
+score: -310
+location: 6, 1
+score: -310
+location: 7, 2
+score: -310
+location: 4, 6
+score: -312
+location: 5, 4
+score: -312
+location: 5, 5
+score: -312
+location: 5, 6
+score: -312
+location: 6, 1
+score: -312
+location: 6, 3
+score: -312
+location: 7, 1
+score: -312
+location: 7, 2
+score: -312
+location: 7, 3
+score: -312
+location: 6, 0
+score: -314
+location: 6, 3
+score: -314
+location: 6, 4
+score: -314
+location: 7, 0
+score: -314
+location: 7, 1
+score: -314
+location: 7, 2
+score: -314
+location: 5, 5
+score: -318
+location: 6, 3
+score: -318
+location: 6, 4
+score: -318
+location: 6, 5
+score: -318
+location: 7, 0
+score: -318
+location: 7, 1
+score: -318
+location: 7, 2
+score: -318
+location: 7, 3
+score: -318
+location: 7, 1
+score: -316
+location: 7, 2
+score: -316
+location: 7, 3
+score: -316
+location: 6, 3
+score: 14
+location: 7, 3
+score: 14
+location: 7, 4
+score: 14
+location: 6, 5
+score: -313
+location: 6, 6
+score: -313
+location: 6, 7
+score: -313
+location: 7, 3
+score: -313
+location: 7, 4
+score: -313
+location: 5, 7
+score: -283
+location: 6, 6
+score: -283
+location: 7, 2
+score: -311
+location: 7, 3
+score: -311
+location: 7, 4
+score: -311
+location: 7, 5
+score: -311
+location: 7, 6
+score: -311
+location: 7, 7
+score: -311
+location: 7, 4
+score: 24
+location: 7, 5
+score: 24
+location: 7, 6
+score: -316
+location: 7, 7
+score: 324
+PASS
+location: 7, 4
+score: 14
+location: 7, 5
+score: 14
+location: 7, 6
+score: -326
+location: 7, 5
+score: 32
+done
+WHITE_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 2
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 6, 4
+score: 35
+location: 1, 1
+score: -280
+location: 1, 2
+score: -280
+location: 1, 5
+score: -280
+location: 5, 3
+score: -280
+location: 5, 5
+score: -280
+location: 6, 5
+score: -280
+location: 3, 7
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 6, 5
+score: 35
+location: 1, 4
+score: -286
+location: 1, 5
+score: -286
+location: 1, 6
+score: -286
+location: 5, 2
+score: -286
+location: 5, 3
+score: -286
+location: 5, 5
+score: -286
+location: 6, 4
+score: -286
+location: 6, 5
+score: -286
+location: 0, 6
+score: -281
+location: 1, 5
+score: -281
+location: 5, 3
+score: -281
+location: 5, 5
+score: -281
+location: 6, 5
+score: -281
+location: 2, 4
+score: 42
+location: 3, 0
+score: 42
+location: 4, 0
+score: 42
+location: 4, 2
+score: 42
+location: 5, 2
+score: 42
+location: 5, 3
+score: 42
+location: 5, 5
+score: 42
+location: 1, 5
+score: 31
+location: 2, 7
+score: 31
+location: 3, 0
+score: 31
+location: 4, 0
+score: 31
+location: 4, 2
+score: 31
+location: 4, 5
+score: 31
+location: 4, 6
+score: 31
+location: 5, 2
+score: 31
+location: 5, 5
+score: 31
+location: 6, 4
+score: 31
+location: 1, 3
+score: 29
+location: 3, 0
+score: 29
+location: 4, 2
+score: 29
+location: 4, 5
+score: 29
+location: 4, 6
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 5
+score: 29
+location: 6, 4
+score: 29
+location: 0, 3
+score: 42
+location: 2, 3
+score: 42
+location: 3, 0
+score: 42
+location: 4, 2
+score: 42
+location: 4, 5
+score: 42
+location: 5, 2
+score: 42
+location: 5, 3
+score: 42
+location: 5, 5
+score: 42
+location: 2, 3
+score: 36
+location: 3, 0
+score: 36
+location: 4, 2
+score: 36
+location: 5, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 5
+score: 36
+location: 6, 4
+score: 36
+location: 0, 7
+score: 35
+location: 3, 0
+score: 35
+location: 4, 0
+score: 35
+location: 4, 1
+score: 35
+location: 4, 2
+score: 35
+location: 4, 5
+score: 35
+location: 4, 6
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 6, 4
+score: 35
+location: 1, 0
+score: -289
+location: 2, 1
+score: -289
+location: 3, 0
+score: -289
+location: 4, 0
+score: -289
+location: 4, 1
+score: -289
+location: 4, 2
+score: -289
+location: 4, 5
+score: -289
+location: 4, 6
+score: -289
+location: 5, 2
+score: -289
+location: 5, 3
+score: -289
+location: 6, 4
+score: -289
+location: 2, 1
+score: 29
+location: 3, 0
+score: 29
+location: 4, 0
+score: 29
+location: 4, 1
+score: 29
+location: 4, 2
+score: 29
+location: 4, 6
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 5
+score: 29
+location: 6, 4
+score: 29
+location: 3, 0
+score: 14
+location: 4, 0
+score: 14
+location: 4, 1
+score: 14
+location: 4, 2
+score: 14
+location: 4, 5
+score: 14
+location: 4, 7
+score: 14
+location: 5, 2
+score: 14
+location: 5, 3
+score: 14
+location: 5, 5
+score: 14
+location: 5, 6
+score: 14
+location: 5, 7
+score: 14
+location: 6, 4
+score: 14
+location: 6, 5
+score: 14
+location: 4, 5
+score: 18
+location: 5, 2
+score: 18
+location: 5, 3
+score: 18
+location: 5, 5
+score: 18
+location: 5, 6
+score: 18
+location: 6, 4
+score: 18
+location: 6, 5
+score: 18
+location: 4, 1
+score: 17
+location: 4, 7
+score: 17
+location: 5, 1
+score: 17
+location: 5, 2
+score: 17
+location: 5, 3
+score: 17
+location: 5, 5
+score: 17
+location: 5, 6
+score: 17
+location: 5, 7
+score: 17
+location: 6, 3
+score: 17
+location: 6, 4
+score: 17
+location: 6, 5
+score: 17
+location: 4, 7
+score: 18
+location: 5, 5
+score: 18
+location: 5, 6
+score: 18
+location: 5, 7
+score: 18
+location: 6, 3
+score: 18
+location: 6, 4
+score: 18
+location: 6, 5
+score: 18
+location: 5, 3
+score: 24
+location: 5, 6
+score: 24
+location: 6, 3
+score: 24
+location: 6, 4
+score: 24
+location: 6, 5
+score: 24
+location: 5, 2
+score: -299
+location: 5, 6
+score: -299
+location: 6, 2
+score: -299
+location: 6, 4
+score: -299
+location: 6, 5
+score: -299
+location: 6, 6
+score: -299
+location: 7, 2
+score: -299
+location: 7, 3
+score: -299
+location: 5, 6
+score: -300
+location: 6, 2
+score: -300
+location: 6, 4
+score: -300
+location: 6, 5
+score: -300
+location: 6, 6
+score: -300
+location: 6, 7
+score: -300
+location: 7, 2
+score: -300
+location: 7, 3
+score: -300
+location: 7, 4
+score: -300
+location: 4, 0
+score: -304
+location: 5, 0
+score: -304
+location: 6, 0
+score: -304
+location: 6, 1
+score: -304
+location: 6, 2
+score: -304
+location: 6, 4
+score: -304
+location: 6, 5
+score: -304
+location: 6, 6
+score: -304
+location: 6, 7
+score: -304
+location: 7, 2
+score: -304
+location: 7, 3
+score: -304
+location: 7, 4
+score: -304
+location: 6, 0
+score: -296
+location: 6, 1
+score: -296
+location: 6, 2
+score: 20
+location: 6, 4
+score: 20
+location: 6, 5
+score: 20
+location: 6, 6
+score: -296
+location: 6, 7
+score: -296
+location: 7, 2
+score: 44
+location: 7, 3
+score: 44
+location: 6, 0
+score: -293
+location: 6, 1
+score: -293
+location: 6, 2
+score: -293
+location: 6, 4
+score: -293
+location: 6, 6
+score: -293
+location: 6, 7
+score: -293
+location: 7, 4
+score: -293
+location: 7, 5
+score: -293
+location: 6, 1
+score: -290
+location: 6, 2
+score: -290
+location: 6, 4
+score: -290
+location: 6, 6
+score: -290
+location: 6, 7
+score: -290
+location: 7, 4
+score: -290
+location: 7, 5
+score: -290
+location: 6, 4
+score: -292
+location: 6, 6
+score: -292
+location: 6, 7
+score: -292
+location: 7, 1
+score: -292
+location: 7, 4
+score: -292
+location: 7, 5
+score: -292
+location: 7, 6
+score: -292
+location: 6, 6
+score: -295
+location: 6, 7
+score: -295
+location: 7, 4
+score: -295
+location: 7, 6
+score: -295
+location: 6, 7
+score: -286
+location: 7, 4
+score: -286
+location: 7, 7
+score: -286
+location: 7, 4
+score: 61
 done
 BLACK_V
 #-#-#
 Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 1
+score: -283
+location: 2, 4
+score: -283
+location: 3, 1
+score: -283
+location: 3, 5
+score: -283
+location: 4, 2
+score: -283
+location: 5, 3
+score: -283
+location: 0, 0
+score: 32
+location: 0, 2
+score: 32
+location: 2, 4
+score: 32
+location: 3, 1
+score: 32
+location: 3, 5
+score: 32
+location: 4, 2
+score: 32
+location: 5, 3
+score: 32
+location: 0, 2
+score: 34
+location: 1, 3
+score: 34
+location: 2, 0
+score: 34
+location: 2, 4
+score: 34
+location: 4, 2
+score: 34
+location: 2, 0
+score: -283
+location: 2, 4
+score: -283
+location: 4, 2
+score: -283
+location: 4, 5
+score: -283
+location: 6, 6
+score: -283
+location: 1, 3
+score: -283
+location: 2, 4
+score: -283
+location: 4, 2
+score: -283
+location: 6, 6
+score: -283
+location: 2, 4
+score: -285
+location: 3, 0
+score: -285
+location: 3, 1
+score: -285
+location: 4, 2
+score: -285
+location: 4, 5
+score: -285
+location: 5, 3
+score: -285
+location: 5, 4
+score: -285
+location: 6, 6
+score: -285
+location: 3, 0
+score: -288
+location: 4, 0
+score: -288
+location: 4, 1
+score: -288
+location: 4, 2
+score: -288
+location: 4, 5
+score: -288
+location: 5, 3
+score: -288
+location: 5, 4
+score: -288
+location: 6, 6
+score: -288
+location: 0, 3
+score: -290
+location: 0, 4
+score: -290
+location: 1, 5
+score: -290
+location: 2, 5
+score: -290
+location: 3, 5
+score: -290
+location: 4, 0
+score: -290
+location: 4, 1
+score: -290
+location: 4, 2
+score: -290
+location: 5, 4
+score: -290
+location: 6, 6
+score: -290
+location: 0, 5
+score: 49
+location: 1, 5
+score: 25
+location: 2, 5
+score: 33
+location: 3, 5
+score: 33
+location: 4, 0
+score: 49
+location: 4, 1
+score: 25
+location: 4, 2
+score: 33
+location: 4, 5
+score: 33
+location: 5, 4
+score: 33
+location: 6, 6
+score: -291
 PASS
-PASS
-PASS
-PASS
+location: 1, 5
+score: 16
+location: 2, 5
+score: 24
+location: 3, 5
+score: 24
+location: 4, 0
+score: 40
+location: 4, 1
+score: 16
+location: 4, 2
+score: 24
+location: 4, 5
+score: 24
+location: 5, 3
+score: 24
+location: 5, 4
+score: 24
+location: 6, 6
+score: -300
+location: 1, 5
+score: 17
+location: 2, 5
+score: 25
+location: 3, 5
+score: 25
+location: 4, 2
+score: 25
+location: 4, 5
+score: 25
+location: 5, 0
+score: 41
+location: 5, 1
+score: 17
+location: 5, 2
+score: 25
+location: 5, 3
+score: 25
+location: 5, 4
+score: 25
+location: 6, 6
+score: -299
+location: 2, 5
+score: -303
+location: 3, 5
+score: -303
+location: 4, 2
+score: -303
+location: 4, 5
+score: -303
+location: 5, 2
+score: -303
+location: 5, 3
+score: -303
+location: 5, 4
+score: -303
+location: 6, 1
+score: -303
+location: 6, 2
+score: -303
+location: 6, 6
+score: -303
+location: 2, 6
+score: -304
+location: 2, 7
+score: -304
+location: 3, 5
+score: -304
+location: 3, 6
+score: -304
+location: 4, 2
+score: -304
+location: 4, 5
+score: -304
+location: 5, 2
+score: -304
+location: 5, 3
+score: -304
+location: 5, 4
+score: -304
+location: 6, 1
+score: -304
+location: 6, 2
+score: -304
+location: 6, 6
+score: -304
+location: 0, 7
+score: -304
+location: 2, 7
+score: -304
+location: 3, 5
+score: -304
+location: 4, 2
+score: -304
+location: 4, 5
+score: -304
+location: 4, 7
+score: -304
+location: 5, 2
+score: -304
+location: 5, 3
+score: -304
+location: 5, 4
+score: -304
+location: 6, 1
+score: -304
+location: 6, 2
+score: -304
+location: 6, 6
+score: -304
+location: 2, 7
+score: -303
+location: 3, 5
+score: -303
+location: 3, 7
+score: -303
+location: 4, 2
+score: -303
+location: 4, 5
+score: -303
+location: 4, 6
+score: -303
+location: 4, 7
+score: -303
+location: 5, 2
+score: -303
+location: 5, 3
+score: -303
+location: 5, 4
+score: -303
+location: 6, 1
+score: -303
+location: 6, 2
+score: -303
+location: 6, 6
+score: -303
+location: 3, 5
+score: -301
+location: 4, 2
+score: -301
+location: 4, 5
+score: -301
+location: 4, 6
+score: -301
+location: 4, 7
+score: -301
+location: 5, 2
+score: -301
+location: 5, 3
+score: -301
+location: 5, 4
+score: -301
+location: 6, 1
+score: -301
+location: 6, 2
+score: -301
+location: 6, 6
+score: -301
+location: 1, 7
+score: -309
+location: 4, 2
+score: -309
+location: 4, 5
+score: -309
+location: 4, 7
+score: -309
+location: 5, 2
+score: -309
+location: 5, 3
+score: -309
+location: 5, 4
+score: -309
+location: 6, 1
+score: -309
+location: 6, 2
+score: -309
+location: 6, 6
+score: -309
+location: 4, 5
+score: -316
+location: 4, 6
+score: -316
+location: 4, 7
+score: -316
+location: 5, 2
+score: -316
+location: 5, 3
+score: -316
+location: 5, 4
+score: -316
+location: 6, 1
+score: -316
+location: 6, 2
+score: -316
+location: 6, 6
+score: -316
+location: 4, 7
+score: -323
+location: 5, 2
+score: -323
+location: 5, 4
+score: -323
+location: 6, 1
+score: -323
+location: 6, 2
+score: -323
+location: 6, 3
+score: -323
+location: 6, 4
+score: -323
+location: 6, 5
+score: -323
+location: 6, 6
+score: -323
+location: 5, 2
+score: -320
+location: 6, 1
+score: -320
+location: 6, 2
+score: -320
+location: 6, 3
+score: -320
+location: 6, 4
+score: -320
+location: 6, 5
+score: -320
+location: 6, 6
+score: -320
+location: 5, 6
+score: -330
+location: 6, 0
+score: -330
+location: 6, 2
+score: -330
+location: 6, 3
+score: -330
+location: 6, 4
+score: -330
+location: 6, 5
+score: -330
+location: 6, 6
+score: -330
+location: 7, 0
+score: -330
+location: 7, 1
+score: -330
+location: 7, 2
+score: -330
+location: 4, 6
+score: -320
+location: 6, 0
+score: -320
+location: 6, 2
+score: -320
+location: 6, 3
+score: -320
+location: 6, 4
+score: -320
+location: 6, 6
+score: -320
+location: 7, 0
+score: -320
+location: 7, 1
+score: -320
+location: 7, 2
+score: -320
+location: 7, 4
+score: -320
+location: 7, 5
+score: -320
+location: 7, 6
+score: -320
+location: 6, 0
+score: -335
+location: 6, 2
+score: -335
+location: 6, 3
+score: -335
+location: 6, 4
+score: -335
+location: 6, 6
+score: -335
+location: 6, 7
+score: -335
+location: 7, 0
+score: -335
+location: 7, 1
+score: -335
+location: 7, 2
+score: -335
+location: 7, 4
+score: -335
+location: 7, 5
+score: -335
+location: 7, 6
+score: -335
+location: 6, 2
+score: -17
+location: 6, 4
+score: -17
+location: 6, 6
+score: -333
+location: 6, 7
+score: -333
+location: 7, 0
+score: 307
+location: 7, 1
+score: -333
+location: 7, 2
+score: 7
+location: 7, 3
+score: 7
+location: 7, 4
+score: 7
+location: 7, 5
+score: 7
+location: 7, 6
+score: -333
+location: 6, 4
+score: -334
+location: 6, 6
+score: -334
+location: 6, 7
+score: -334
+location: 7, 1
+score: -334
+location: 7, 2
+score: -334
+location: 7, 3
+score: -334
+location: 7, 4
+score: -334
+location: 7, 5
+score: -334
+location: 7, 6
+score: -334
+location: 6, 7
+score: -340
+location: 7, 4
+score: -340
+location: 7, 5
+score: -340
+location: 7, 6
+score: -340
+location: 7, 7
+score: -340
+location: 7, 4
+score: -314
+location: 7, 6
+score: -314
+location: 7, 1
+score: -334
+location: 7, 3
+score: -334
+location: 7, 6
+score: -334
+location: 7, 3
+score: -331
+location: 7, 6
+score: -331
 done
 WHITE_V
 #-#-#
 Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 2
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 1, 2
+score: 39
+location: 1, 4
+score: 39
+location: 5, 3
+score: 39
+location: 5, 4
+score: 39
+location: 5, 5
+score: 39
+location: 1, 4
+score: 36
+location: 2, 4
+score: 36
+location: 3, 7
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 2, 0
+score: 37
+location: 3, 0
+score: 37
+location: 4, 1
+score: 37
+location: 4, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 5, 6
+score: 37
+location: 0, 4
+score: 37
+location: 2, 4
+score: 37
+location: 4, 1
+score: 37
+location: 4, 2
+score: 37
+location: 5, 4
+score: 37
+location: 5, 5
+score: 37
+location: 5, 6
+score: 37
+location: 0, 0
+score: 35
+location: 2, 4
+score: 35
+location: 3, 0
+score: 35
+location: 4, 1
+score: 35
+location: 4, 2
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 0, 2
+score: -274
+location: 1, 1
+score: -274
+location: 2, 4
+score: -274
+location: 4, 1
+score: -274
+location: 4, 2
+score: -274
+location: 5, 4
+score: -274
+location: 5, 5
+score: -274
+location: 2, 4
+score: 33
+location: 3, 0
+score: 33
+location: 4, 0
+score: 33
+location: 4, 1
+score: 33
+location: 4, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 4
+score: 33
+location: 5, 6
+score: 33
+location: 1, 1
+score: -278
+location: 4, 0
+score: -278
+location: 4, 1
+score: -278
+location: 4, 2
+score: -278
+location: 4, 6
+score: -278
+location: 5, 3
+score: -278
+location: 5, 4
+score: -278
+location: 5, 5
+score: -278
+location: 0, 6
+score: -289
+location: 1, 5
+score: -289
+location: 4, 0
+score: -289
+location: 4, 1
+score: -289
+location: 4, 2
+score: -289
+location: 4, 6
+score: -289
+location: 5, 3
+score: -289
+location: 5, 4
+score: -289
+location: 5, 5
+score: -289
+location: 5, 6
+score: -289
+location: 1, 6
+score: -301
+location: 2, 5
+score: 23
+location: 2, 6
+score: 15
+location: 4, 0
+score: 39
+location: 4, 1
+score: 15
+location: 4, 2
+score: 23
+location: 4, 6
+score: 15
+location: 5, 3
+score: 23
+location: 5, 4
+score: 23
+location: 5, 5
+score: 23
+location: 5, 6
+score: 15
+location: 1, 6
+score: -300
+location: 2, 5
+score: -300
+location: 2, 6
+score: -300
+location: 4, 1
+score: -300
+location: 4, 2
+score: -300
+location: 4, 6
+score: -300
+location: 5, 3
+score: -300
+location: 5, 4
+score: -300
+location: 5, 5
+score: -300
+location: 5, 6
+score: -300
+location: 2, 5
+score: 22
+location: 4, 1
+score: 14
+location: 4, 2
+score: 22
+location: 4, 6
+score: 14
+location: 5, 3
+score: 22
+location: 5, 4
+score: 22
+location: 5, 5
+score: 22
+location: 5, 6
+score: 14
+location: 6, 0
+score: -302
+location: 1, 7
+score: -308
+location: 2, 6
+score: 8
+location: 2, 7
+score: 32
+location: 4, 1
+score: 8
+location: 4, 2
+score: 16
+location: 4, 6
+score: 8
+location: 4, 7
+score: 32
+location: 5, 3
+score: 16
+location: 5, 4
+score: 16
+location: 5, 5
+score: 16
+location: 5, 6
+score: 8
+location: 6, 0
+score: -308
 PASS
-PASS
-PASS
-PASS
+location: 2, 6
+score: 6
+location: 4, 1
+score: 6
+location: 4, 2
+score: 14
+location: 4, 6
+score: 6
+location: 4, 7
+score: 30
+location: 5, 2
+score: 14
+location: 5, 3
+score: 14
+location: 5, 4
+score: 14
+location: 5, 5
+score: 14
+location: 5, 6
+score: 6
+location: 6, 0
+score: -310
+location: 4, 1
+score: -308
+location: 4, 2
+score: -308
+location: 4, 6
+score: -308
+location: 5, 2
+score: -308
+location: 5, 3
+score: -308
+location: 5, 4
+score: -308
+location: 5, 5
+score: -308
+location: 5, 6
+score: -308
+location: 6, 0
+score: -308
+location: 4, 6
+score: -312
+location: 5, 1
+score: -312
+location: 5, 2
+score: -312
+location: 5, 3
+score: -312
+location: 5, 4
+score: -312
+location: 5, 5
+score: -312
+location: 5, 6
+score: -312
+location: 6, 0
+score: -312
+location: 5, 1
+score: -312
+location: 5, 2
+score: -312
+location: 5, 3
+score: -312
+location: 5, 4
+score: -312
+location: 5, 5
+score: -312
+location: 5, 7
+score: -312
+location: 6, 0
+score: -312
+location: 6, 5
+score: -312
+location: 6, 7
+score: -312
+location: 5, 2
+score: -319
+location: 5, 3
+score: -319
+location: 5, 4
+score: -319
+location: 5, 5
+score: -319
+location: 5, 7
+score: -319
+location: 6, 0
+score: -319
+location: 6, 5
+score: -319
+location: 6, 6
+score: -319
+location: 6, 7
+score: -319
+location: 5, 3
+score: -321
+location: 5, 4
+score: -321
+location: 5, 5
+score: -321
+location: 5, 7
+score: -321
+location: 6, 0
+score: -321
+location: 6, 1
+score: -321
+location: 6, 2
+score: -321
+location: 6, 5
+score: -321
+location: 6, 6
+score: -321
+location: 6, 7
+score: -321
+location: 1, 7
+score: -320
+location: 5, 4
+score: -320
+location: 5, 5
+score: -320
+location: 6, 0
+score: -320
+location: 6, 6
+score: -320
+location: 6, 7
+score: -320
+location: 7, 3
+score: -320
+location: 7, 4
+score: -320
+location: 5, 4
+score: -319
+location: 5, 5
+score: -319
+location: 6, 0
+score: -319
+location: 6, 2
+score: -319
+location: 6, 6
+score: -319
+location: 6, 7
+score: -319
+location: 7, 1
+score: -319
+location: 7, 3
+score: -319
+location: 6, 0
+score: -324
+location: 6, 2
+score: -8
+location: 6, 4
+score: -8
+location: 6, 5
+score: -8
+location: 6, 6
+score: -324
+location: 6, 7
+score: -324
+location: 7, 0
+score: 316
+location: 7, 1
+score: -324
+location: 7, 2
+score: 16
+location: 7, 3
+score: 16
+location: 6, 0
+score: -325
+location: 6, 2
+score: -9
+location: 6, 4
+score: -9
+location: 6, 5
+score: -9
+location: 6, 6
+score: -325
+location: 6, 7
+score: -325
+location: 7, 2
+score: 15
+location: 7, 3
+score: 15
+location: 7, 4
+score: 15
+location: 6, 0
+score: -326
+location: 6, 2
+score: -326
+location: 6, 4
+score: -326
+location: 6, 5
+score: -326
+location: 6, 6
+score: -326
+location: 6, 7
+score: -326
+location: 7, 3
+score: -326
+location: 6, 2
+score: -14
+location: 6, 5
+score: -14
+location: 6, 6
+score: -330
+location: 6, 7
+score: -330
+location: 7, 3
+score: 10
+location: 7, 5
+score: 10
+location: 6, 5
+score: -18
+location: 6, 6
+score: -334
+location: 6, 7
+score: -334
+location: 7, 5
+score: 6
+location: 6, 6
+score: -339
+location: 6, 7
+score: -339
+location: 7, 6
+score: -339
+location: 7, 7
+score: 288
 done
 WHITE_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 6
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 6, 4
+score: 35
+location: 1, 6
+score: -283
+location: 1, 7
+score: -283
+location: 3, 2
+score: -283
+location: 5, 2
+score: -283
+location: 5, 3
+score: -283
+location: 6, 4
+score: -283
+location: 1, 3
+score: 35
+location: 3, 2
+score: 35
+location: 5, 3
+score: 35
+location: 0, 4
+score: 35
+location: 1, 4
+score: 35
+location: 3, 1
+score: 35
+location: 3, 2
+score: 35
+location: 5, 3
+score: 35
+location: 3, 1
+score: 36
+location: 4, 2
+score: 36
+location: 4, 6
+score: 36
+location: 5, 3
+score: 36
+location: 4, 2
+score: 38
+location: 4, 6
+score: 38
+location: 5, 3
+score: 38
+location: 0, 0
+score: 37
+location: 4, 5
+score: 37
+location: 4, 6
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 6, 4
+score: 37
+location: 4, 5
+score: 35
+location: 4, 6
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 6, 4
+score: 35
+location: 2, 3
+score: 36
+location: 2, 5
+score: 36
+location: 2, 7
+score: 36
+location: 4, 6
+score: 36
+location: 5, 5
+score: 36
+location: 6, 2
+score: 36
+location: 6, 3
+score: 36
+location: 6, 4
+score: 36
+location: 0, 2
+score: 38
+location: 1, 2
+score: 38
+location: 2, 5
+score: 38
+location: 2, 7
+score: 38
+location: 4, 6
+score: 38
+location: 5, 2
+score: 38
+location: 5, 5
+score: 38
+location: 6, 2
+score: 38
+location: 6, 3
+score: 38
+location: 6, 4
+score: 38
+location: 1, 2
+score: -284
+location: 2, 5
+score: -284
+location: 2, 7
+score: -284
+location: 4, 1
+score: -284
+location: 4, 6
+score: -284
+location: 5, 1
+score: -284
+location: 5, 5
+score: -284
+location: 6, 1
+score: -284
+location: 6, 2
+score: -284
+location: 6, 3
+score: -284
+location: 6, 4
+score: -284
+location: 2, 5
+score: -288
+location: 2, 7
+score: -288
+location: 3, 0
+score: -288
+location: 4, 1
+score: -288
+location: 4, 6
+score: -288
+location: 5, 1
+score: -288
+location: 5, 5
+score: -288
+location: 6, 1
+score: -288
+location: 6, 2
+score: -288
+location: 6, 3
+score: -288
+location: 6, 4
+score: -288
+location: 1, 0
+score: -292
+location: 2, 0
+score: -292
+location: 2, 7
+score: -292
+location: 3, 0
+score: -292
+location: 4, 1
+score: -292
+location: 4, 6
+score: -292
+location: 4, 7
+score: -292
+location: 5, 1
+score: -292
+location: 5, 5
+score: -292
+location: 6, 1
+score: -292
+location: 6, 2
+score: -292
+location: 6, 3
+score: -292
+location: 6, 4
+score: -292
+location: 2, 0
+score: -298
+location: 2, 7
+score: -298
+location: 4, 0
+score: -298
+location: 4, 1
+score: -298
+location: 4, 6
+score: -298
+location: 4, 7
+score: -298
+location: 5, 1
+score: -298
+location: 5, 5
+score: -298
+location: 6, 1
+score: -298
+location: 6, 2
+score: -298
+location: 6, 3
+score: -298
+location: 6, 4
+score: -298
+location: 6, 5
+score: -298
+location: 2, 7
+score: -304
+location: 4, 0
+score: -304
+location: 4, 1
+score: -304
+location: 4, 6
+score: -304
+location: 4, 7
+score: -304
+location: 5, 1
+score: -304
+location: 5, 5
+score: -304
+location: 6, 1
+score: -304
+location: 6, 2
+score: -304
+location: 6, 3
+score: -304
+location: 6, 4
+score: -304
+location: 6, 5
+score: -304
+location: 0, 5
+score: -286
+location: 0, 6
+score: -286
+location: 4, 0
+score: -286
+location: 4, 1
+score: -286
+location: 4, 6
+score: -286
+location: 4, 7
+score: -286
+location: 5, 1
+score: -286
+location: 5, 5
+score: -286
+location: 6, 2
+score: -286
+location: 6, 3
+score: -286
+location: 6, 4
+score: -286
+location: 6, 5
+score: -286
+location: 4, 0
+score: -305
+location: 4, 1
+score: -305
+location: 4, 6
+score: -305
+location: 5, 1
+score: -305
+location: 5, 5
+score: -305
+location: 5, 7
+score: -305
+location: 6, 1
+score: -305
+location: 6, 2
+score: -305
+location: 6, 3
+score: -305
+location: 6, 4
+score: -305
+location: 6, 5
+score: -305
+location: 4, 1
+score: -310
+location: 5, 1
+score: -310
+location: 5, 5
+score: -310
+location: 5, 6
+score: -310
+location: 5, 7
+score: -310
+location: 6, 1
+score: -310
+location: 6, 2
+score: -310
+location: 6, 3
+score: -310
+location: 6, 4
+score: -310
+location: 6, 5
+score: -310
+location: 5, 5
+score: 19
+location: 5, 6
+score: 19
+location: 5, 7
+score: 19
+location: 6, 2
+score: 19
+location: 6, 3
+score: 19
+location: 6, 4
+score: 19
+location: 6, 5
+score: 19
+location: 5, 1
+score: -294
+location: 5, 6
+score: -294
+location: 5, 7
+score: -294
+location: 6, 0
+score: -294
+location: 6, 2
+score: -294
+location: 6, 3
+score: -294
+location: 6, 4
+score: -294
+location: 6, 5
+score: -294
+location: 5, 7
+score: 39
+location: 6, 0
+score: -301
+location: 6, 1
+score: -301
+location: 6, 2
+score: 15
+location: 6, 3
+score: 15
+location: 6, 4
+score: 15
+location: 6, 5
+score: 15
+location: 6, 6
+score: -301
+location: 6, 7
+score: -301
+location: 6, 0
+score: -302
+location: 6, 1
+score: -302
+location: 6, 2
+score: 14
+location: 6, 3
+score: 14
+location: 6, 4
+score: 14
+location: 6, 5
+score: 14
+location: 6, 6
+score: -302
+location: 6, 1
+score: -292
+location: 6, 4
+score: -292
+location: 6, 5
+score: -292
+location: 6, 6
+score: -292
+location: 7, 0
+score: -292
+location: 6, 3
+score: -293
+location: 6, 4
+score: -293
+location: 6, 5
+score: -293
+location: 6, 6
+score: -293
+location: 7, 1
+score: -293
+location: 6, 4
+score: -289
+location: 6, 5
+score: -289
+location: 6, 6
+score: -289
+location: 7, 2
+score: -289
+location: 7, 3
+score: -289
+location: 6, 5
+score: -293
+location: 7, 2
+score: -293
+location: 7, 3
+score: -293
+location: 7, 6
+score: -293
+location: 7, 7
+score: -293
+location: 7, 3
+score: -292
+location: 7, 4
+score: -292
+location: 7, 6
+score: -292
+location: 7, 7
+score: -292
+location: 7, 6
+score: -302
+location: 7, 7
+score: -302
+done
+BLACK_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 3
+score: 33
+location: 2, 4
+score: 33
+location: 3, 5
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 0, 2
+score: -271
+location: 1, 1
+score: -271
+location: 2, 4
+score: -271
+location: 3, 5
+score: -271
+location: 5, 3
+score: -271
+location: 5, 5
+score: -271
+location: 1, 1
+score: -285
+location: 3, 0
+score: -285
+location: 3, 1
+score: -285
+location: 3, 2
+score: -285
+location: 3, 5
+score: -285
+location: 4, 5
+score: -285
+location: 5, 3
+score: -285
+location: 5, 5
+score: -285
+location: 0, 0
+score: -283
+location: 1, 0
+score: -283
+location: 2, 0
+score: -283
+location: 2, 4
+score: -283
+location: 3, 5
+score: -283
+location: 5, 3
+score: -283
+location: 5, 5
+score: -283
+location: 0, 3
+score: 28
+location: 0, 4
+score: 28
+location: 1, 5
+score: 28
+location: 2, 0
+score: 28
+location: 2, 4
+score: 28
+location: 3, 1
+score: 28
+location: 3, 5
+score: 28
+location: 4, 5
+score: 28
+location: 5, 3
+score: 28
+location: 5, 5
+score: 28
+location: 1, 5
+score: 29
+location: 2, 5
+score: 29
+location: 3, 0
+score: 29
+location: 3, 1
+score: 29
+location: 3, 2
+score: 29
+location: 3, 5
+score: 29
+location: 4, 5
+score: 29
+location: 5, 3
+score: 29
+location: 5, 5
+score: 29
+location: 0, 4
+score: -288
+location: 0, 6
+score: -288
+location: 1, 7
+score: -288
+location: 2, 0
+score: -288
+location: 2, 5
+score: -288
+location: 3, 0
+score: -288
+location: 3, 1
+score: -288
+location: 3, 2
+score: -288
+location: 3, 5
+score: -288
+location: 4, 5
+score: -288
+location: 5, 3
+score: -288
+location: 5, 5
+score: -288
+location: 6, 4
+score: -288
+location: 0, 6
+score: -289
+location: 1, 7
+score: -289
+location: 2, 6
+score: -289
+location: 3, 0
+score: -289
+location: 3, 1
+score: -289
+location: 3, 2
+score: -289
+location: 3, 6
+score: -289
+location: 4, 5
+score: -289
+location: 4, 6
+score: -289
+location: 5, 3
+score: -289
+location: 5, 5
+score: -289
+location: 6, 4
+score: -289
+location: 1, 7
+score: -293
+location: 2, 0
+score: -293
+location: 2, 6
+score: -293
+location: 3, 0
+score: -293
+location: 3, 1
+score: -293
+location: 4, 1
+score: -293
+location: 4, 2
+score: -293
+location: 4, 5
+score: -293
+location: 4, 6
+score: -293
+location: 5, 3
+score: -293
+location: 5, 5
+score: -293
+location: 6, 4
+score: -293
+location: 2, 0
+score: 24
+location: 3, 0
+score: 24
+location: 3, 1
+score: 24
+location: 4, 1
+score: 24
+location: 4, 2
+score: 24
+location: 4, 5
+score: 24
+location: 4, 6
+score: 24
+location: 5, 3
+score: 24
+location: 5, 5
+score: 24
+location: 6, 4
+score: 24
+location: 3, 1
+score: 16
+location: 4, 0
+score: 16
+location: 4, 1
+score: 16
+location: 4, 2
+score: 16
+location: 4, 5
+score: 16
+location: 4, 6
+score: 16
+location: 5, 3
+score: 16
+location: 5, 5
+score: 16
+location: 6, 4
+score: 16
+location: 6, 5
+score: 16
+location: 2, 5
+score: 17
+location: 3, 6
+score: 17
+location: 4, 0
+score: 17
+location: 4, 2
+score: 17
+location: 4, 5
+score: 17
+location: 4, 6
+score: 17
+location: 5, 3
+score: 17
+location: 5, 5
+score: 17
+location: 6, 4
+score: 17
+location: 6, 5
+score: 17
+location: 0, 7
+score: 10
+location: 2, 6
+score: 10
+location: 3, 6
+score: 10
+location: 3, 7
+score: 10
+location: 4, 0
+score: 10
+location: 4, 1
+score: 10
+location: 4, 2
+score: 10
+location: 4, 5
+score: 10
+location: 4, 6
+score: 10
+location: 5, 2
+score: 10
+location: 5, 3
+score: 10
+location: 5, 5
+score: 10
+location: 6, 4
+score: 10
+location: 6, 5
+score: 10
+location: 3, 6
+score: 10
+location: 3, 7
+score: 10
+location: 4, 0
+score: 10
+location: 4, 1
+score: 10
+location: 4, 2
+score: 10
+location: 4, 5
+score: 10
+location: 4, 6
+score: 10
+location: 5, 2
+score: 10
+location: 5, 3
+score: 10
+location: 5, 5
+score: 10
+location: 6, 4
+score: 10
+location: 6, 5
+score: 10
+location: 3, 7
+score: 5
+location: 4, 0
+score: 5
+location: 4, 2
+score: 5
+location: 5, 0
+score: 5
+location: 5, 1
+score: 5
+location: 5, 2
+score: 5
+location: 5, 3
+score: 5
+location: 5, 5
+score: 5
+location: 6, 4
+score: 5
+location: 6, 5
+score: 5
+location: 4, 2
+score: 6
+location: 5, 0
+score: 6
+location: 5, 1
+score: 6
+location: 5, 2
+score: 6
+location: 5, 3
+score: 6
+location: 5, 5
+score: 6
+location: 6, 4
+score: 6
+location: 6, 5
+score: 6
+location: 5, 0
+score: -318
+location: 5, 2
+score: -318
+location: 5, 3
+score: -318
+location: 5, 5
+score: -318
+location: 6, 0
+score: -318
+location: 6, 1
+score: -318
+location: 6, 4
+score: -318
+location: 6, 5
+score: -318
+location: 4, 6
+score: -321
+location: 5, 2
+score: -321
+location: 5, 3
+score: -321
+location: 5, 5
+score: -321
+location: 5, 6
+score: -321
+location: 6, 0
+score: -321
+location: 6, 1
+score: -321
+location: 6, 2
+score: -321
+location: 6, 3
+score: -321
+location: 6, 4
+score: -321
+location: 6, 5
+score: -321
+location: 5, 3
+score: -329
+location: 6, 0
+score: -329
+location: 6, 1
+score: -329
+location: 6, 2
+score: -329
+location: 6, 3
+score: -329
+location: 6, 4
+score: -329
+location: 6, 5
+score: -329
+location: 5, 5
+score: -336
+location: 6, 2
+score: -336
+location: 6, 3
+score: -336
+location: 6, 4
+score: -336
+location: 6, 5
+score: -336
+location: 7, 0
+score: -336
+location: 7, 1
+score: -336
+location: 7, 2
+score: -336
+location: 5, 6
+score: -329
+location: 5, 7
+score: -329
+location: 6, 2
+score: -329
+location: 6, 3
+score: -329
+location: 7, 0
+score: -329
+location: 7, 1
+score: -329
+location: 7, 2
+score: -329
+location: 6, 2
+score: -339
+location: 6, 3
+score: -339
+location: 6, 4
+score: -339
+location: 6, 5
+score: -339
+location: 6, 6
+score: -339
+location: 6, 7
+score: -339
+location: 7, 0
+score: -339
+location: 7, 1
+score: -339
+location: 7, 2
+score: -339
+location: 6, 3
+score: -334
+location: 6, 4
+score: -334
+location: 6, 5
+score: -334
+location: 6, 6
+score: -334
+location: 6, 7
+score: -334
+location: 7, 0
+score: -334
+location: 7, 1
+score: -334
+location: 7, 2
+score: -334
+location: 6, 4
+score: -333
+location: 6, 5
+score: -333
+location: 6, 6
+score: -333
+location: 6, 7
+score: -333
+location: 7, 0
+score: -333
+location: 7, 1
+score: -333
+location: 7, 2
+score: -333
+location: 7, 4
+score: -333
+location: 6, 5
+score: -336
+location: 6, 7
+score: -336
+location: 7, 0
+score: -336
+location: 7, 1
+score: -336
+location: 7, 2
+score: -336
+location: 7, 4
+score: -336
+location: 7, 6
+score: -336
+location: 7, 7
+score: -336
+location: 6, 7
+score: -336
+location: 7, 0
+score: -336
+location: 7, 1
+score: -336
+location: 7, 2
+score: -336
+location: 7, 4
+score: -336
+location: 7, 5
+score: -336
+location: 7, 7
+score: -336
+location: 7, 0
+score: -340
+location: 7, 1
+score: -340
+location: 7, 2
+score: -340
+location: 7, 4
+score: -340
+location: 7, 5
+score: -340
+location: 7, 1
+score: -334
+location: 7, 2
+score: -334
+location: 7, 4
+score: -334
+location: 7, 2
+score: -3
+done
+WHITE_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 1
+score: -283
+location: 1, 3
+score: -283
+location: 2, 4
+score: -283
+location: 3, 5
+score: -283
+location: 4, 2
+score: -283
+location: 5, 3
+score: -283
+location: 1, 3
+score: 31
+location: 2, 0
+score: 31
+location: 2, 4
+score: 31
+location: 3, 1
+score: 31
+location: 3, 5
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 0, 0
+score: 33
+location: 2, 0
+score: 33
+location: 3, 5
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 5, 6
+score: 33
+location: 0, 2
+score: 31
+location: 2, 0
+score: 31
+location: 3, 1
+score: 31
+location: 4, 1
+score: 31
+location: 4, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 5, 6
+score: 31
+location: 1, 5
+score: 30
+location: 2, 0
+score: 30
+location: 2, 4
+score: 30
+location: 3, 1
+score: 30
+location: 4, 2
+score: 30
+location: 5, 3
+score: 30
+location: 5, 5
+score: 30
+location: 2, 0
+score: 33
+location: 2, 4
+score: 33
+location: 3, 1
+score: 33
+location: 4, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 0, 3
+score: 35
+location: 2, 4
+score: 35
+location: 4, 2
+score: 35
+location: 5, 4
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 2, 4
+score: 34
+location: 2, 5
+score: 34
+location: 3, 0
+score: 34
+location: 3, 1
+score: 34
+location: 4, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 1, 6
+score: -289
+location: 2, 5
+score: -289
+location: 3, 5
+score: -289
+location: 4, 1
+score: -289
+location: 4, 2
+score: -289
+location: 5, 3
+score: -289
+location: 5, 4
+score: -289
+location: 5, 5
+score: -289
+location: 5, 6
+score: -289
+location: 2, 6
+score: 29
+location: 3, 5
+score: 29
+location: 3, 6
+score: 29
+location: 4, 1
+score: 29
+location: 4, 2
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 4
+score: 29
+location: 5, 5
+score: 29
+location: 5, 6
+score: 29
+location: 0, 7
+score: 28
+location: 3, 5
+score: 28
+location: 4, 1
+score: 28
+location: 4, 2
+score: 28
+location: 5, 2
+score: 28
+location: 5, 3
+score: 28
+location: 5, 4
+score: 28
+location: 5, 5
+score: 28
+location: 5, 6
+score: 28
+location: 3, 5
+score: 20
+location: 4, 1
+score: 20
+location: 4, 2
+score: 20
+location: 4, 6
+score: 20
+location: 4, 7
+score: 20
+location: 5, 2
+score: 20
+location: 5, 3
+score: 20
+location: 5, 4
+score: 20
+location: 5, 5
+score: 20
+location: 5, 6
+score: 20
+location: 2, 7
+score: 15
+location: 3, 7
+score: 15
+location: 4, 1
+score: 15
+location: 4, 2
+score: 15
+location: 4, 6
+score: 15
+location: 4, 7
+score: 15
+location: 5, 2
+score: 15
+location: 5, 3
+score: 15
+location: 5, 4
+score: 15
+location: 5, 5
+score: 15
+location: 5, 6
+score: 15
+location: 3, 0
+score: 9
+location: 4, 0
+score: 9
+location: 4, 1
+score: 9
+location: 4, 2
+score: 9
+location: 4, 6
+score: 9
+location: 4, 7
+score: 9
+location: 5, 2
+score: 9
+location: 5, 3
+score: 9
+location: 5, 4
+score: 9
+location: 5, 5
+score: 9
+location: 5, 6
+score: 9
+location: 4, 1
+score: 8
+location: 4, 2
+score: 8
+location: 4, 6
+score: 8
+location: 4, 7
+score: 8
+location: 5, 0
+score: 8
+location: 5, 2
+score: 8
+location: 5, 3
+score: 8
+location: 5, 4
+score: 8
+location: 5, 5
+score: 8
+location: 5, 6
+score: 8
+location: 3, 7
+score: -310
+location: 4, 2
+score: -310
+location: 4, 6
+score: -310
+location: 4, 7
+score: -310
+location: 5, 0
+score: -310
+location: 5, 1
+score: -310
+location: 5, 3
+score: -310
+location: 5, 4
+score: -310
+location: 5, 5
+score: -310
+location: 5, 6
+score: -310
+location: 6, 1
+score: -310
+location: 5, 0
+score: -313
+location: 5, 1
+score: -313
+location: 5, 3
+score: -313
+location: 5, 4
+score: -313
+location: 5, 5
+score: -313
+location: 5, 6
+score: -313
+location: 6, 1
+score: -313
+location: 6, 2
+score: -313
+location: 4, 6
+score: -321
+location: 5, 1
+score: -321
+location: 5, 3
+score: -321
+location: 5, 4
+score: -321
+location: 5, 5
+score: -321
+location: 5, 6
+score: -321
+location: 5, 7
+score: -321
+location: 6, 1
+score: -321
+location: 6, 2
+score: -321
+location: 6, 3
+score: -321
+location: 5, 5
+score: -323
+location: 5, 6
+score: -323
+location: 6, 1
+score: -323
+location: 6, 2
+score: -323
+location: 6, 3
+score: -323
+location: 6, 7
+score: -323
+location: 5, 3
+score: -326
+location: 5, 4
+score: -326
+location: 6, 1
+score: -326
+location: 6, 2
+score: -326
+location: 6, 3
+score: -326
+location: 6, 4
+score: -326
+location: 6, 5
+score: -326
+location: 6, 7
+score: -326
+location: 7, 7
+score: -326
+location: 5, 1
+score: -326
+location: 6, 1
+score: -326
+location: 6, 2
+score: -326
+location: 6, 3
+score: -326
+location: 6, 5
+score: -326
+location: 6, 7
+score: -326
+location: 7, 3
+score: -326
+location: 7, 5
+score: -326
+location: 7, 7
+score: -326
+location: 5, 6
+score: -332
+location: 6, 1
+score: -332
+location: 6, 2
+score: -332
+location: 6, 3
+score: -332
+location: 6, 5
+score: -332
+location: 6, 7
+score: -332
+location: 7, 3
+score: -332
+location: 7, 4
+score: -332
+location: 7, 5
+score: -332
+location: 7, 7
+score: -332
+location: 6, 1
+score: -333
+location: 6, 2
+score: -333
+location: 6, 7
+score: -333
+location: 7, 0
+score: -333
+location: 7, 3
+score: -333
+location: 7, 4
+score: -333
+location: 7, 5
+score: -333
+location: 7, 6
+score: -333
+location: 7, 7
+score: -333
+location: 6, 2
+score: -331
+location: 6, 3
+score: -331
+location: 6, 7
+score: -331
+location: 7, 1
+score: -331
+location: 7, 2
+score: -331
+location: 7, 3
+score: -331
+location: 7, 4
+score: -331
+location: 7, 5
+score: -331
+location: 7, 6
+score: -331
+location: 7, 7
+score: -331
+location: 7, 1
+score: -330
+location: 7, 2
+score: -330
+location: 7, 3
+score: -330
+location: 7, 4
+score: -330
+location: 7, 5
+score: -330
+location: 7, 6
+score: -330
+location: 7, 7
+score: -330
+location: 6, 5
+score: -327
+location: 7, 2
+score: -327
+location: 7, 3
+score: -327
+location: 7, 4
+score: -327
+location: 7, 5
+score: -327
+location: 7, 6
+score: -327
+location: 7, 7
+score: -327
+location: 7, 2
+score: -331
+location: 7, 3
+score: -331
+location: 7, 5
+score: -331
+location: 7, 6
+score: -331
+location: 7, 7
+score: -331
+location: 7, 5
+score: 7
+location: 7, 6
+score: -333
+location: 7, 7
+score: 307
+location: 7, 5
+score: 3
+done
+WHITE_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 1
+score: -283
+location: 2, 4
+score: -283
+location: 3, 1
+score: -283
+location: 3, 5
+score: -283
+location: 4, 2
+score: -283
+location: 5, 3
+score: -283
+location: 0, 2
+score: 31
+location: 1, 3
+score: 31
+location: 3, 1
+score: 31
+location: 3, 5
+score: 31
+location: 4, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 1, 0
+score: -279
+location: 2, 0
+score: -279
+location: 4, 2
+score: -279
+location: 4, 2
+score: 46
+location: 5, 5
+score: 46
+location: 3, 5
+score: 44
+location: 5, 2
+score: 44
+location: 5, 4
+score: 44
+location: 5, 5
+score: 44
+location: 3, 6
+score: -280
+location: 5, 2
+score: -280
+location: 5, 3
+score: -280
+location: 5, 4
+score: -280
+location: 5, 5
+score: -280
+location: 6, 0
+score: -280
+location: 1, 4
+score: -283
+location: 1, 5
+score: -283
+location: 1, 6
+score: -283
+location: 3, 0
+score: -283
+location: 3, 1
+score: -283
+location: 5, 2
+score: -283
+location: 5, 3
+score: -283
+location: 5, 4
+score: -283
+location: 5, 5
+score: -283
+location: 5, 6
+score: -283
+location: 6, 0
+score: -283
+location: 0, 4
+score: -280
+location: 2, 4
+score: -280
+location: 3, 1
+score: -280
+location: 5, 2
+score: -280
+location: 5, 3
+score: -280
+location: 5, 4
+score: -280
+location: 5, 5
+score: -280
+location: 5, 6
+score: -280
+location: 6, 0
+score: -280
+location: 3, 1
+score: -282
+location: 3, 7
+score: -282
+location: 4, 7
+score: -282
+location: 5, 2
+score: -282
+location: 5, 3
+score: -282
+location: 5, 4
+score: -282
+location: 5, 5
+score: -282
+location: 5, 6
+score: -282
+location: 6, 0
+score: -282
+location: 0, 1
+score: -281
+location: 3, 7
+score: -281
+location: 4, 7
+score: -281
+location: 5, 2
+score: -281
+location: 5, 3
+score: -281
+location: 5, 4
+score: -281
+location: 5, 5
+score: -281
+location: 5, 6
+score: -281
+location: 6, 0
+score: -281
+location: 0, 3
+score: -284
+location: 2, 3
+score: -284
+location: 3, 7
+score: -284
+location: 4, 7
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 4
+score: -284
+location: 5, 5
+score: -284
+location: 6, 0
+score: -284
+location: 2, 3
+score: -277
+location: 2, 4
+score: -277
+location: 3, 7
+score: -277
+location: 4, 7
+score: -277
+location: 5, 2
+score: -277
+location: 5, 3
+score: -277
+location: 5, 4
+score: -277
+location: 5, 5
+score: -277
+location: 6, 0
+score: -277
+location: 0, 5
+score: -284
+location: 1, 7
+score: -284
+location: 3, 0
+score: -284
+location: 3, 7
+score: -284
+location: 4, 6
+score: -284
+location: 4, 7
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 4
+score: -284
+location: 5, 6
+score: -284
+location: 1, 7
+score: -280
+location: 3, 0
+score: -280
+location: 3, 7
+score: -280
+location: 4, 6
+score: -280
+location: 4, 7
+score: -280
+location: 5, 2
+score: -280
+location: 5, 3
+score: -280
+location: 5, 4
+score: -280
+location: 5, 6
+score: -280
+location: 3, 0
+score: -279
+location: 3, 7
+score: -279
+location: 4, 0
+score: -279
+location: 4, 6
+score: -279
+location: 5, 2
+score: -279
+location: 5, 3
+score: -279
+location: 5, 5
+score: -279
+location: 5, 6
+score: -279
+location: 6, 0
+score: -279
+location: 3, 7
+score: -281
+location: 4, 6
+score: -281
+location: 5, 2
+score: -281
+location: 5, 3
+score: -281
+location: 5, 4
+score: -281
+location: 5, 5
+score: -281
+location: 5, 6
+score: -281
+location: 6, 0
+score: -281
+location: 6, 1
+score: -281
+location: 4, 6
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 4
+score: -284
+location: 5, 5
+score: -284
+location: 5, 6
+score: -284
+location: 6, 0
+score: -284
+location: 6, 1
+score: -284
+location: 5, 2
+score: -282
+location: 5, 3
+score: -282
+location: 5, 4
+score: -282
+location: 5, 5
+score: -282
+location: 5, 6
+score: -282
+location: 6, 0
+score: -282
+location: 6, 1
+score: -282
+location: 5, 0
+score: -285
+location: 5, 4
+score: -285
+location: 5, 5
+score: -285
+location: 5, 6
+score: -285
+location: 6, 0
+score: -285
+location: 6, 1
+score: -285
+location: 6, 2
+score: -285
+location: 5, 4
+score: -281
+location: 5, 5
+score: -281
+location: 5, 6
+score: -281
+location: 6, 0
+score: -281
+location: 6, 1
+score: -281
+location: 6, 2
+score: -281
+location: 6, 3
+score: -281
+location: 5, 5
+score: 43
+location: 5, 6
+score: 43
+location: 6, 6
+score: -287
+location: 6, 7
+score: -287
+location: 7, 5
+score: -287
+location: 7, 6
+score: -287
+location: 6, 1
+score: -285
+location: 6, 4
+score: -285
+location: 7, 4
+score: -285
+location: 7, 5
+score: -285
+location: 7, 6
+score: -285
+location: 7, 5
+score: -287
+location: 7, 6
+score: -287
+location: 7, 7
+score: -287
+location: 7, 0
+score: -275
+location: 7, 6
+score: -275
+location: 7, 7
+score: -275
+location: 6, 2
+score: -276
+location: 6, 4
+score: -276
+location: 7, 2
+score: -276
+location: 7, 3
+score: -276
+location: 7, 6
+score: -276
+location: 7, 7
+score: -276
+location: 6, 4
+score: -273
+location: 7, 3
+score: -273
+location: 7, 6
+score: -273
+location: 7, 7
+score: -273
+location: 7, 3
+score: 74
+location: 7, 7
+score: 74
+location: 7, 7
+score: 355
+done
+BLACK_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 2, 4
+score: 47
+location: 4, 2
+score: 47
+location: 2, 6
+score: 36
+location: 4, 1
+score: 36
+location: 4, 2
+score: 36
+location: 4, 5
+score: 36
+location: 4, 6
+score: 36
+location: 5, 3
+score: 36
+location: 3, 1
+score: 34
+location: 4, 1
+score: 34
+location: 4, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 1, 2
+score: 33
+location: 1, 3
+score: 33
+location: 2, 1
+score: 33
+location: 4, 2
+score: 33
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 4
+score: 33
+location: 5, 5
+score: 33
+location: 5, 6
+score: 33
+location: 0, 0
+score: -285
+location: 1, 0
+score: -285
+location: 4, 0
+score: -285
+location: 4, 1
+score: -285
+location: 4, 2
+score: -285
+location: 5, 2
+score: -285
+location: 5, 3
+score: -285
+location: 5, 4
+score: -285
+location: 5, 5
+score: -285
+location: 5, 6
+score: -285
+location: 4, 0
+score: 34
+location: 4, 1
+score: 34
+location: 4, 2
+score: 34
+location: 4, 6
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 0, 1
+score: -282
+location: 1, 3
+score: -282
+location: 2, 0
+score: -282
+location: 2, 1
+score: -282
+location: 3, 7
+score: -282
+location: 4, 1
+score: -282
+location: 4, 2
+score: -282
+location: 4, 6
+score: -282
+location: 5, 3
+score: -282
+location: 5, 4
+score: -282
+location: 5, 5
+score: -282
+location: 5, 6
+score: -282
+location: 0, 3
+score: 34
+location: 0, 4
+score: 34
+location: 1, 4
+score: 34
+location: 2, 0
+score: 34
+location: 3, 7
+score: 34
+location: 4, 2
+score: 34
+location: 4, 6
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 0, 4
+score: 35
+location: 2, 0
+score: 35
+location: 2, 1
+score: 35
+location: 3, 7
+score: 35
+location: 4, 2
+score: 35
+location: 4, 6
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 5, 6
+score: 35
+location: 2, 0
+score: 33
+location: 2, 1
+score: 33
+location: 2, 5
+score: 33
+location: 3, 7
+score: 33
+location: 4, 2
+score: 33
+location: 4, 6
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 5, 6
+score: 33
+location: 1, 5
+score: 23
+location: 2, 1
+score: 23
+location: 2, 5
+score: 23
+location: 3, 7
+score: 23
+location: 4, 2
+score: 23
+location: 4, 6
+score: 23
+location: 5, 3
+score: 23
+location: 5, 4
+score: 23
+location: 5, 5
+score: 23
+location: 5, 6
+score: 23
+location: 2, 5
+score: 19
+location: 3, 7
+score: 19
+location: 4, 1
+score: 19
+location: 4, 2
+score: 19
+location: 4, 6
+score: 19
+location: 5, 3
+score: 19
+location: 5, 4
+score: 19
+location: 5, 5
+score: 19
+location: 5, 6
+score: 19
+location: 0, 6
+score: -305
+location: 1, 6
+score: -305
+location: 2, 7
+score: 35
+location: 3, 7
+score: 35
+location: 4, 2
+score: 19
+location: 4, 6
+score: 11
+location: 4, 7
+score: 35
+location: 5, 3
+score: 19
+location: 5, 4
+score: 19
+location: 5, 5
+score: 19
+location: 5, 6
+score: 11
+location: 0, 6
+score: -303
+location: 1, 6
+score: -303
+location: 4, 2
+score: -303
+location: 4, 6
+score: -303
+location: 4, 7
+score: -303
+location: 5, 2
+score: -303
+location: 5, 3
+score: -303
+location: 5, 4
+score: -303
+location: 5, 5
+score: -303
+location: 5, 6
+score: -303
+location: 4, 1
+score: 11
+location: 4, 2
+score: 19
+location: 4, 6
+score: 11
+location: 4, 7
+score: 35
+location: 5, 3
+score: 19
+location: 5, 4
+score: 19
+location: 5, 5
+score: 19
+location: 5, 6
+score: 11
+location: 0, 7
+score: 7
+location: 4, 1
+score: 7
+location: 4, 2
+score: 7
+location: 4, 6
+score: 7
+location: 5, 2
+score: 7
+location: 5, 3
+score: 7
+location: 5, 4
+score: 7
+location: 5, 5
+score: 7
+location: 5, 6
+score: 7
+location: 4, 1
+score: 4
+location: 4, 2
+score: 12
+location: 5, 2
+score: 12
+location: 5, 3
+score: 12
+location: 5, 4
+score: 12
+location: 5, 5
+score: 12
+location: 5, 6
+score: 4
+location: 6, 7
+score: -312
+location: 5, 0
+score: 25
+location: 5, 1
+score: 1
+location: 5, 2
+score: 9
+location: 5, 3
+score: 9
+location: 5, 4
+score: 9
+location: 5, 5
+score: 9
+location: 5, 6
+score: 1
+location: 6, 7
+score: -315
+PASS
+location: 5, 1
+score: -5
+location: 5, 2
+score: 3
+location: 5, 3
+score: 3
+location: 5, 4
+score: 3
+location: 5, 5
+score: 3
+location: 5, 6
+score: -5
+location: 6, 7
+score: -321
+location: 5, 3
+score: -321
+location: 5, 4
+score: -321
+location: 5, 5
+score: -321
+location: 5, 6
+score: -321
+location: 6, 0
+score: -321
+location: 6, 1
+score: -321
+location: 6, 2
+score: -321
+location: 6, 7
+score: -321
+location: 5, 5
+score: 0
+location: 5, 6
+score: -8
+location: 6, 0
+score: -324
+location: 6, 1
+score: -324
+location: 6, 2
+score: -8
+location: 6, 3
+score: -8
+location: 6, 4
+score: -8
+location: 6, 5
+score: -8
+location: 6, 7
+score: -324
+location: 5, 6
+score: -324
+location: 6, 6
+score: -324
+location: 6, 7
+score: -324
+location: 7, 5
+score: -324
+location: 7, 6
+score: -324
+location: 6, 3
+score: -327
+location: 6, 6
+score: -327
+location: 6, 7
+score: -327
+location: 7, 4
+score: -327
+location: 7, 5
+score: -327
+location: 7, 6
+score: -327
+location: 6, 6
+score: -330
+location: 6, 7
+score: -330
+location: 7, 1
+score: -330
+location: 7, 2
+score: -330
+location: 7, 3
+score: -330
+location: 7, 4
+score: -330
+location: 7, 5
+score: -330
+location: 7, 6
+score: -330
+location: 6, 1
+score: -329
+location: 6, 7
+score: -329
+location: 7, 0
+score: -329
+location: 7, 1
+score: -329
+location: 7, 2
+score: -329
+location: 7, 3
+score: -329
+location: 7, 4
+score: -329
+location: 7, 5
+score: -329
+location: 7, 6
+score: -329
+location: 6, 7
+score: -314
+location: 7, 0
+score: -314
+location: 7, 2
+score: -314
+location: 7, 3
+score: -314
+location: 7, 0
+score: -3
+location: 7, 2
+score: -3
+location: 7, 3
+score: -3
+location: 7, 5
+score: -3
+location: 7, 7
+score: -3
+location: 7, 2
+score: 2
+location: 7, 3
+score: 2
+location: 7, 4
+score: 2
+location: 7, 7
+score: 2
+location: 7, 4
+score: -2
+location: 7, 7
+score: 298
+PASS
+location: 7, 4
+score: -7
+done
+WHITE_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 3
+score: 33
+location: 2, 4
+score: 33
+location: 3, 5
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 0, 2
+score: -271
+location: 1, 1
+score: -271
+location: 2, 4
+score: -271
+location: 3, 5
+score: -271
+location: 5, 3
+score: -271
+location: 5, 5
+score: -271
+location: 1, 1
+score: -285
+location: 3, 0
+score: -285
+location: 3, 1
+score: -285
+location: 3, 2
+score: -285
+location: 3, 5
+score: -285
+location: 5, 3
+score: -285
+location: 5, 5
+score: -285
+location: 5, 6
+score: -285
+location: 0, 4
+score: 34
+location: 1, 4
+score: 34
+location: 2, 0
+score: 34
+location: 2, 4
+score: 34
+location: 3, 1
+score: 34
+location: 3, 5
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 1, 0
+score: -282
+location: 2, 0
+score: -282
+location: 3, 0
+score: -282
+location: 3, 1
+score: -282
+location: 3, 2
+score: -282
+location: 5, 3
+score: -282
+location: 2, 0
+score: 36
+location: 3, 0
+score: 36
+location: 3, 1
+score: 36
+location: 3, 2
+score: 36
+location: 5, 3
+score: 36
+location: 2, 4
+score: 39
+location: 3, 1
+score: 39
+location: 3, 2
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 2, 5
+score: 36
+location: 3, 5
+score: 36
+location: 5, 3
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 1, 6
+score: -275
+location: 5, 2
+score: -275
+location: 5, 3
+score: -275
+location: 5, 5
+score: -275
+location: 5, 6
+score: -275
+location: 3, 1
+score: 38
+location: 3, 5
+score: 38
+location: 4, 2
+score: 38
+location: 5, 2
+score: 38
+location: 5, 3
+score: 38
+location: 5, 4
+score: 38
+location: 5, 5
+score: 38
+location: 5, 6
+score: 38
+location: 3, 5
+score: 36
+location: 4, 0
+score: 36
+location: 4, 1
+score: 36
+location: 5, 1
+score: 36
+location: 5, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 3, 2
+score: 42
+location: 3, 6
+score: 42
+location: 4, 0
+score: 42
+location: 4, 1
+score: 42
+location: 4, 6
+score: 42
+location: 5, 2
+score: 42
+location: 5, 3
+score: 42
+location: 5, 4
+score: 42
+location: 5, 5
+score: 42
+location: 2, 7
+score: 34
+location: 3, 6
+score: 34
+location: 4, 0
+score: 34
+location: 4, 1
+score: 34
+location: 4, 6
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 0, 6
+score: -284
+location: 0, 7
+score: -284
+location: 3, 7
+score: -284
+location: 4, 0
+score: -284
+location: 4, 1
+score: -284
+location: 4, 6
+score: -284
+location: 5, 1
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 4
+score: -284
+location: 5, 5
+score: -284
+location: 5, 6
+score: -284
+location: 4, 0
+score: 33
+location: 4, 1
+score: 33
+location: 4, 6
+score: 33
+location: 5, 1
+score: 33
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 4
+score: 33
+location: 5, 5
+score: 33
+location: 5, 6
+score: 33
+location: 4, 6
+score: 36
+location: 5, 1
+score: 36
+location: 5, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 4, 7
+score: 40
+location: 5, 6
+score: 40
+location: 0, 7
+score: -285
+location: 5, 2
+score: -285
+location: 6, 0
+score: -285
+location: 6, 1
+score: -285
+location: 6, 2
+score: -285
+location: 6, 7
+score: -285
+location: 5, 2
+score: -290
+location: 6, 0
+score: -290
+location: 6, 1
+score: -290
+location: 6, 7
+score: -290
+location: 5, 3
+score: -290
+location: 5, 5
+score: -290
+location: 6, 0
+score: -290
+location: 6, 1
+score: -290
+location: 6, 3
+score: -290
+location: 6, 7
+score: -290
+location: 5, 5
+score: -297
+location: 6, 0
+score: -297
+location: 6, 1
+score: -297
+location: 6, 3
+score: -297
+location: 6, 4
+score: -297
+location: 6, 5
+score: -297
+location: 6, 6
+score: -297
+location: 6, 7
+score: -297
+location: 6, 0
+score: -302
+location: 6, 2
+score: -302
+location: 6, 5
+score: -302
+location: 6, 6
+score: -302
+location: 6, 7
+score: -302
+location: 7, 0
+score: -302
+location: 7, 1
+score: -302
+location: 6, 2
+score: -298
+location: 6, 3
+score: -298
+location: 6, 4
+score: -298
+location: 6, 6
+score: -298
+location: 6, 7
+score: -298
+location: 7, 0
+score: -298
+location: 7, 1
+score: -298
+location: 7, 4
+score: -298
+location: 7, 5
+score: -298
+location: 6, 3
+score: -294
+location: 6, 4
+score: -294
+location: 6, 6
+score: -294
+location: 6, 7
+score: -294
+location: 7, 1
+score: -294
+location: 7, 4
+score: -294
+location: 7, 5
+score: -294
+location: 6, 4
+score: -296
+location: 6, 6
+score: -296
+location: 6, 7
+score: -296
+location: 7, 1
+score: -296
+location: 7, 2
+score: -296
+location: 7, 4
+score: -296
+location: 7, 5
+score: -296
+location: 7, 6
+score: -296
+location: 6, 6
+score: -293
+location: 6, 7
+score: -293
+location: 7, 1
+score: -293
+location: 7, 2
+score: -293
+location: 7, 5
+score: -293
+location: 6, 7
+score: -295
+location: 7, 1
+score: -295
+location: 7, 2
+score: -295
+location: 7, 6
+score: -295
+location: 7, 7
+score: -295
+PASS
+location: 7, 1
+score: -299
+location: 7, 2
+score: 41
+location: 7, 6
+score: -299
+location: 7, 7
+score: 341
+PASS
+location: 7, 1
+score: -300
+location: 7, 2
+score: 40
+location: 7, 6
+score: -304
+done
+BLACK_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 2
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 6, 4
+score: 35
+location: 1, 1
+score: -280
+location: 1, 2
+score: -280
+location: 1, 5
+score: -280
+location: 5, 3
+score: -280
+location: 5, 5
+score: -280
+location: 6, 5
+score: -280
+location: 1, 5
+score: 37
+location: 3, 0
+score: 37
+location: 4, 0
+score: 37
+location: 4, 2
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 3, 0
+score: 47
+location: 5, 2
+score: 47
+location: 5, 3
+score: 47
+location: 1, 2
+score: 35
+location: 1, 3
+score: 35
+location: 1, 4
+score: 35
+location: 5, 2
+score: 35
+location: 5, 3
+score: 35
+location: 6, 4
+score: 35
+location: 6, 5
+score: 35
+location: 0, 1
+score: -284
+location: 0, 2
+score: -284
+location: 0, 4
+score: -284
+location: 1, 4
+score: -284
+location: 2, 4
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 6, 4
+score: -284
+location: 6, 5
+score: -284
+location: 0, 3
+score: -284
+location: 1, 0
+score: -284
+location: 1, 4
+score: -284
+location: 2, 1
+score: -284
+location: 5, 0
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 6, 4
+score: -284
+location: 6, 5
+score: -284
+location: 1, 0
+score: -284
+location: 2, 0
+score: -284
+location: 4, 1
+score: -284
+location: 4, 2
+score: -284
+location: 5, 0
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 6, 4
+score: -284
+location: 2, 0
+score: 33
+location: 4, 1
+score: 33
+location: 5, 0
+score: 33
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 6, 4
+score: 33
+location: 6, 5
+score: 33
+location: 2, 7
+score: 23
+location: 3, 6
+score: 23
+location: 3, 7
+score: 23
+location: 4, 1
+score: 23
+location: 4, 2
+score: 23
+location: 4, 5
+score: 23
+location: 5, 0
+score: 23
+location: 5, 2
+score: 23
+location: 5, 3
+score: 23
+location: 5, 5
+score: 23
+location: 6, 4
+score: 23
+location: 6, 5
+score: 23
+location: 1, 4
+score: 29
+location: 3, 6
+score: 29
+location: 4, 1
+score: 29
+location: 4, 2
+score: 29
+location: 4, 5
+score: 29
+location: 5, 0
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 5
+score: 29
+location: 6, 4
+score: 29
+location: 6, 5
+score: 29
+location: 3, 6
+score: 31
+location: 4, 1
+score: 31
+location: 4, 2
+score: 31
+location: 4, 5
+score: 31
+location: 5, 0
+score: 31
+location: 5, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 6, 5
+score: 31
+location: 0, 5
+score: -286
+location: 1, 6
+score: -286
+location: 3, 7
+score: -286
+location: 4, 5
+score: -286
+location: 4, 6
+score: -286
+location: 5, 0
+score: -286
+location: 5, 2
+score: -286
+location: 5, 3
+score: -286
+location: 5, 5
+score: -286
+location: 6, 4
+score: -286
+location: 6, 5
+score: -286
+location: 0, 6
+score: -294
+location: 1, 6
+score: -294
+location: 1, 7
+score: -294
+location: 4, 5
+score: -294
+location: 5, 0
+score: -294
+location: 5, 2
+score: -294
+location: 5, 3
+score: -294
+location: 5, 5
+score: -294
+location: 5, 7
+score: -294
+location: 6, 4
+score: -294
+location: 6, 5
+score: -294
+location: 1, 6
+score: -284
+location: 1, 7
+score: -284
+location: 4, 2
+score: -284
+location: 4, 5
+score: -284
+location: 5, 0
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 5, 7
+score: -284
+location: 6, 4
+score: -284
+location: 6, 5
+score: -284
+location: 1, 7
+score: -276
+location: 4, 2
+score: -276
+location: 4, 5
+score: -276
+location: 5, 0
+score: -276
+location: 5, 2
+score: -276
+location: 5, 3
+score: -276
+location: 5, 5
+score: -276
+location: 5, 7
+score: -276
+location: 6, 4
+score: -276
+location: 6, 5
+score: -276
+location: 4, 2
+score: 20
+location: 4, 6
+score: 20
+location: 5, 0
+score: 20
+location: 5, 2
+score: 20
+location: 5, 3
+score: 20
+location: 5, 5
+score: 20
+location: 5, 6
+score: 20
+location: 5, 7
+score: 20
+location: 6, 3
+score: 20
+location: 6, 4
+score: 20
+location: 6, 5
+score: 20
+location: 4, 6
+score: 17
+location: 5, 0
+score: 41
+location: 5, 1
+score: 17
+location: 5, 3
+score: 25
+location: 5, 5
+score: 25
+location: 5, 6
+score: 17
+location: 5, 7
+score: 41
+location: 6, 1
+score: -299
+location: 6, 2
+score: 17
+location: 6, 3
+score: 17
+location: 6, 4
+score: 17
+location: 6, 5
+score: 17
+location: 4, 6
+score: -293
+location: 5, 1
+score: -293
+location: 5, 3
+score: -293
+location: 5, 5
+score: -293
+location: 5, 6
+score: -293
+location: 5, 7
+score: -293
+location: 6, 1
+score: -293
+location: 6, 2
+score: -293
+location: 6, 3
+score: -293
+location: 6, 4
+score: -293
+location: 6, 5
+score: -293
+location: 5, 6
+score: -294
+location: 6, 1
+score: -294
+location: 6, 2
+score: -294
+location: 6, 3
+score: -294
+location: 6, 4
+score: -294
+location: 6, 5
+score: -294
+location: 6, 7
+score: -294
+location: 5, 1
+score: -284
+location: 6, 1
+score: -284
+location: 6, 2
+score: -284
+location: 6, 3
+score: -284
+location: 6, 4
+score: -284
+location: 6, 5
+score: -284
+location: 6, 7
+score: -284
+location: 5, 5
+score: -291
+location: 6, 1
+score: -291
+location: 6, 2
+score: -291
+location: 6, 3
+score: -291
+location: 6, 4
+score: -291
+location: 6, 5
+score: -291
+location: 6, 6
+score: -291
+location: 7, 7
+score: -291
+location: 6, 3
+score: -292
+location: 6, 4
+score: -292
+location: 6, 6
+score: -292
+location: 7, 6
+score: -292
+location: 7, 7
+score: -292
+location: 6, 1
+score: -288
+location: 6, 4
+score: -288
+location: 6, 6
+score: -288
+location: 7, 1
+score: -288
+location: 7, 2
+score: -288
+location: 7, 5
+score: -288
+location: 7, 6
+score: -288
+location: 7, 7
+score: -288
+location: 6, 4
+score: -296
+location: 6, 6
+score: -296
+location: 7, 0
+score: -296
+location: 7, 1
+score: -296
+location: 7, 3
+score: -296
+location: 7, 5
+score: -296
+location: 7, 6
+score: -296
+location: 7, 7
+score: -296
+location: 6, 6
+score: -297
+location: 7, 0
+score: -297
+location: 7, 1
+score: -297
+location: 7, 3
+score: -297
+location: 7, 4
+score: -297
+location: 7, 6
+score: -297
+location: 7, 7
+score: -297
+location: 7, 0
+score: -285
+location: 7, 1
+score: -285
+location: 7, 3
+score: -285
+location: 7, 7
+score: -285
+location: 7, 3
+score: 69
+location: 7, 7
+score: 69
+location: 7, 7
+score: 353
+done
+BLACK_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 1, 3
+score: 38
+location: 1, 5
+score: 38
+location: 5, 3
+score: 38
+location: 5, 5
+score: 38
+location: 3, 1
+score: 35
+location: 3, 2
+score: 35
+location: 4, 2
+score: 35
+location: 5, 3
+score: 35
+location: 6, 4
+score: 35
+location: 4, 2
+score: 35
+location: 4, 6
+score: 35
+location: 5, 5
+score: 35
+location: 6, 4
+score: 35
+location: 1, 5
+score: 36
+location: 3, 7
+score: 36
+location: 4, 5
+score: 36
+location: 4, 6
+score: 36
+location: 5, 3
+score: 36
+location: 5, 5
+score: 36
+location: 3, 7
+score: 35
+location: 4, 6
+score: 35
+location: 5, 1
+score: 35
+location: 5, 3
+score: 35
+location: 5, 5
+score: 35
+location: 6, 4
+score: 35
+location: 1, 2
+score: 32
+location: 3, 2
+score: 32
+location: 5, 1
+score: 32
+location: 5, 2
+score: 32
+location: 5, 3
+score: 32
+location: 5, 5
+score: 32
+location: 6, 4
+score: 32
+location: 1, 0
+score: -284
+location: 2, 1
+score: -284
+location: 3, 2
+score: -284
+location: 5, 1
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 6, 4
+score: -284
+location: 2, 1
+score: 33
+location: 3, 2
+score: 33
+location: 5, 1
+score: 33
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 6, 4
+score: 33
+location: 0, 1
+score: -265
+location: 0, 5
+score: -265
+location: 2, 5
+score: -265
+location: 3, 2
+score: -265
+location: 4, 5
+score: -265
+location: 5, 1
+score: -265
+location: 5, 3
+score: -265
+location: 5, 5
+score: -265
+location: 0, 2
+score: 34
+location: 0, 3
+score: 34
+location: 0, 5
+score: 34
+location: 2, 5
+score: 34
+location: 3, 2
+score: 34
+location: 4, 5
+score: 34
+location: 5, 1
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 3, 2
+score: 39
+location: 4, 5
+score: 39
+location: 5, 1
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 6, 4
+score: 39
+location: 0, 5
+score: 31
+location: 2, 6
+score: 31
+location: 3, 0
+score: 31
+location: 4, 5
+score: 31
+location: 5, 0
+score: 31
+location: 5, 1
+score: 31
+location: 5, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 6, 5
+score: 31
+location: 1, 6
+score: -290
+location: 2, 6
+score: -290
+location: 3, 0
+score: -290
+location: 4, 5
+score: -290
+location: 5, 0
+score: -290
+location: 5, 1
+score: -290
+location: 5, 2
+score: -290
+location: 5, 3
+score: -290
+location: 5, 5
+score: -290
+location: 6, 4
+score: -290
+location: 6, 5
+score: -290
+location: 2, 0
+score: 31
+location: 2, 6
+score: 31
+location: 4, 5
+score: 31
+location: 5, 0
+score: 31
+location: 5, 1
+score: 31
+location: 5, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 6, 4
+score: 31
+location: 6, 5
+score: 31
+location: 1, 7
+score: -292
+location: 2, 6
+score: -292
+location: 4, 5
+score: -292
+location: 5, 0
+score: -292
+location: 5, 1
+score: -292
+location: 5, 2
+score: -292
+location: 5, 3
+score: -292
+location: 5, 5
+score: -292
+location: 6, 4
+score: -292
+location: 6, 5
+score: -292
+location: 2, 6
+score: 23
+location: 4, 5
+score: 23
+location: 5, 0
+score: 23
+location: 5, 1
+score: 23
+location: 5, 2
+score: 23
+location: 5, 3
+score: 23
+location: 5, 5
+score: 23
+location: 5, 6
+score: 23
+location: 6, 4
+score: 23
+location: 6, 5
+score: 23
+location: 4, 5
+score: 18
+location: 5, 0
+score: 18
+location: 5, 1
+score: 18
+location: 5, 2
+score: 18
+location: 5, 3
+score: 18
+location: 5, 5
+score: 18
+location: 5, 6
+score: 18
+location: 5, 7
+score: 18
+location: 6, 4
+score: 18
+location: 6, 5
+score: 18
+location: 5, 0
+score: 19
+location: 5, 1
+score: 19
+location: 5, 2
+score: 19
+location: 5, 3
+score: 19
+location: 5, 5
+score: 19
+location: 5, 6
+score: 19
+location: 5, 7
+score: 19
+location: 6, 3
+score: 19
+location: 6, 4
+score: 19
+location: 6, 5
+score: 19
+location: 5, 1
+score: 26
+location: 5, 2
+score: 26
+location: 5, 3
+score: 26
+location: 5, 5
+score: 26
+location: 5, 6
+score: 26
+location: 5, 7
+score: 26
+location: 6, 3
+score: 26
+location: 6, 4
+score: 26
+location: 6, 5
+score: 26
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 5, 6
+score: -284
+location: 5, 7
+score: -284
+location: 6, 1
+score: -284
+location: 6, 3
+score: -284
+location: 6, 4
+score: -284
+location: 6, 5
+score: -284
+location: 5, 5
+score: -280
+location: 5, 7
+score: -280
+location: 6, 1
+score: -280
+location: 6, 3
+score: -280
+location: 6, 4
+score: -280
+location: 6, 5
+score: -280
+location: 5, 7
+score: -278
+location: 6, 1
+score: -278
+location: 6, 3
+score: -278
+location: 6, 4
+score: -278
+location: 6, 5
+score: -278
+location: 7, 7
+score: -278
+location: 6, 1
+score: -277
+location: 6, 3
+score: -277
+location: 6, 4
+score: -277
+location: 6, 5
+score: -277
+location: 7, 1
+score: -277
+location: 7, 5
+score: -277
+location: 7, 7
+score: -277
+location: 6, 3
+score: -280
+location: 6, 4
+score: -280
+location: 6, 5
+score: -280
+location: 7, 1
+score: -280
+location: 7, 3
+score: -280
+location: 7, 5
+score: -280
+location: 7, 7
+score: -280
+location: 6, 5
+score: -282
+location: 7, 1
+score: -282
+location: 7, 2
+score: -282
+location: 7, 3
+score: -282
+location: 7, 4
+score: -282
+location: 7, 5
+score: -282
+location: 7, 7
+score: -282
+location: 7, 1
+score: -290
+location: 7, 2
+score: -290
+location: 7, 3
+score: -290
+location: 7, 4
+score: -290
+location: 7, 5
+score: -290
+location: 7, 7
+score: -290
+location: 7, 2
+score: 53
+location: 7, 4
+score: 53
+location: 7, 5
+score: 53
+location: 7, 7
+score: 53
+location: 7, 5
+score: 47
+location: 7, 6
+score: -293
+location: 7, 7
+score: 347
+location: 7, 6
+score: -292
+done
+BLACK_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 3, 1
+score: 33
+location: 3, 5
+score: 33
+location: 4, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 1, 1
+score: -271
+location: 2, 0
+score: -271
+location: 3, 5
+score: -271
+location: 4, 2
+score: -271
+location: 5, 3
+score: -271
+location: 5, 5
+score: -271
+location: 3, 5
+score: 34
+location: 4, 0
+score: 34
+location: 4, 1
+score: 34
+location: 4, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 6, 5
+score: 34
+location: 3, 6
+score: 34
+location: 4, 0
+score: 34
+location: 4, 1
+score: 34
+location: 4, 2
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 6, 4
+score: 34
+location: 6, 5
+score: 34
+location: 0, 1
+score: -279
+location: 1, 6
+score: -279
+location: 1, 7
+score: -279
+location: 2, 3
+score: -279
+location: 4, 1
+score: -279
+location: 5, 2
+score: -279
+location: 5, 3
+score: -279
+location: 6, 4
+score: -279
+location: 6, 5
+score: -279
+location: 1, 3
+score: -279
+location: 1, 6
+score: -279
+location: 1, 7
+score: -279
+location: 2, 3
+score: -279
+location: 4, 1
+score: -279
+location: 5, 3
+score: -279
+location: 5, 5
+score: -279
+location: 6, 5
+score: -279
+location: 1, 6
+score: -278
+location: 1, 7
+score: -278
+location: 2, 3
+score: -278
+location: 4, 0
+score: -278
+location: 4, 1
+score: -278
+location: 5, 3
+score: -278
+location: 5, 5
+score: -278
+location: 6, 5
+score: -278
+location: 0, 4
+score: 39
+location: 1, 4
+score: 39
+location: 4, 0
+score: 39
+location: 4, 1
+score: 39
+location: 5, 3
+score: 39
+location: 5, 5
+score: 39
+location: 4, 0
+score: 42
+location: 4, 1
+score: 42
+location: 4, 2
+score: 42
+location: 5, 3
+score: 42
+location: 5, 5
+score: 42
+location: 2, 0
+score: 49
+location: 4, 2
+score: 49
+location: 5, 3
+score: 49
+location: 5, 5
+score: 49
+location: 2, 3
+score: -275
+location: 4, 2
+score: -275
+location: 5, 3
+score: -275
+location: 6, 0
+score: -275
+location: 0, 3
+score: -284
+location: 1, 4
+score: -284
+location: 2, 5
+score: -284
+location: 4, 1
+score: -284
+location: 4, 2
+score: -284
+location: 4, 5
+score: -284
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 6, 0
+score: -284
+location: 6, 5
+score: -284
+location: 1, 4
+score: -282
+location: 2, 5
+score: -282
+location: 4, 1
+score: -282
+location: 4, 2
+score: -282
+location: 4, 5
+score: -282
+location: 5, 3
+score: -282
+location: 5, 5
+score: -282
+location: 6, 0
+score: -282
+location: 6, 5
+score: -282
+location: 2, 5
+score: -282
+location: 4, 1
+score: -282
+location: 4, 2
+score: -282
+location: 4, 5
+score: -282
+location: 4, 6
+score: -282
+location: 5, 3
+score: -282
+location: 5, 5
+score: -282
+location: 6, 0
+score: -282
+location: 6, 4
+score: -282
+location: 6, 5
+score: -282
+location: 2, 7
+score: -284
+location: 4, 2
+score: -284
+location: 4, 5
+score: -284
+location: 4, 6
+score: -284
+location: 4, 7
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 6, 0
+score: -284
+location: 6, 4
+score: -284
+location: 1, 7
+score: -283
+location: 4, 2
+score: -283
+location: 4, 5
+score: -283
+location: 4, 6
+score: -283
+location: 4, 7
+score: -283
+location: 5, 3
+score: -283
+location: 5, 5
+score: -283
+location: 6, 0
+score: -283
+location: 6, 4
+score: -283
+PASS
+location: 4, 2
+score: 33
+location: 4, 5
+score: 33
+location: 4, 6
+score: 25
+location: 4, 7
+score: 49
+location: 5, 2
+score: 33
+location: 5, 3
+score: 33
+location: 5, 5
+score: 33
+location: 6, 0
+score: -291
+location: 6, 4
+score: 25
+location: 4, 2
+score: -289
+location: 4, 5
+score: -289
+location: 5, 2
+score: -289
+location: 5, 3
+score: -289
+location: 5, 5
+score: -289
+location: 5, 7
+score: -289
+location: 6, 0
+score: -289
+location: 6, 4
+score: -289
+location: 4, 5
+score: -290
+location: 5, 1
+score: -290
+location: 5, 3
+score: -290
+location: 5, 5
+score: -290
+location: 5, 7
+score: -290
+location: 6, 0
+score: -290
+location: 6, 1
+score: -290
+location: 6, 4
+score: -290
+location: 5, 1
+score: -284
+location: 5, 3
+score: -284
+location: 5, 5
+score: -284
+location: 5, 6
+score: -284
+location: 6, 0
+score: -284
+location: 6, 1
+score: -284
+location: 6, 3
+score: -284
+location: 6, 4
+score: -284
+location: 5, 3
+score: -287
+location: 5, 5
+score: -287
+location: 5, 6
+score: -287
+location: 6, 0
+score: -287
+location: 6, 1
+score: -287
+location: 6, 3
+score: -287
+location: 6, 4
+score: -287
+location: 7, 2
+score: -287
+location: 5, 6
+score: -281
+location: 6, 0
+score: -281
+location: 6, 1
+score: -281
+location: 6, 4
+score: -281
+location: 7, 2
+score: -281
+location: 7, 4
+score: -281
+location: 6, 0
+score: -278
+location: 6, 1
+score: -278
+location: 6, 4
+score: -278
+location: 6, 7
+score: -278
+location: 7, 2
+score: -278
+location: 7, 4
+score: -278
+location: 6, 1
+score: -287
+location: 6, 4
+score: -287
+location: 6, 5
+score: -287
+location: 6, 7
+score: -287
+location: 7, 2
+score: -287
+location: 7, 3
+score: -287
+location: 7, 4
+score: -287
+location: 6, 4
+score: -286
+location: 6, 5
+score: -286
+location: 6, 7
+score: -286
+location: 7, 0
+score: -286
+location: 7, 2
+score: -286
+location: 7, 3
+score: -286
+location: 7, 4
+score: -286
+location: 6, 7
+score: -289
+location: 7, 5
+score: -289
+location: 7, 7
+score: -289
+location: 7, 5
+score: 64
+location: 7, 7
+score: 64
+location: 7, 3
+score: 74
+done
+BLACK_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 1
+score: -283
+location: 2, 4
+score: -283
+location: 3, 1
+score: -283
+location: 3, 5
+score: -283
+location: 4, 2
+score: -283
+location: 5, 3
+score: -283
+location: 0, 2
+score: 31
+location: 1, 3
+score: 31
+location: 3, 1
+score: 31
+location: 3, 5
+score: 31
+location: 4, 2
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 1, 0
+score: -279
+location: 2, 0
+score: -279
+location: 4, 2
+score: -279
+location: 4, 2
+score: 46
+location: 5, 5
+score: 46
+location: 2, 4
+score: 38
+location: 4, 0
+score: 38
+location: 4, 6
+score: 38
+location: 5, 5
+score: 38
+location: 3, 0
+score: 41
+location: 3, 5
+score: 41
+location: 4, 6
+score: 41
+location: 5, 3
+score: 41
+location: 5, 4
+score: 41
+location: 5, 5
+score: 41
+location: 3, 5
+score: 40
+location: 5, 1
+score: 40
+location: 5, 2
+score: 40
+location: 5, 4
+score: 40
+location: 5, 5
+score: 40
+location: 6, 3
+score: 40
+location: 1, 4
+score: 43
+location: 2, 1
+score: 43
+location: 5, 1
+score: 43
+location: 5, 2
+score: 43
+location: 5, 4
+score: 43
+location: 5, 5
+score: 43
+location: 6, 2
+score: 43
+location: 0, 1
+score: -281
+location: 0, 3
+score: -281
+location: 2, 1
+score: -281
+location: 3, 7
+score: -281
+location: 4, 6
+score: -281
+location: 5, 1
+score: -281
+location: 5, 2
+score: -281
+location: 5, 4
+score: -281
+location: 5, 6
+score: -281
+location: 6, 3
+score: -281
+location: 0, 3
+score: 35
+location: 3, 7
+score: 35
+location: 4, 1
+score: 35
+location: 4, 6
+score: 35
+location: 5, 1
+score: 35
+location: 5, 2
+score: 35
+location: 5, 4
+score: 35
+location: 5, 6
+score: 35
+location: 6, 3
+score: 35
+location: 0, 4
+score: 31
+location: 1, 5
+score: 31
+location: 2, 5
+score: 31
+location: 3, 7
+score: 31
+location: 4, 0
+score: 31
+location: 4, 1
+score: 31
+location: 4, 6
+score: 31
+location: 5, 1
+score: 31
+location: 5, 2
+score: 31
+location: 5, 4
+score: 31
+location: 5, 6
+score: 31
+location: 6, 3
+score: 31
+location: 0, 6
+score: -284
+location: 4, 1
+score: -284
+location: 4, 6
+score: -284
+location: 5, 1
+score: -284
+location: 5, 2
+score: -284
+location: 5, 4
+score: -284
+location: 5, 6
+score: -284
+location: 6, 3
+score: -284
+location: 4, 1
+score: 43
+location: 4, 6
+score: 43
+location: 5, 1
+score: 43
+location: 5, 2
+score: 43
+location: 5, 4
+score: 43
+location: 5, 6
+score: 43
+location: 6, 3
+score: 43
+location: 1, 5
+score: 43
+location: 3, 7
+score: 43
+location: 4, 6
+score: 43
+location: 5, 2
+score: 43
+location: 5, 4
+score: 43
+location: 5, 6
+score: 43
+location: 6, 3
+score: 43
+location: 1, 6
+score: -276
+location: 3, 7
+score: -276
+location: 4, 6
+score: -276
+location: 4, 7
+score: -276
+location: 5, 2
+score: -276
+location: 5, 4
+score: -276
+location: 5, 6
+score: -276
+location: 6, 3
+score: -276
+location: 3, 7
+score: 38
+location: 4, 6
+score: 38
+location: 4, 7
+score: 38
+location: 5, 1
+score: 38
+location: 5, 2
+score: 38
+location: 5, 4
+score: 38
+location: 5, 5
+score: 38
+location: 5, 6
+score: 38
+location: 6, 3
+score: 38
+done
+BLACK_V
+#-#-#
+Starting game
+location: 3, 5
+score: 43
+location: 5, 3
+score: 43
+location: 5, 5
+score: 43
+location: 3, 6
+score: 37
+location: 5, 3
+score: 37
+location: 5, 5
+score: 37
+location: 1, 5
+score: -284
+location: 1, 6
+score: -284
+location: 3, 7
+score: -284
+location: 5, 2
+score: -284
+location: 5, 3
+score: -284
+location: 5, 4
+score: -284
+location: 5, 5
+score: -284
+location: 5, 6
+score: -284
+location: 2, 7
+score: 36
+location: 3, 7
+score: 36
+location: 5, 2
+score: 36
+location: 5, 3
+score: 36
+location: 5, 4
+score: 36
+location: 5, 5
+score: 36
+location: 5, 6
+score: 36
+location: 0, 5
+score: -278
+location: 1, 7
+score: -278
+location: 2, 4
+score: -278
+location: 3, 7
+score: -278
+location: 5, 3
+score: -278
+location: 5, 4
+score: -278
+location: 5, 5
+score: -278
+location: 0, 7
+score: -278
+location: 1, 7
+score: -278
+location: 2, 4
+score: -278
+location: 3, 7
+score: -278
+location: 5, 3
+score: -278
+location: 5, 4
+score: -278
+location: 5, 5
+score: -278
+location: 0, 3
+score: 34
+location: 2, 4
+score: 34
+location: 3, 7
+score: 34
+location: 4, 6
+score: 34
+location: 5, 2
+score: 34
+location: 5, 3
+score: 34
+location: 5, 4
+score: 34
+location: 5, 5
+score: 34
+location: 2, 4
+score: 41
+location: 3, 7
+score: 57
+location: 4, 6
+score: 33
+location: 5, 2
+score: 41
+location: 5, 4
+score: 41
+location: 5, 5
+score: 41
+location: 2, 3
+score: 29
+location: 2, 4
+score: 29
+location: 3, 1
+score: 29
+location: 4, 6
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 4
+score: 29
+location: 5, 5
+score: 29
+location: 5, 7
+score: 29
+location: 2, 2
+score: 29
+location: 2, 4
+score: 29
+location: 3, 1
+score: 29
+location: 4, 1
+score: 29
+location: 4, 6
+score: 29
+location: 5, 2
+score: 29
+location: 5, 3
+score: 29
+location: 5, 4
+score: 29
+location: 5, 5
+score: 29
+location: 5, 7
+score: 29
+location: 1, 7
+score: -270
+location: 2, 4
+score: -270
+location: 3, 1
+score: -270
+location: 4, 1
+score: -270
+location: 4, 6
+score: -270
+location: 5, 2
+score: -270
+location: 5, 3
+score: -270
+location: 5, 4
+score: -270
+location: 5, 5
+score: -270
+location: 5, 7
+score: -270
+PASS
+location: 2, 4
+score: 28
+location: 3, 1
+score: 20
+location: 4, 1
+score: 20
+location: 4, 6
+score: 20
+location: 5, 2
+score: 28
+location: 5, 3
+score: 28
+location: 5, 4
+score: 28
+location: 5, 5
+score: 28
+location: 5, 7
+score: 44
+PASS
+location: 2, 4
+score: 26
+location: 3, 1
+score: 18
+location: 4, 1
+score: 18
+location: 4, 6
+score: 18
+location: 5, 2
+score: 26
+location: 5, 3
+score: 26
+location: 5, 4
+score: 26
+location: 5, 5
+score: 26
+location: 0, 1
+score: -303
+location: 1, 2
+score: 13
+location: 2, 0
+score: 37
+location: 3, 1
+score: 13
+location: 4, 1
+score: 13
+location: 4, 2
+score: 21
+location: 4, 6
+score: 13
+location: 5, 2
+score: 21
+location: 5, 3
+score: 21
+location: 5, 4
+score: 21
+location: 5, 5
+score: 21
+location: 0, 0
+score: -306
+location: 0, 1
+score: -306
+location: 1, 2
+score: -306
+location: 3, 1
+score: -306
+location: 4, 1
+score: -306
+location: 4, 2
+score: -306
+location: 4, 6
+score: -306
+location: 5, 2
+score: -306
+location: 5, 3
+score: -306
+location: 5, 4
+score: -306
+location: 5, 5
+score: -306
+location: 5, 6
+score: -306
+location: 0, 1
+score: -309
+location: 1, 2
+score: -309
+location: 3, 0
+score: -309
+location: 4, 0
+score: -309
+location: 4, 1
+score: -309
+location: 4, 2
+score: -309
+location: 4, 6
+score: -309
+location: 5, 2
+score: -309
+location: 5, 3
+score: -309
+location: 5, 4
+score: -309
+location: 5, 5
+score: -309
+location: 5, 6
+score: -309
+location: 1, 1
+score: -312
+location: 3, 0
+score: 28
+location: 4, 0
+score: 28
+location: 4, 1
+score: 4
+location: 4, 2
+score: 12
+location: 4, 6
+score: 4
+location: 5, 2
+score: 12
+location: 5, 3
+score: 12
+location: 5, 4
+score: 12
+location: 5, 5
+score: 12
+location: 5, 6
+score: 4
+location: 1, 1
+score: -314
+location: 4, 1
+score: -314
+location: 5, 1
+score: -314
+location: 5, 2
+score: -314
+location: 5, 3
+score: -314
+location: 5, 4
+score: -314
+location: 5, 5
+score: -314
+location: 5, 6
+score: -314
+location: 4, 1
+score: -8
+location: 5, 0
+score: -8
+location: 5, 1
+score: -8
+location: 5, 2
+score: -8
+location: 5, 3
+score: -8
+location: 5, 4
+score: -8
+location: 5, 5
+score: -8
+location: 5, 6
+score: -8
+location: 5, 0
+score: 10
+location: 5, 1
+score: -14
+location: 5, 2
+score: -6
+location: 5, 3
+score: -6
+location: 5, 4
+score: -6
+location: 5, 5
+score: -6
+location: 5, 6
+score: -14
+PASS
+location: 5, 1
+score: -16
+location: 5, 2
+score: -8
+location: 5, 3
+score: -8
+location: 5, 4
+score: -8
+location: 5, 5
+score: -8
+location: 5, 6
+score: -16
+location: 5, 4
+score: -11
+location: 5, 5
+score: -11
+location: 5, 6
+score: -11
+location: 6, 2
+score: -11
+location: 6, 3
+score: -11
+location: 6, 4
+score: -11
+location: 5, 6
+score: -330
+location: 6, 4
+score: -330
+location: 6, 5
+score: -330
+location: 6, 6
+score: -330
+location: 6, 0
+score: -335
+location: 6, 1
+score: -335
+location: 6, 2
+score: -335
+location: 6, 3
+score: -21
+location: 6, 5
+score: -21
+location: 7, 3
+score: -21
+location: 7, 4
+score: -21
+location: 7, 5
+score: -21
+location: 6, 2
+score: -10
+location: 7, 2
+score: -10
+location: 7, 4
+score: -10
+location: 7, 5
+score: -10
+location: 6, 1
+score: -338
+location: 7, 1
+score: -338
+location: 7, 4
+score: -338
+location: 7, 5
+score: -338
+location: 6, 5
+score: -340
+location: 6, 6
+score: -340
+location: 7, 1
+score: -340
+location: 7, 4
+score: -340
+location: 7, 5
+score: -340
+location: 7, 7
+score: -340
+location: 6, 6
+score: -340
+location: 7, 4
+score: -340
+location: 7, 6
+score: -340
+location: 7, 7
+score: -340
+location: 7, 7
+score: 313
+location: 7, 4
+score: 5
+done
+WHITE_V
+#-#-#
+Starting game
+location: 2, 2
+score: 43
+location: 2, 4
+score: 43
+location: 4, 2
+score: 43
+location: 1, 1
+score: -283
+location: 1, 3
+score: -283
+location: 2, 4
+score: -283
+location: 3, 5
+score: -283
+location: 4, 2
+score: -283
+location: 5, 3
+score: -283
+location: 1, 3
+score: 31
+location: 2, 0
+score: 31
+location: 2, 4
+score: 31
+location: 3, 1
+score: 31
+location: 3, 5
+score: 31
+location: 5, 3
+score: 31
+location: 5, 5
+score: 31
+location: 0, 4
+score: 45
+location: 2, 0
+score: 45
+location: 2, 4
+score: 45
+location: 3, 1
+score: 45
+location: 5, 5
+score: 45
+location: 0, 2
+score: 39
+location: 3, 1
+score: 39
+location: 5, 3
+score: 39
+PASS
+location: 2, 0
+score: 59
+location: 3, 1
+score: 35
+location: 5, 3
+score: 43
+location: 2, 4
+score: 35
+location: 3, 1
+score: 35
+location: 5, 3
+score: 35
+location: 1, 0
+score: -281
+location: 4, 2
+score: -281
+location: 5, 3
+score: -281
+location: 5, 5
+score: -281
+location: 6, 4
+score: -281
+location: 1, 5
+score: 25
+location: 2, 5
+score: 25
+location: 3, 5
+score: 25
+location: 4, 5
+score: 25
+location: 5, 3
+score: 25
+location: 5, 5
+score: 25
+location: 6, 4
+score: 25
+location: 1, 6
+score: -293
+location: 2, 5
+score: -293
+location: 2, 6
+score: -293
+location: 3, 2
+score: -293
+location: 3, 5
+score: -293
+location: 4, 5
+score: -293
+location: 5, 3
+score: -293
+location: 5, 5
+score: -293
+location: 6, 4
+score: -293
+location: 1, 7
+score: -294
+location: 2, 5
+score: -294
+location: 3, 2
+score: -294
+location: 3, 5
+score: -294
+location: 3, 7
+score: -294
+location: 4, 2
+score: -294
+location: 4, 5
+score: -294
+location: 5, 3
+score: -294
+location: 5, 5
+score: -294
+location: 6, 4
+score: -294
+location: 2, 5
+score: 32
+location: 3, 5
+score: 32
+location: 3, 6
+score: 32
+location: 3, 7
+score: 32
+location: 4, 2
+score: 32
+location: 4, 5
+score: 32
+location: 5, 3
+score: 32
+location: 5, 5
+score: 32
+location: 2, 7
+score: 27
+location: 3, 5
+score: 27
+location: 3, 7
+score: 27
+location: 4, 2
+score: 27
+location: 4, 5
+score: 27
+location: 4, 6
+score: 27
+location: 5, 2
+score: 27
+location: 5, 3
+score: 27
+location: 5, 5
+score: 27
+location: 6, 4
+score: 27
+location: 3, 5
+score: 27
+location: 4, 2
+score: 27
+location: 4, 5
+score: 27
+location: 4, 6
+score: 27
+location: 4, 7
+score: 27
+location: 5, 2
+score: 27
+location: 5, 3
+score: 27
+location: 5, 5
+score: 27
+location: 6, 4
+score: 27
+location: 3, 0
+score: 30
+location: 3, 2
+score: 30
+location: 4, 2
+score: 30
+location: 4, 5
+score: 30
+location: 4, 6
+score: 30
+location: 4, 7
+score: 30
+location: 5, 2
+score: 30
+location: 5, 3
+score: 30
+location: 6, 4
+score: 30
+location: 3, 2
+score: 36
+location: 4, 1
+score: 36
+location: 4, 2
+score: 36
+location: 4, 5
+score: 36
+location: 4, 6
+score: 36
+location: 5, 3
+score: 36
+location: 6, 4
+score: 36
+location: 5, 2
+score: 30
+location: 5, 3
+score: 30
+location: 5, 5
+score: 30
+location: 5, 6
+score: 30
+location: 6, 4
+score: 30
+location: 6, 5
+score: 30
+location: 4, 5
+score: 34
+location: 5, 3
+score: 34
+location: 5, 5
+score: 34
+location: 5, 6
+score: 34
+location: 6, 5
+score: 34
+location: 5, 3
+score: -277
+location: 5, 5
+score: -277
+location: 6, 5
+score: -277
+location: 6, 6
+score: -277
+location: 5, 1
+score: -274
+location: 5, 5
+score: -274
+location: 5, 7
+score: -274
+location: 6, 5
+score: -274
+location: 6, 6
+score: -274
+location: 5, 5
+score: -278
+location: 5, 7
+score: -278
+location: 6, 2
+score: -278
+location: 6, 4
+score: -278
+location: 6, 5
+score: -278
+location: 6, 6
+score: -278
+location: 7, 0
+score: -278
+location: 7, 1
+score: -278
+location: 7, 4
+score: -278
+location: 5, 7
+score: -275
+location: 6, 6
+score: -275
+location: 7, 0
+score: -275
+location: 7, 1
+score: -275
+location: 7, 3
+score: -275
+location: 7, 4
+score: -275
+location: 7, 6
+score: -275
+location: 6, 6
+score: -280
+location: 7, 0
+score: -280
+location: 7, 1
+score: -280
+location: 7, 2
+score: -280
+location: 7, 3
+score: -280
+location: 7, 4
+score: -280
+location: 7, 5
+score: -280
+location: 7, 6
+score: -280
+location: 4, 1
+score: -284
+location: 7, 0
+score: -284
+location: 7, 1
+score: -284
+location: 7, 2
+score: -284
+location: 7, 3
+score: -284
+location: 7, 4
+score: -284
+location: 7, 5
+score: -284
+location: 7, 6
+score: -284
+location: 7, 7
+score: -284
+location: 4, 0
+score: -290
+location: 6, 0
+score: -290
+location: 6, 2
+score: -290
+location: 6, 4
+score: -290
+location: 7, 0
+score: -290
+location: 7, 1
+score: -290
+location: 7, 2
+score: -290
+location: 7, 3
+score: -290
+location: 7, 4
+score: -290
+location: 7, 5
+score: -290
+location: 7, 6
+score: -290
+location: 7, 7
+score: -290
+PASS
+location: 6, 0
+score: -295
+location: 6, 2
+score: 21
+location: 6, 4
+score: 21
+location: 7, 0
+score: 345
+location: 7, 1
+score: -295
+location: 7, 2
+score: 45
+location: 7, 3
+score: 45
+location: 7, 4
+score: 45
+location: 7, 5
+score: 45
+location: 7, 6
+score: -295
+location: 7, 7
+score: 345
+location: 6, 0
+score: -294
+location: 6, 2
+score: -294
+location: 6, 4
+score: -294
+location: 7, 1
+score: -294
+location: 7, 3
+score: -294
+location: 7, 4
+score: -294
+location: 7, 5
+score: -294
+location: 7, 6
+score: -294
+location: 7, 7
+score: -294
+location: 6, 4
+score: 21
+location: 7, 1
+score: -295
+location: 7, 3
+score: 45
+location: 7, 4
+score: 45
+location: 7, 5
+score: 45
+location: 7, 6
+score: -295
+location: 7, 7
+score: 345
+location: 6, 4
+score: -294
+location: 7, 1
+score: -294
+location: 7, 3
+score: -294
+location: 7, 4
+score: -294
+location: 7, 6
+score: -294
+location: 7, 4
+score: -294
+location: 7, 6
+score: -294
+location: 7, 6
+score: -292
+done
+BLACK_V
 #-#-#
  
  
  
-BlackVictory: 1
-Total Trials: 5
+BlackVictory: 9
+Total Trials: 20

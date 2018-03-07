@@ -58,7 +58,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
-    if (msLeft > 100000) {
+    /*if (msLeft > 100000) {
         return doMiniMax(4);
     }
 
@@ -74,7 +74,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
         return doMiniMax(1);
     }
 
-    else if (msLeft > 10000) {
+    else */if (msLeft > 10000) {
         return doSimpleHeuristicMove();
     }
 
