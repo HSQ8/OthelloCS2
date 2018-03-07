@@ -58,9 +58,32 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
-    //return doRandomMove();
-    //return doSimpleHeuristicMove();
-    return doMiniMax();
+    if (msLeft > 100000) {
+        return doMiniMax(4);
+    }
+
+    else if (msLeft > 50000) {
+        return doMiniMax(3);
+    }
+
+    else if (msLeft > 25000) {
+        return doMiniMax(2);
+    }
+
+    else if (msLeft > 12500) {
+        return doMiniMax(1);
+    }
+
+    else if (msLeft > 10000) {
+        return doSimpleHeuristicMove();
+    }
+
+    else if (msLeft >= 0) {
+        return doRandomMove();
+    }
+    else { // Player is not using time
+        return doMiniMax(4);
+    }
     
 }
 /**
@@ -151,7 +174,7 @@ Move* Player::doSimpleHeuristicMove(){
  * as the most optimal move that we use to play our next move, this minimizes our loss and places our side into an optimal position.
  * @return [a pointer to a move object]
  */
-Move* Player::doMiniMax(){
+Move* Player::doMiniMax(int depth){
     Board *tempBoard = playerboard->copy();
 
     if (playerboard->hasMoves(side)) {
@@ -163,10 +186,10 @@ Move* Player::doMiniMax(){
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
             //std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
-            moveScore = doMiniMaxRecurse(&moveList->at(i), tempBoard, oppSide, 4);
+            moveScore = doMiniMaxRecurse(&moveList->at(i), tempBoard, oppSide, depth);
             //std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
-            std::cerr<< "location: " << moveList->at(i).getX() << ", " << moveList->at(i).getY() << std::endl;
-            std::cerr << "score: " << moveScore << std::endl;
+            //std::cerr<< "location: " << moveList->at(i).getX() << ", " << moveList->at(i).getY() << std::endl;
+            //std::cerr << "score: " << moveScore << std::endl;
             if (moveScore > bestScore) {
                 bestMove->setX(moveList->at(i).getX());
                 bestMove->setY(moveList->at(i).getY());
