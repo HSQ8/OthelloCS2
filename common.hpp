@@ -50,18 +50,18 @@ public:
         if((ringy == 4) && (ringx == 4)){
             corner = true;
             if(debug)
-                std::cerr << "Corner************************" << std::endl;
-            return 80;
+                std::cerr << "*********** Corner ***********" << std::endl;
+            return 40;
         }
         else if((ringy == 3) && (ringx == 3)){
             if(debug)
                 std::cerr << "Next to Corner" << std::endl;
-            return -80;
+            return -40;
         }
         else if(((ringy == 3) && (ringx == 4)) || ((ringy == 4) && (ringx == 3))){
             if(debug)
                 std::cerr << "Edge of Corner" << std::endl;
-            return -80;
+            return -30;
         }
         
         ring = (ringx > ringy) ? ringx: ringy;
@@ -73,7 +73,7 @@ public:
             case 3:
                 return -1;
             case 4:
-                return 5;
+                return 10;
         }
     
     return 0;

@@ -238,27 +238,27 @@ bool Board::hasBlankNeighbor(int i, int j, Side side, Side other){
  *  @return The score the the move. Note that the move's score member variable
  *          is also modified.
  */
-int Board::getMoveScoreHeuristic(Move* _move, Side side){
+int Board::getMoveScoreHeuristic(/*Move* _move,*/ Side side){
     // First calculate the score of the current board.
     Side other = (side == BLACK) ? WHITE : BLACK;
-    int myScore = this->count(side);
-    int oppScore = this->count(other);
+    /*int myScore = this->count(side);
+    int oppScore = this->count(other);*/
 
     // Copy the board.
     Board *tempBoard = this->copy();
 
     // Apply the move on the copied board.
-    tempBoard->doMove(_move, side);
+    //tempBoard->doMove(_move, side);
 
     // Calculate the score.
     int myNewScore = tempBoard->count(side);
     int oppNewScore = tempBoard->count(other);
 
-    int myChange = myNewScore - myScore; // The number of new pieces on my side
-    int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
-    int flipped = myChange - oppChange;
+    //int myChange = myNewScore - myScore; // The number of new pieces on my side
+    //int oppChange = oppNewScore - oppScore; // The number of opponent lost pieces
+    //int flipped = myChange - oppChange;
     int deltaScore = myNewScore - oppNewScore;
-
+/*
     // Check mobility and the opponent's mobility
     std::vector<Move>* mobilityList = tempBoard->getMoveList(side);
     std::vector<Move>* antimobilityList = tempBoard->getMoveList(side);
@@ -277,8 +277,8 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
     }
 
     if(debug)
-        std::cerr << "potentialMobility: " << potentialMobility << std::endl;
-
+        std::cerr << "potentialMobility: " << potentialMobility << std::endl;*/
+/*
     // Check stability
     int stability = 0;
     int MX = _move->getX();
@@ -403,32 +403,31 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
             break;
         }
         tempY --;
+*/
+    int finalScore = /*myNewScore +*/ deltaScore /*+ flipped + stability + 
+        potentialMobility + mobility - antimobility + 4 * _move->getRingMultiplier()*/;
 
-
-    int finalScore = /*myNewScore +*/ deltaScore + flipped + stability + 
-        potentialMobility + mobility - antimobility + 4 * _move->getRingMultiplier();
-        
     if (debug)
     {
         std::cerr << "------------------------------" << std::endl;
         std::cerr << "Score Breakdown: " << finalScore << std::endl;
         //std::cerr << "myNewScore: " << myNewScore << std::endl;
         std::cerr << "deltaScore: " << deltaScore << std::endl;
-        std::cerr << "flipped: " << flipped << std::endl;
+        /*std::cerr << "flipped: " << flipped << std::endl;
         std::cerr << "stability: " << stability << std::endl;
         std::cerr << "potentialMobility: " << potentialMobility << std::endl;
         std::cerr << "mobility: " << mobility << std::endl;
-        std::cerr << "antimobility: " << -antimobility << std::endl;
-        std::cerr << "Ring Multiplier: " << 4 * _move->getRingMultiplier() << std::endl;
+        std::cerr << "antimobility: " << -antimobility << std::endl;*/
+        //std::cerr << "Ring Multiplier: " << 4 * _move->getRingMultiplier() << std::endl;
         std::cerr << "------------------------------" << std::endl;
     }
 
     // Update move score.
-    _move->setScore(finalScore);
+    //_move->setScore(finalScore);
 
-    delete tempBoard;
-    delete mobilityList;
-    delete antimobilityList;
+    //delete tempBoard;
+    /*delete mobilityList;
+    delete antimobilityList;*/
 
     return finalScore;
 }
@@ -439,21 +438,21 @@ int Board::getMoveScoreHeuristic(Move* _move, Side side){
  * @return The score the the move. Note that the move's score member variable
  *         is also modified.
  */
-int Board::getSimpleMoveScoreHeuristic(Move* _move, Side side){
+int Board::getSimpleMoveScoreHeuristic(/*Move* _move,*/ Side side){
     int deltaScore = std::numeric_limits<int>::min();
     // First calculate the score of the current board.
     Side other = (side == BLACK) ? WHITE : BLACK;
     // Copy the board.
-    Board *tempBoard = this->copy();
+    //Board *tempBoard = this->copy();
 
     // Apply the move on the copied board.
-    tempBoard->doMove(_move, side);
+    //tempBoard->doMove(_move, side);
     // Calculate the score.
-    int myNewScore = tempBoard->count(side);
-    int oppNewScore = tempBoard->count(other);
+    int myNewScore = this->count(side);
+    int oppNewScore = this->count(other);
     deltaScore = myNewScore - oppNewScore;
 
-    delete tempBoard;
+    //delete tempBoard;
     return deltaScore;
 }
 

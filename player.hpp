@@ -21,7 +21,7 @@ public:
     Move* doRandomMove();
     Move* doSimpleHeuristicMove();
     Move* doMiniMax(int depth);
-    int doMiniMaxRecurse(Move* _move, Board* _board, Side side, int depth);
+    int doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int depth);
 
     void setPlayerBoard(char data[]);
 
@@ -29,7 +29,7 @@ public:
 
 private:
     Board *playerboard;
-    Side side;
+    Side plyside;
     Side oppSide;
 };
 
