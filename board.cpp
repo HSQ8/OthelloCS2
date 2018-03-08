@@ -256,7 +256,7 @@ int Board::getBoardHeuristic(Side side){
  * @return The score the the move. Note that the move's score member variable
  *         is also modified.
  */
-int Board::getSimpleMoveScoreHeuristic(/*Move* _move,*/ Side side){
+int Board::getSimpleMoveScoreHeuristic(Side side){
     int deltaScore = std::numeric_limits<int>::min();
 
     // First calculate the score of the current board.
