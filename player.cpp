@@ -128,36 +128,34 @@ Move* Player::doSimpleHeuristicMove(){
 
     if (playerboard->hasMoves(plyside)) {
         auto moveList = playerboard->getMoveList(plyside);
-        //std::cerr << "Test 2" << std::endl;
+
         int moveScore;
         int bestScore = std::numeric_limits<int>::min();;
         Move *bestMove = new Move(-1, -1);
 
         for(int i = 0, j = moveList->size(); i < j; ++i){
-            //std::cerr << "Test 3: " << moveList->at(i).getX() << ' ' << moveList->at(i).getY() << std::endl;
-            moveScore = playerboard->getMoveScoreHeuristic(/*&moveList->at(i),*/ plyside);
-            //std::cerr << "        Score: " << moveScore << ' ' << moveList->at(i).getScore() << std::endl;
+            Board *tempBoard = playerboard->copy();
+
+            moveScore = tempBoard->getMoveScoreHeuristic(&moveList->at(i), plyside);
+            moveScore += tempBoard->getBoardHeuristic(plyside);
+
             if (moveScore > bestScore) {
                 bestMove->setX(moveList->at(i).getX());
                 bestMove->setY(moveList->at(i).getY());
 
-                /*if (debug) {
-                    std::cerr << "NEW BEST MOVE!!!" << std::endl;
-                }*/
                 bestScore = moveScore;
             }
+
+            delete tempBoard;
         }
         
         delete moveList;
 
         playerboard->doMove(bestMove, plyside);
 
-        /*if (debug) {
-            std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
-        }*/
-
         return new Move(bestMove->getX(), bestMove->getY());
     }
+
     else
     {
         // We need to pass.
@@ -190,9 +188,7 @@ Move* Player::doMiniMax(int depth){
 
             tempBoard->doMove(&moveList->at(i), plyside);
 
-            moveScore = doMiniMaxRecurse(/*&moveList->at(i), */tempBoard, oppSide, depth - 1);
-
-            std::cerr << "moveScore: " << moveScore << std::endl;
+            moveScore = doMiniMaxRecurse(tempBoard, oppSide, depth - 1);
             
 
             if (moveScore > bestScore) {
@@ -200,23 +196,14 @@ Move* Player::doMiniMax(int depth){
                 bestMove->setY(moveList->at(i).getY());
 
                 bestScore = moveScore;
-
-                /*if (debug) {*/
-                    std::cerr << "NEW BEST MOVE!!!" << bestScore << ' ' << moveScore << std::endl;
-                //}
             }
 
             delete tempBoard;
         }
-        std::cerr << "Making move with: " << bestScore << std::endl;
         
         delete moveList;
 
         playerboard->doMove(bestMove, plyside);
-
-        /*if (debug) {
-            std::cerr << "Sending the next move... " << bestMove->getX()<< ' ' << bestMove->getY() << std::endl;
-        }*/
 
         return new Move(bestMove->getX(), bestMove->getY());
     }
@@ -251,17 +238,17 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
     
     if(depth <= 0 || _board->isDone()){
         if(testingMinimax){
-            return _board->getSimpleMoveScoreHeuristic(/*_move,*/ _side);
+            return _board->getBoardHeuristic(_side);
         }
         else {
-            std::cerr << "Bottom Score: " << _board->getMoveScoreHeuristic(/*_move, */plyside) <<std::endl;
+            
             if (_side == plyside)
             {
-                return _board->getMoveScoreHeuristic(/*_move, */plyside);
+                return _board->getBoardHeuristic(plyside);
             }
             else
             {
-                return - _board->getMoveScoreHeuristic(/*_move, */plyside);
+                return - _board->getBoardHeuristic(plyside);
             }
             
         }
@@ -274,10 +261,10 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
     if(moveList->size() < 1)
     {
         if(testingMinimax){
-            return _board->getSimpleMoveScoreHeuristic(/*_move, */_side);
+            return _board->getBoardHeuristic(_side);
         }
         else {
-            std::cerr << "None left Score: " << _board->getMoveScoreHeuristic(/*_move, */_side) <<std::endl;
+            std::cerr << "None left Score: " << _board->getBoardHeuristic(_side) <<std::endl;
             return 0;
         }
     }
@@ -294,8 +281,7 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
             _board->doMove(&moveList->at(i), plyside);
 
             // Calculate minimax
-            moveScore = doMiniMaxRecurse(/*&moveList->at(i), */tempBoard, 
-                    oppSide, depth - 1);
+            moveScore = doMiniMaxRecurse(tempBoard, oppSide, depth - 1);
 
             // Update bestScore
             bestScore = max(bestScore, moveScore);
@@ -320,8 +306,7 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
             _board->doMove(&moveList->at(i), oppSide);
 
             // Calculate minimax
-            moveScore = doMiniMaxRecurse(/*&moveList->at(i), */tempBoard, 
-                    plyside, depth - 1);
+            moveScore = doMiniMaxRecurse(tempBoard, plyside, depth - 1);
 
             // Update bestScore
             bestScore = min(bestScore, moveScore);
