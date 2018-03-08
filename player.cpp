@@ -206,7 +206,7 @@ Move* Player::doMiniMax(int depth){
 
         playerboard->doMove(bestMove, plyside);
 
-        return new Move(bestMove->getX(), bestMove->getY());
+        return bestMove;
     }
     else
     {
@@ -227,7 +227,7 @@ Move* Player::doMiniMax(int depth){
  * @param  depth  [the depth limit, used to keep track of which level we are in.]
  * @return        [description]
  */
-int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int depth){
+int Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
     /*
     pseudocode:
     if node is a leaf or if the depth counter is 0,
