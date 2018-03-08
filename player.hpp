@@ -21,11 +21,9 @@ public:
     Move* doRandomMove();
     Move* doSimpleHeuristicMove();
     Move* doMiniMax(int depth);
-    int doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int depth);
+    int doMiniMaxRecurse(Board* _board, Side _side, int depth);
 
     void setPlayerBoard(char data[]);
-
-    //static std::vector<Move>* getMoveList(Board* _board, Side _side);
 
 private:
     Board *playerboard;
