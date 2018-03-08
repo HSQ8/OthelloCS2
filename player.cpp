@@ -58,12 +58,12 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
-    /*if (msLeft > 100000) {
-        return doMiniMax(4);
+    if (msLeft > 100000) {
+        return doMiniMax(3);
     }
 
     else if (msLeft > 50000) {
-        return doMiniMax(3);
+        return doMiniMax(2);
     }
 
     else if (msLeft > 25000) {
@@ -74,7 +74,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
         return doMiniMax(1);
     }
 
-    else */if (msLeft > 10000) {
+    else if (msLeft > 10000) {
         return doSimpleHeuristicMove();
     }
 
@@ -189,6 +189,7 @@ Move* Player::doMiniMax(int depth){
             tempBoard->doMove(&moveList->at(i), plyside);
 
             moveScore = doMiniMaxRecurse(tempBoard, oppSide, depth - 1);
+            moveScore += tempBoard->getBoardHeuristic(plyside);
             
 
             if (moveScore > bestScore) {
@@ -241,7 +242,7 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
             return _board->getBoardHeuristic(_side);
         }
         else {
-            
+
             if (_side == plyside)
             {
                 return _board->getBoardHeuristic(plyside);
@@ -282,6 +283,7 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
 
             // Calculate minimax
             moveScore = doMiniMaxRecurse(tempBoard, oppSide, depth - 1);
+            moveScore += tempBoard->getBoardHeuristic(plyside);
 
             // Update bestScore
             bestScore = max(bestScore, moveScore);
@@ -307,6 +309,7 @@ int Player::doMiniMaxRecurse(/*Move* _move, */Board* _board, Side _side, int dep
 
             // Calculate minimax
             moveScore = doMiniMaxRecurse(tempBoard, plyside, depth - 1);
+            moveScore += tempBoard->getBoardHeuristic(plyside);
 
             // Update bestScore
             bestScore = min(bestScore, moveScore);
