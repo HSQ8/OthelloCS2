@@ -367,7 +367,7 @@ Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth
  * as the most optimal move that we use to play our next move, this minimizes our loss and places our side into an optimal position.
  * @return [a pointer to a move object]
  */
-Move* Player::doMiniMax(int depth){
+Move* Player::doAlphaBetaMax(int depth){
     if(playerboard->hasMoves(plyside))
     {
         auto tempBoard = playerboard->copy();
@@ -390,7 +390,7 @@ Move* Player::doMiniMax(int depth){
  * @param  depth  [the depth limit, used to keep track of which level we are in.]
  * @return        [description]
  */
-Move* Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
+Move* Player::doAlphaBetaRecurse(Board* _board, Side _side, int depth){
     /*
     pseudocode:
     if node is a leaf or if the depth counter is 0,
