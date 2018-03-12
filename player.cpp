@@ -70,7 +70,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
         return doMiniMax(0);
     }
 
-    else  */if (msLeft > 12500) {
+    else  if (msLeft > 12500) {
         return doMiniMax(3);
     }
 
@@ -83,7 +83,8 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     }
     else { // Player is not using time
         return doMiniMax(3);
-    }
+    }*/
+    return doMiniMax(3);
     
 }
 /**
@@ -280,3 +281,150 @@ Move* Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
     return bestMove;
 }
 
+
+/**
+ * [Player::doMiniMax description]
+ * Do minimax is a simple minimax wrapper that performs minimax recursive search. We first generate a list of possible moves and
+ * then we recursively search the move tree for each of those moves based on a heuristic we define. Each search tree returns the
+ * lowest value of the branch, and we take the branch with the highest lowest value and use the move that corresponds to that branch
+ * as the most optimal move that we use to play our next move, this minimizes our loss and places our side into an optimal position.
+ * @return [a pointer to a move object]
+ */
+Move* Player::doMiniMaxWithHeuristic(int depth){
+    if(playerboard->hasMoves(plyside))
+    {
+        auto tempBoard = playerboard->copy();
+        auto move = doMiniMaxRecurse(tempBoard, plyside, depth);
+        delete tempBoard;
+        playerboard->doMove(move, plyside);
+        return move;
+    }
+    return nullptr;
+}
+
+/**
+ * doMiniMaxRecurse is the actual working function in minimax
+ * here, we recursively search for the move with the most negative move score based on a heuristic and then search the 
+ * tree of possible moves based on each of those moves and return the lowest possible score. This ensures that we then can minimize our
+ * loss in the wrapper function. we return once we exhaust the search tree or we reach our recursion limit.
+ * @param  _move  [a move object of the current move being considered]
+ * @param  _board [the current board context that the move being considered is in]
+ * @param  side   [the side, which playe we are(white/black)]
+ * @param  depth  [the depth limit, used to keep track of which level we are in.]
+ * @return        [description]
+ */
+Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth){
+    /*
+    pseudocode:
+    if node is a leaf or if the depth counter is 0,
+        simply return the value of the move
+    Otherwise, we want to maximize the player's score
+    and minimize the opponent score.
+    We do this by taking the max score of the player
+    or the min score of the opponent.*/
+
+    
+    Side other = (_side == BLACK) ? WHITE : BLACK;
+    if(depth <= 0 || _board->isDone()){
+        return new Move(_board->getBoardHeuristic(_side));
+    }
+
+    // Get all the possible moves 
+    auto moveList = _board->getMoveList(_side);
+    Move* bestMove = new Move(-1,-1);
+
+    int bestScore = std::numeric_limits<int>::min();
+    for(int i = 0, j = moveList->size(); i<j; ++i){
+        Board* tempBoard = _board->copy();
+        tempBoard->doMove(&(moveList->at(i)), _side);
+        Move* tempScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
+        
+        if(depth == 1){
+            tempScore->setScore(tempScore->getScore() + 
+                tempBoard->getMoveScoreHeuristic(&(moveList->at(i)), _side));
+        }
+        tempScore->setScore(tempScore->getScore()*-1);
+        if(tempScore->getScore() > bestScore){
+            bestScore = tempScore->getScore();
+            bestMove->setScore(bestScore);
+            bestMove->setX(moveList->at(i).getX());
+            bestMove->setY(moveList->at(i).getY());
+        }
+        delete tempScore;
+        delete tempBoard;
+
+    }
+    std::cerr << "getSCore" << bestMove->getScore() << std::endl;
+    return bestMove;
+}
+
+
+/**
+ * [Player::doMiniMax description]
+ * Do minimax is a simple minimax wrapper that performs minimax recursive search. We first generate a list of possible moves and
+ * then we recursively search the move tree for each of those moves based on a heuristic we define. Each search tree returns the
+ * lowest value of the branch, and we take the branch with the highest lowest value and use the move that corresponds to that branch
+ * as the most optimal move that we use to play our next move, this minimizes our loss and places our side into an optimal position.
+ * @return [a pointer to a move object]
+ */
+Move* Player::doMiniMax(int depth){
+    if(playerboard->hasMoves(plyside))
+    {
+        auto tempBoard = playerboard->copy();
+        auto move = doMiniMaxRecurse(tempBoard, plyside, depth);
+        delete tempBoard;
+        playerboard->doMove(move, plyside);
+        return move;
+    }
+    return nullptr;
+}
+
+/**
+ * doMiniMaxRecurse is the actual working function in minimax
+ * here, we recursively search for the move with the most negative move score based on a heuristic and then search the 
+ * tree of possible moves based on each of those moves and return the lowest possible score. This ensures that we then can minimize our
+ * loss in the wrapper function. we return once we exhaust the search tree or we reach our recursion limit.
+ * @param  _move  [a move object of the current move being considered]
+ * @param  _board [the current board context that the move being considered is in]
+ * @param  side   [the side, which playe we are(white/black)]
+ * @param  depth  [the depth limit, used to keep track of which level we are in.]
+ * @return        [description]
+ */
+Move* Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
+    /*
+    pseudocode:
+    if node is a leaf or if the depth counter is 0,
+        simply return the value of the move
+    Otherwise, we want to maximize the player's score
+    and minimize the opponent score.
+    We do this by taking the max score of the player
+    or the min score of the opponent.*/
+
+    Side other = (_side == BLACK) ? WHITE : BLACK;
+
+    if(depth <= 0 || _board->isDone()){
+        return new Move(_board->getBoardHeuristic(_side));
+    }
+    // Get all the possible moves 
+    auto moveList = _board->getMoveList(_side);
+    Move* bestMove = new Move(-1,-1);
+
+    int bestScore = std::numeric_limits<int>::min();
+    for(int i = 0, j = moveList->size(); i<j; ++i){
+        Board* tempBoard = _board->copy();
+        tempBoard->doMove(&(moveList->at(i)), _side);
+        Move* tempScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
+        tempScore->setScore(tempScore->getScore()*-1);
+        if(tempScore->getScore() > bestScore){
+            bestScore = tempScore->getScore();
+            bestMove->setScore(bestScore);
+            bestMove->setX(moveList->at(i).getX());
+            bestMove->setY(moveList->at(i).getY());
+        }
+        delete tempScore;
+        delete tempBoard;
+
+    }
+    std::cerr << "getSCore" << bestMove->getScore() << std::endl;
+    return bestMove;
+}

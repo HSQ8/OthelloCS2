@@ -20,10 +20,12 @@ public:
 
     Move* doRandomMove();
     Move* doSimpleHeuristicMove();
-
-    Move* doMiniMax(int depth);
     int doBottomHeuristicMove(Board * _board, Side _side);
+    
+    Move* doMiniMax(int depth);
     Move* doMiniMaxRecurse(Board* _board, Side _side, int depth);
+    Move* doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth);
+    Move* doMiniMaxWithHeuristic(int depth);
 
     void setPlayerBoard(char data[]);
 
