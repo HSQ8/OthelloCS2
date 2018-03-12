@@ -24,7 +24,7 @@ public:
     
     Move* doMiniMax(int depth);
     Move* doMiniMaxRecurse(Board* _board, Side _side, int depth);
-    Move* doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth);
+    Move* doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth, int toplevel);
     Move* doMiniMaxWithHeuristic(int depth);
 
     Move* doAlphaBetaMax(int depth);

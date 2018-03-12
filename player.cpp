@@ -84,7 +84,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     else { // Player is not using time
         return doMiniMax(3);
     }*/
-    return doMiniMax(3);
+    return doMiniMax(5);
     
 }
 /**
@@ -294,7 +294,7 @@ Move* Player::doMiniMaxWithHeuristic(int depth){
     if(playerboard->hasMoves(plyside))
     {
         auto tempBoard = playerboard->copy();
-        auto move = doMiniMaxRecurse(tempBoard, plyside, depth);
+        auto move = doMiniMaxWithHeuristicRecurse(tempBoard, plyside, depth, depth);
         delete tempBoard;
         playerboard->doMove(move, plyside);
         return move;
@@ -313,7 +313,7 @@ Move* Player::doMiniMaxWithHeuristic(int depth){
  * @param  depth  [the depth limit, used to keep track of which level we are in.]
  * @return        [description]
  */
-Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth){
+Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth, int toplevel){
     /*
     pseudocode:
     if node is a leaf or if the depth counter is 0,
@@ -337,11 +337,11 @@ Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth
     for(int i = 0, j = moveList->size(); i<j; ++i){
         Board* tempBoard = _board->copy();
         tempBoard->doMove(&(moveList->at(i)), _side);
-        Move* tempScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
+        Move* tempScore = doMiniMaxWithHeuristicRecurse(tempBoard, other, depth - 1, toplevel);
         
-        if(depth == 1){
+        if(depth == toplevel){
             tempScore->setScore(tempScore->getScore() + 
-                tempBoard->getMoveScoreHeuristic(&(moveList->at(i)), _side));
+                tempBoard->getMoveScoreHeuristic(&(moveList->at(i)), other));
         }
         tempScore->setScore(tempScore->getScore()*-1);
         if(tempScore->getScore() > bestScore){
@@ -403,7 +403,7 @@ Move* Player::doAlphaBetaRecurse(Board* _board, Side _side, int depth){
     Side other = (_side == BLACK) ? WHITE : BLACK;
 
     if(depth <= 0 || _board->isDone()){
-        return new Move(_board->getBoardHeuristic(_side));
+        return new Move(_board->getBoardHeuristic(other));
     }
     // Get all the possible moves 
     auto moveList = _board->getMoveList(_side);
