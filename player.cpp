@@ -58,20 +58,20 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     // First we need to update the board.
     playerboard->doMove(opponentsMove, oppSide);
 
-    /*if (msLeft > 100000) {
-        return doMiniMax(4);
+    if (msLeft > 100000) {
+        return doAlphaBetaMax(7);
     }
 
     else if (msLeft > 50000) {
-        return doMiniMax(4);
+        return doAlphaBetaMax(6);
     }
 
     else if (msLeft > 25000) {
-        return doMiniMax(0);
+        return doAlphaBetaMax(5);
     }
 
     else  if (msLeft > 12500) {
-        return doMiniMax(3);
+        return doAlphaBetaMax(4);
     }
 
     else if (msLeft > 10000) {
@@ -82,9 +82,8 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
         return doRandomMove();
     }
     else { // Player is not using time
-        return doMiniMax(3);
-    }*/
-    return doAlphaBetaMax(6);
+        return doAlphaBetaMax(6);
+    }
     
 }
 /**
