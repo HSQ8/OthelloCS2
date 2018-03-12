@@ -1,6 +1,6 @@
 #!/bin/bash
 # edit the line on the bottom ./testgame ____ ___ to set player configuration, edit the for loop to set how many times we run the experiment
-TRIALS=1  # this number is half of all total trials
+TRIALS=10  # this number is half of all total trials
 PLAYER1=Cortana
 PLAYER2=ConstantTimePlayer
 TIME=300000
