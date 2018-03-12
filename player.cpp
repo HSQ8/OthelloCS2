@@ -84,7 +84,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     else { // Player is not using time
         return doMiniMax(3);
     }*/
-    return doMiniMax(3);
+    return doAlphaBetaMax(6);
     
 }
 /**
@@ -368,14 +368,61 @@ Move* Player::doMiniMaxWithHeuristicRecurse(Board* _board, Side _side, int depth
  * @return [a pointer to a move object]
  */
 Move* Player::doAlphaBetaMax(int depth){
+    cerr << endl;
+    cerr << "Player has moves!!" << endl;
+    cerr << "-----------------------------" << endl;
     if(playerboard->hasMoves(plyside))
     {
-        auto tempBoard = playerboard->copy();
-        auto move = doMiniMaxRecurse(tempBoard, plyside, depth);
-        delete tempBoard;
-        playerboard->doMove(move, plyside);
-        return move;
+        auto moveList = playerboard->getMoveList(plyside);
+
+        int moveScore;
+        int bestScore = std::numeric_limits<int>::min();;
+        Move *bestMove = new Move(-1, -1);
+
+        int alpha = std::numeric_limits<int>::min(); // Set alpha very negative
+        int beta = std::numeric_limits<int>::max(); // Set beta very positive
+
+        for(int i = 0, j = moveList->size(); i < j; ++i){
+            Board *tempBoard = playerboard->copy();
+
+            tempBoard->doMove(&moveList->at(i), plyside);
+
+            moveScore = tempBoard->getMoveScoreHeuristic(&moveList->at(i), plyside);
+            moveScore += tempBoard->getBoardHeuristic(plyside);
+
+            int alphaBetaScore = doAlphaBetaRecurse(tempBoard, oppSide, depth, alpha, beta);
+            if (alphaBetaScore != std::numeric_limits<int>::min())
+            {
+                moveScore += - 2 * alphaBetaScore;
+            }
+            
+            cerr << "Move Score: " << moveScore << endl;
+
+            // Now we need to maximize our bot's options.
+            if (moveScore > bestScore) {
+                bestMove->setX(moveList->at(i).getX());
+                bestMove->setY(moveList->at(i).getY());
+                bestMove->setScore(moveScore);
+
+                bestScore = moveScore;
+                cerr << "New Best Score! " << bestScore << endl;
+            }
+
+            delete tempBoard;
+        }
+        
+        delete moveList;
+
+        playerboard->doMove(bestMove, plyside);
+
+        cerr << "#################" << endl;
+        cerr << "Chose: " << bestScore << endl;
+        cerr << "#################" << endl;
+        cerr << endl;
+
+        return bestMove;
     }
+
     return nullptr;
 }
 
@@ -390,7 +437,7 @@ Move* Player::doAlphaBetaMax(int depth){
  * @param  depth  [the depth limit, used to keep track of which level we are in.]
  * @return        [description]
  */
-Move* Player::doAlphaBetaRecurse(Board* _board, Side _side, int depth){
+int Player::doAlphaBetaRecurse(Board* _board, Side _side, int depth, int alpha, int beta){
     /*
     pseudocode:
     if node is a leaf or if the depth counter is 0,
@@ -403,28 +450,43 @@ Move* Player::doAlphaBetaRecurse(Board* _board, Side _side, int depth){
     Side other = (_side == BLACK) ? WHITE : BLACK;
 
     if(depth <= 0 || _board->isDone()){
-        return new Move(_board->getBoardHeuristic(_side));
+        //cerr << "Leaf has value: " << _board->getBoardHeuristic(_side) << endl;
+        return _board->getBoardHeuristic(_side);
     }
     // Get all the possible moves 
     auto moveList = _board->getMoveList(_side);
-    Move* bestMove = new Move(-1,-1);
 
-    int bestScore = std::numeric_limits<int>::min();
-    for(int i = 0, j = moveList->size(); i<j; ++i){
+    //int bestScore = std::numeric_limits<int>::min();
+    for(int i = 0, j = moveList->size(); i < j; ++i)
+    {
+        // Copy the board
         Board* tempBoard = _board->copy();
+
+        // Perform move on the board
         tempBoard->doMove(&(moveList->at(i)), _side);
-        Move* tempScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
-        tempScore->setScore(tempScore->getScore()*-1);
-        if(tempScore->getScore() > bestScore){
-            bestScore = tempScore->getScore();
-            bestMove->setScore(bestScore);
-            bestMove->setX(moveList->at(i).getX());
-            bestMove->setY(moveList->at(i).getY());
+
+        // Recursively get the move score and take its negative.
+        int tempScore = doAlphaBetaRecurse(tempBoard, other, 
+            depth - 1, -beta, -alpha);
+        tempScore *= -1;
+
+        cerr << "tempScore: " << tempScore << endl;
+
+        if (tempScore > alpha)
+        {
+            //cerr << "alpha update" << endl;
+            alpha = tempScore;
         }
-        delete tempScore;
+
+        if (tempScore >= beta)
+        {   
+            delete tempBoard;
+            return tempScore;
+        }
+
         delete tempBoard;
 
     }
-    std::cerr << "getSCore" << bestMove->getScore() << std::endl;
-    return bestMove;
+
+    return alpha;
 }
