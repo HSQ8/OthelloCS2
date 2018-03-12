@@ -10,7 +10,7 @@ enum Side {
 class Move {
    
 public:
-    double score;
+    int score;
     int ringWeight;
     int x, y;
     int ring;
@@ -29,6 +29,11 @@ public:
         this->score = 0.0;
         //this->ringWeight = getRingMultiplier();
     }
+
+    Move(int _score){
+        this->score = _score;
+    }
+
     ~Move() {}
 /*
     Move* copy(Move& _move){
@@ -87,8 +92,8 @@ public:
     void setX(int x) { this->x = x; }
     void setY(int y) { this->y = y; }
 
-    double getScore() { return this->score;}
-    void setScore(double _s) { this->score = _s; }
+    int getScore() { return this->score;}
+    void setScore(int _s) { this->score = _s; }
 
     int getRingWeight() { return this->ringWeight;}
 

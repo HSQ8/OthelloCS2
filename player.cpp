@@ -71,7 +71,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
     }
 
     else  */if (msLeft > 12500) {
-        return doMiniMax(0);
+        return doMiniMax(3);
     }
 
     else if (msLeft > 10000) {
@@ -82,7 +82,7 @@ Move *Player::doMove(Move *opponentsMove, int msLeft) {
         return doRandomMove();
     }
     else { // Player is not using time
-        return doMiniMax(0);
+        return doMiniMax(3);
     }
     
 }
@@ -219,50 +219,14 @@ int Player::doBottomHeuristicMove(Board * _board, Side _side){
  * @return [a pointer to a move object]
  */
 Move* Player::doMiniMax(int depth){
-
-    if (playerboard->hasMoves(plyside)) {
-        auto moveList = playerboard->getMoveList(plyside);
-
-        int moveScore;
-
-        int bestScore = std::numeric_limits<int>::min(); // Negative infinity
-
-        Move *bestMove = new Move(-1, -1);
-
-        for(int i = 0, j = moveList->size(); i < j; i++){
-            Board *tempBoard = playerboard->copy();
-
-            tempBoard->doMove(&moveList->at(i), plyside);
-
-            moveScore = doMiniMaxRecurse(tempBoard, oppSide, depth - 1);
-            //moveScore += tempBoard->getBoardHeuristic(plyside);
-            
-
-            if (moveScore > bestScore) {
-                bestMove->setX(moveList->at(i).getX());
-                bestMove->setY(moveList->at(i).getY());
-
-                bestScore = moveScore;
-            }
-
-            delete tempBoard;
-        }
-        
-        delete moveList;
-
-        playerboard->doMove(bestMove, plyside);
-
-        cerr << "###################" << endl;
-        cerr << "Best Score: " << bestScore << endl;
-        cerr << "###################" << endl;
-
-        return bestMove;
-    }
-    else
+    if(playerboard->hasMoves(plyside))
     {
-        // We need to pass.
+        auto tempBoard = playerboard->copy();
+        auto move = doMiniMaxRecurse(tempBoard, plyside, depth);
+        delete tempBoard;
+        playerboard->doMove(move, plyside);
+        return move;
     }
-
     return nullptr;
 }
 
@@ -277,7 +241,7 @@ Move* Player::doMiniMax(int depth){
  * @param  depth  [the depth limit, used to keep track of which level we are in.]
  * @return        [description]
  */
-int Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
+Move* Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
     /*
     pseudocode:
     if node is a leaf or if the depth counter is 0,
@@ -288,90 +252,31 @@ int Player::doMiniMaxRecurse(Board* _board, Side _side, int depth){
     or the min score of the opponent.*/
 
     Side other = (_side == BLACK) ? WHITE : BLACK;
-    
+
     if(depth <= 0 || _board->isDone()){
-        if(testingMinimax){
-            return _board->getBoardHeuristic(_side);
-        }
-        else {
-            Board *tempBoard = _board->copy();
-
-            int score = doBottomHeuristicMove(tempBoard, _side);
-
-            delete tempBoard;
-
-            return score;
-        }
+        return new Move(_board->getBoardHeuristic(_side));
     }
-
     // Get all the possible moves 
     auto moveList = _board->getMoveList(_side);
+    Move* bestMove = new Move(-1,-1);
 
-    if (_side == plyside)
-    {
-        // If the player must pass,
-        if(moveList->size() < 1)
-        {
-            Board *tempBoard = _board->copy();
-            return doMiniMaxRecurse(tempBoard, other, depth - 1);
+    int bestScore = std::numeric_limits<int>::min();
+    for(int i = 0, j = moveList->size(); i<j; ++i){
+        Board* tempBoard = _board->copy();
+        tempBoard->doMove(&(moveList->at(i)), _side);
+        Move* tempScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
+        tempScore->setScore(tempScore->getScore()*-1);
+        if(tempScore->getScore() > bestScore){
+            bestScore = tempScore->getScore();
+            bestMove->setScore(bestScore);
+            bestMove->setX(moveList->at(i).getX());
+            bestMove->setY(moveList->at(i).getY());
         }
+        delete tempScore;
+        delete tempBoard;
 
-        int bestScore = std::numeric_limits<int>::min(); // Negative Infinity;
-        int moveScore;
-
-        // Iterate through the moves
-        for(int i = 0, j = moveList->size(); i < j; ++i){
-            Board *tempBoard = _board->copy();
-
-            _board->doMove(&moveList->at(i), _side);
-
-            // Calculate minimax
-            moveScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
-            //moveScore += tempBoard->getBoardHeuristic(_side);
-
-            // Update bestScore
-            bestScore = max(bestScore, moveScore);
-
-            delete tempBoard;
-        }
-
-        delete moveList;
-
-        return bestScore;
     }
-
-    else
-    {
-        // If the player must pass,
-        if(moveList->size() < 1)
-        {
-            Board *tempBoard = _board->copy();
-            return doMiniMaxRecurse(tempBoard, other, depth - 1);
-        }
-
-
-        int bestScore = std::numeric_limits<int>::max(); // Positive Infinity;
-        int moveScore;
-
-        // Iterate through the moves
-        for(int i = 0, j = moveList->size(); i < j; ++i){
-            Board *tempBoard = _board->copy();
-
-            _board->doMove(&moveList->at(i), _side);
-
-            // Calculate minimax
-            moveScore = doMiniMaxRecurse(tempBoard, other, depth - 1);
-            //moveScore += tempBoard->getBoardHeuristic(_side);
-
-            // Update bestScore
-            bestScore = min(bestScore, moveScore);
-
-            delete tempBoard;
-        }
-
-        delete moveList;
-
-        return bestScore;
-    }
+    std::cerr << "getSCore" << bestMove->getScore() << std::endl;
+    return bestMove;
 }
 

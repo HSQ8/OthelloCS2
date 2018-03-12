@@ -23,7 +23,7 @@ public:
 
     Move* doMiniMax(int depth);
     int doBottomHeuristicMove(Board * _board, Side _side);
-    int doMiniMaxRecurse(Board* _board, Side _side, int depth);
+    Move* doMiniMaxRecurse(Board* _board, Side _side, int depth);
 
     void setPlayerBoard(char data[]);
 
