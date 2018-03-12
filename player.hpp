@@ -28,7 +28,7 @@ public:
     Move* doMiniMaxWithHeuristic(int depth);
 
     Move* doAlphaBetaMax(int depth);
-    Move* doAlphaBetaRecurse(Board* _board, Side _side, int depth);
+    int doAlphaBetaRecurse(Board* _board, Side _side, int depth, int alpha, int beta);
 
     void setPlayerBoard(char data[]);
 
